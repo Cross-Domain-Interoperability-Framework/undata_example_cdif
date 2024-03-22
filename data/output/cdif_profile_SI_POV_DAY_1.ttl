@@ -1,0 +1,153 @@
+@prefix ns1: <https://unstats.un.org/ddi_cdi_profile/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:CodeList a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:hasCode ;
+            owl:someValuesFrom ns1:Code ],
+        ns1:EnumerationDomain .
+
+ns1:DataStore a owl:Class .
+
+ns1:InstanceVariable a owl:Class ;
+    rdfs:subClassOf ns1:RepresentedVariable .
+
+ns1:Level rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:groups ;
+            owl:someValuesFrom ns1:ClassificationItem ] .
+
+ns1:LogicalRecord a owl:Class .
+
+ns1:OBS_STATUS a ns1:AttributeComponent .
+
+ns1:PhysicalDataSet a owl:Class .
+
+ns1:StatisticalClassification a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:hasClassificationItem ;
+            owl:someValuesFrom ns1:ClassificationItem ],
+        ns1:EnumerationDomain .
+
+ns1:dataStructure ns1:hasComponent ns1:REPORTING_TYPE,
+        ns1:TIME_COVERAGE,
+        ns1:VARIABLE .
+
+ns1:dataStructure__SI_POV_DAY_1 a ns1:DimensionalDataStructure ;
+    ns1:hasComponent ns1:BASE_PERIOD,
+        ns1:FOOT_NOTE,
+        ns1:FREQ,
+        ns1:GEOGRAPHY,
+        ns1:IS_LATEST_PERIOD,
+        ns1:NATURE,
+        ns1:OBS_VALUE,
+        ns1:RELEASE_NAME,
+        ns1:RELEASE_STATUS,
+        ns1:SEX,
+        ns1:SOURCE,
+        ns1:TIME_DETAIL,
+        ns1:TIME_PERIOD,
+        ns1:UNITE_MEASURE,
+        ns1:VALUE_TYPE,
+        ns1:VARIABLE .
+
+ns1:dataset__SI_POV_DAY_1 a ns1:DimensionalDataSet .
+
+ns1:isDefinedBy a owl:ObjectProperty ;
+    rdfs:domain ns1:DataStructureComponent ;
+    rdfs:range ns1:RepresentedVariable .
+
+ns1:isStructuredBy a owl:ObjectProperty ;
+    rdfs:domain ns1:DataSet ;
+    rdfs:range ns1:DataStructure .
+
+ns1:qualifies a owl:ObjectProperty ;
+    rdfs:domain ns1:AttributeComponent ;
+    rdfs:range ns1:DataStructureComponent .
+
+ns1:takesSubstantiveValuesFrom a owl:ObjectProperty ;
+    rdfs:domain ns1:RepresentedVariable ;
+    rdfs:range ns1:SubstantiveValueDomain .
+
+ns1:takesValuesFrom a owl:ObjectProperty ;
+    rdfs:domain ns1:SubstantiveValueDomain ;
+    rdfs:range ns1:EnumerationDomain .
+
+ns1:BASE_PERIOD a ns1:AttributeComponent .
+
+ns1:Code a owl:Class .
+
+ns1:DimensionalDataSet a owl:Class ;
+    rdfs:subClassOf ns1:DataSet .
+
+ns1:DimensionalDataStructure a owl:Class ;
+    rdfs:subClassOf ns1:DataStructure .
+
+ns1:FOOT_NOTE a ns1:AttributeComponent .
+
+ns1:FREQ a ns1:DimensionComponent .
+
+ns1:GEOGRAPHY a ns1:DimensionComponent .
+
+ns1:IS_LATEST_PERIOD a ns1:AttributeComponent .
+
+ns1:MeasureComponent a owl:Class ;
+    rdfs:subClassOf ns1:DataStructureComponent .
+
+ns1:NATURE a ns1:AttributeComponent .
+
+ns1:OBS_VALUE a ns1:MeasureComponent .
+
+ns1:RELEASE_NAME a ns1:AttributeComponent .
+
+ns1:RELEASE_STATUS a ns1:AttributeComponent .
+
+ns1:REPORTING_TYPE a ns1:AttributeComponent .
+
+ns1:SEX a ns1:DimensionComponent .
+
+ns1:SOURCE a ns1:AttributeComponent .
+
+ns1:TIME_COVERAGE a ns1:AttributeComponent .
+
+ns1:TIME_DETAIL a ns1:AttributeComponent .
+
+ns1:TIME_PERIOD a ns1:DimensionComponent .
+
+ns1:UNITE_MEASURE a ns1:AttributeComponent .
+
+ns1:VALUE_TYPE a ns1:AttributeComponent .
+
+ns1:groups a owl:ObjectProperty .
+
+ns1:hasClassificationItem a owl:ObjectProperty .
+
+ns1:hasCode a owl:ObjectProperty .
+
+ns1:hasComponent a owl:ObjectProperty .
+
+ns1:ClassificationItem a owl:Class .
+
+ns1:DataSet a owl:Class .
+
+ns1:DataStructure a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom ns1:DataStructureComponent ;
+            owl:onProperty ns1:hasComponent ] .
+
+ns1:SubstantiveValueDomain a owl:Class .
+
+ns1:VARIABLE a ns1:DimensionComponent .
+
+ns1:EnumerationDomain a owl:Class .
+
+ns1:RepresentedVariable a owl:Class .
+
+ns1:DimensionComponent a owl:Class ;
+    rdfs:subClassOf ns1:DataStructureComponent .
+
+ns1:DataStructureComponent a owl:Class .
+
+ns1:AttributeComponent a owl:Class ;
+    rdfs:subClassOf ns1:DataStructureComponent .
+

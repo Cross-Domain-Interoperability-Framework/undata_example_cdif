@@ -1,0 +1,533 @@
+[
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/AttributeComponent",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/MeasureComponent",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/REPORTING_TYPE",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/TIME_COVERAGE",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/ClassificationItem",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/qualifies",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/groups",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/DimensionalDataSet",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/DataSet"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/hasCode",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/VALUE_TYPE",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/dataStructure__SI_POV_DAY_1",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/DimensionalDataStructure"
+    ],
+    "https://unstats.un.org/ddi_cdi_profile/hasComponent": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/VARIABLE"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/GEOGRAPHY"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/TIME_PERIOD"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/FREQ"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/SEX"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/OBS_VALUE"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/IS_LATEST_PERIOD"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/TIME_DETAIL"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/VALUE_TYPE"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/UNITE_MEASURE"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/BASE_PERIOD"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/NATURE"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/SOURCE"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/FOOT_NOTE"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/RELEASE_STATUS"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/RELEASE_NAME"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/takesValuesFrom",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/SubstantiveValueDomain"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/EnumerationDomain"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructure",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:Ndd136bea3baa4097a818f3ff1c27a57e"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndd136bea3baa4097a818f3ff1c27a57e",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/hasComponent"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/StatisticalClassification",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/EnumerationDomain"
+      },
+      {
+        "@id": "_:N13b97cbaa5594d99b5734e2e665e5d49"
+      }
+    ]
+  },
+  {
+    "@id": "_:N13b97cbaa5594d99b5734e2e665e5d49",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/hasClassificationItem"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/ClassificationItem"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/takesSubstantiveValuesFrom",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/RepresentedVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/SubstantiveValueDomain"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/TIME_DETAIL",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/OBS_STATUS",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/EnumerationDomain",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/isStructuredBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/DataSet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructure"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/DimensionalDataStructure",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructure"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/dataset__SI_POV_DAY_1",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/DimensionalDataSet"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/RepresentedVariable",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/hasClassificationItem",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/CodeList",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/EnumerationDomain"
+      },
+      {
+        "@id": "_:Nce383f958ec144979281e82ae1b771af"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nce383f958ec144979281e82ae1b771af",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/hasCode"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/Code"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/TIME_PERIOD",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/DimensionComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/GEOGRAPHY",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/DimensionComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/InstanceVariable",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/RepresentedVariable"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/FOOT_NOTE",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/hasComponent",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/IS_LATEST_PERIOD",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/SOURCE",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/OBS_VALUE",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/MeasureComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/RELEASE_STATUS",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/SEX",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/DimensionComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/dataStructure",
+    "https://unstats.un.org/ddi_cdi_profile/hasComponent": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/TIME_COVERAGE"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/REPORTING_TYPE"
+      },
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/VARIABLE"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/VARIABLE",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/DimensionComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/DataSet",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/PhysicalDataSet",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/BASE_PERIOD",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/Code",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/LogicalRecord",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/isDefinedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/RepresentedVariable"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/Level",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:N2514597643ed4f95a8ed99c37ad5858d"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2514597643ed4f95a8ed99c37ad5858d",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/groups"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/ClassificationItem"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/DataStore",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/NATURE",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/SubstantiveValueDomain",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/DimensionComponent",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent"
+      }
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/RELEASE_NAME",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/UNITE_MEASURE",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "https://unstats.un.org/ddi_cdi_profile/FREQ",
+    "@type": [
+      "https://unstats.un.org/ddi_cdi_profile/DimensionComponent"
+    ]
+  }
+]
