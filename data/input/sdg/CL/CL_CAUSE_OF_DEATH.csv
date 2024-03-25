@@ -1,0 +1,7 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+42,COMPOSITE_BREAKDOWN,CAUSE_OF_DEATH,Cause of death,False,EXPLOSIVES,COD_EXPLOSIVES,COD_EXPLOSIVES,Planted explosives and unexploded ordnance (UXO),string
+42,COMPOSITE_BREAKDOWN,CAUSE_OF_DEATH,Cause of death,False,SMALLARMS,COD_SMALLARMS,COD_SMALLARMS,Small arms and light weapons ,string
+42,COMPOSITE_BREAKDOWN,CAUSE_OF_DEATH,Cause of death,False,HEAVYWEAPONS,COD_HEAVYWEAPONS,COD_HEAVYWEAPONS,Heavy weapons and explosive munitions ,string
+42,COMPOSITE_BREAKDOWN,CAUSE_OF_DEATH,Cause of death,False,_U,COD_U,COD_U,Unknown,string
+42,COMPOSITE_BREAKDOWN,CAUSE_OF_DEATH,Cause of death,False,_T,_T,_T,Total or no breakdown,string
+42,COMPOSITE_BREAKDOWN,CAUSE_OF_DEATH,Cause of death,False,OTHER,COD_OTHER,COD_OTHER,"Incendiary; Chemical, biological, radiological, nuclear (CBRN); Electromagnetic weapons; Less lethal weapons; Denial of access to/ destruction of objects indispensable to survival; Accidents related to conflict; Use of objects and other means; Multiple Weapons Used.",string

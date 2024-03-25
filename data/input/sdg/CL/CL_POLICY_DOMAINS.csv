@@ -1,0 +1,8 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+35,COMPOSITE_BREAKDOWN,POLICY_DOMAINS,Policy Domains,False,DOMAIN1,PD_1,PD_1,Domain 1. Migrant rights,string
+35,COMPOSITE_BREAKDOWN,POLICY_DOMAINS,Policy Domains,False,DOMAIN2,PD_2,PD_2,Domain 2. Whole-of-government/ Evidence-based policies,string
+35,COMPOSITE_BREAKDOWN,POLICY_DOMAINS,Policy Domains,False,DOMAIN3,PD_3,PD_3,Domain 3. Cooperation and partnerships,string
+35,COMPOSITE_BREAKDOWN,POLICY_DOMAINS,Policy Domains,False,DOMAIN4,PD_4,PD_4,Domain 4. Socioeconomic well-being,string
+35,COMPOSITE_BREAKDOWN,POLICY_DOMAINS,Policy Domains,False,DOMAIN5,PD_5,PD_5,Domain 5. Mobility dimensions of crises,string
+35,COMPOSITE_BREAKDOWN,POLICY_DOMAINS,Policy Domains,False,DOMAIN6,PD_6,PD_6,"Domain 6. Safe, orderly and regular migration",string
+35,COMPOSITE_BREAKDOWN,POLICY_DOMAINS,Policy Domains,False,ALLDOMAINS,_T,_T,Total or no breakdown,string

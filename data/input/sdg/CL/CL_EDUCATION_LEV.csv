@@ -1,0 +1,56 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,GRAD23,ISCED11A_0_G23,ISCED11A_0_G23,Grades 2/3,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,LOWSEC,ISCED11_2,ISCED11_2,Lower secondary,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,PRIMAR,ISCED11_1,ISCED11_1,Primary,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,PREPRI,ISCED11_02,ISCED11_02,Pre-primary,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,SECOND,AGG_2_3,AGG_2_3,Secondary,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,UPPSEC,ISCED11_3,ISCED11_3,Upper secondary,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,_T,_T,_T,Total or no breakdown,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_0,ISCED11_0,ISCED11_0,Early childhood education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_01,ISCED11_01,ISCED11_01,Early childhood educational development ,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_10,ISCED11_10,ISCED11_10,Primary education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_24,ISCED11_24,ISCED11_24,Lower secondary general education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_25,ISCED11_25,ISCED11_25,Lower secondary vocational education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_34,ISCED11_34,ISCED11_34,Upper secondary general education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_35,ISCED11_35,ISCED11_35,Upper secondary vocational education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_4,ISCED11_4,ISCED11_4,Post-secondary non-tertiary education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_44,ISCED11_44,ISCED11_44,Post-secondary non-tertiary general education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_45,ISCED11_45,ISCED11_45,Post-secondary non-tertiary vocational education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_5,ISCED11_5,ISCED11_5,Short-cycle tertiary education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_54,ISCED11_54,ISCED11_54,Short-cycle tertiary general education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_55,ISCED11_55,ISCED11_55,Short-cycle tertiary vocational education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_6,ISCED11_6,ISCED11_6,Bachelor’s or equivalent level,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_7,ISCED11_7,ISCED11_7,Master’s or equivalent level,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_8,ISCED11_8,ISCED11_8,Doctoral or equivalent level,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_9,ISCED11_9,ISCED11_9,Not elsewhere classified   ,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_99,ISCED11_99,ISCED11_99,Not elsewhere classified ,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11A_0,ISCED11A_0,ISCED11A_0,Less than primary education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11A_01,ISCED11A_01,ISCED11A_01,Never attended an education programme / No schooling,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11A_02,ISCED11A_02,ISCED11A_02,Some early childhood education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11A_03,ISCED11A_03,ISCED11A_03,Some primary education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11A_1,ISCED11A_1,ISCED11A_1,"Primary education, sufficient for level completion",string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11A_2,ISCED11A_2,ISCED11A_2,"Lower secondary education, sufficient for level completion",string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11A_3,ISCED11A_3,ISCED11A_3,"Upper secondary education, sufficient for level completion",string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11A_4,ISCED11A_4,ISCED11A_4,"Post-secondary non-tertiary education, sufficient for level completion",string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11A_5,ISCED11A_5,ISCED11A_5,"Short-cycle tertiary education, sufficient for level completion",string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11A_6,ISCED11A_6,ISCED11A_6,"Bachelor’s or equivalent level, sufficient for level completion",string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11A_7,ISCED11A_7,ISCED11A_7,"Master’s or equivalent level, sufficient for level completion",string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11A_8,ISCED11A_8,ISCED11A_8,"Doctoral or equivalent level, sufficient for level completion",string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,AGGA_01_02,AGGA_01_02,AGGA_01_02,No primary schooling,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,AGG_02T8,AGG_02T8,AGG_02T8,Pre-primary to tertiary education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,AGG_1_2,AGG_1_2,AGG_1_2,Primary and lower secondary education (basic education),string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,AGG_1T3,AGG_1T3,AGG_1T3,Primary and secondary education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,AGG_5T8,AGG_5T8,AGG_5T8,Tertiary education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,AGG_3_4,AGG_3_4,AGG_3_4,Secondary and post-secondary non-tertiary education (intermediate),string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED11_25_35_45,ISCED11_25_35_45,ISCED11_25_35_45,Vocational secondary education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED97_0,ISCED97_0,ISCED97_0,Pre-primary education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED97_1,ISCED97_1,ISCED97_1,Primary education or first stage of basic education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED97_2,ISCED97_2,ISCED97_2,Lower secondary or second stage of basic education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED97_3,ISCED97_3,ISCED97_3,Upper secondary education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED97_4,ISCED97_4,ISCED97_4,Post-secondary non-tertiary education,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED97_5,ISCED97_5,ISCED97_5,First stage of tertiary education (not leading directly to an advanced research qualification),string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED97_5A,ISCED97_5A,ISCED97_5A,First stage of tertiary education (theoretically based/research preparatory),string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED97_5B,ISCED97_5B,ISCED97_5B,First stage of tertiary education (practical/technical/occupationally specific),string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,ISCED97_6,ISCED97_6,ISCED97_6,Second stage of tertiary education (leading to an advanced research qualification),string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,AGG_0_1,AGG_0_1,AGG_0_1,Primary education or less,string
+14,EDUCATION_LEV,EDUCATION_LEV,Education level,False,AGG_GE2,AGG_GE2,AGG_GE2,Secondary education or above,string

@@ -1,0 +1,4 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+9,MANAGEMENT_LEVEL,MANAGEMENT_LEVEL,Management Level,True,TOT_MANG,T,T,Total management,string
+9,MANAGEMENT_LEVEL,MANAGEMENT_LEVEL,Management Level,True,SNRMIDMANG,SMM,SMM,Senior and middle management,string
+9,MANAGEMENT_LEVEL,MANAGEMENT_LEVEL,Management Level,True,RAW,_T,_T,Total or no breakdown,string

@@ -1,0 +1,6 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+3,URBANISATION,URBANISATION,Location,False,RURAL,R,R,Rural,string
+3,URBANISATION,URBANISATION,Location,False,ALLAREA,_T,_T,Total or no breakdown,string
+3,URBANISATION,URBANISATION,Location,False,URBAN,U,U,Urban,string
+3,URBANISATION,URBANISATION,Location,False,CITY,CITY,CITY,City,string
+3,URBANISATION,URBANISATION,Location,False,TSUB,TSUB,TSUB,Town and semi-dense area,string

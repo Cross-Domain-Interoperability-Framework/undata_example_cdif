@@ -1,0 +1,9 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+38,COMPOSITE_BREAKDOWN,TYPE_OF_WASTE_TREATMENT,Type of waste treatment,False,INCINRT,WT_INCINRT,WT_INCINRT,Incineration,string
+38,COMPOSITE_BREAKDOWN,TYPE_OF_WASTE_TREATMENT,Type of waste treatment,False,LANDFIL,WT_LANDFIL,WT_LANDFIL,Landfilling,string
+38,COMPOSITE_BREAKDOWN,TYPE_OF_WASTE_TREATMENT,Type of waste treatment,False,RECYCL,WT_RECYCL,WT_RECYCL,Recycling,string
+38,COMPOSITE_BREAKDOWN,TYPE_OF_WASTE_TREATMENT,Type of waste treatment,False,OTHERWM,WT_OTHERWM,WT_OTHERWM,Other type of waste management,string
+38,COMPOSITE_BREAKDOWN,TYPE_OF_WASTE_TREATMENT,Type of waste treatment,False,LANDFILCTL,WT_LANDFILCTL,WT_LANDFILCTL,"Landfilling, controlled",string
+38,COMPOSITE_BREAKDOWN,TYPE_OF_WASTE_TREATMENT,Type of waste treatment,False,LANDFILNCTL,WT_LANDFILNCTL,WT_LANDFILNCTL,"Landfilling, uncontrolled",string
+38,COMPOSITE_BREAKDOWN,TYPE_OF_WASTE_TREATMENT,Type of waste treatment,False,COMPOST,WT_COMPOST,WT_COMPOST,Composting,string
+38,COMPOSITE_BREAKDOWN,TYPE_OF_WASTE_TREATMENT,Type of waste treatment,False,INCINRT_EGY,WT_INCINRT_EGY,WT_INCINRT_EGY,Incineration to generate energy,string

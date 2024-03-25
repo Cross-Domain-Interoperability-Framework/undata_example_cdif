@@ -1,0 +1,5 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+45,COMPOSITE_BREAKDOWN,DEVIATION_LEVEL,Deviation Level,False,LOW,DL_LOW,DL_LOW,Low (0-25%),string
+45,COMPOSITE_BREAKDOWN,DEVIATION_LEVEL,Deviation Level,False,MEDIUM,DL_MEDIUM,DL_MEDIUM,Medium (25-50%),string
+45,COMPOSITE_BREAKDOWN,DEVIATION_LEVEL,Deviation Level,False,HIGH,DL_HIGH,DL_HIGH,High (50-75%),string
+45,COMPOSITE_BREAKDOWN,DEVIATION_LEVEL,Deviation Level,False,EXTREME,DL_EXTREME,DL_EXTREME,Extreme (75-100%),string

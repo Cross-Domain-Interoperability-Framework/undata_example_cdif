@@ -1,0 +1,13 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+17,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_INSTITUTION,Name of international institution,False,ADB,IO_ADB,IO_ADB,Asian Development Bank,string
+17,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_INSTITUTION,Name of international institution,False,AFDB,IO_AFDB,IO_AFDB,African Development Bank,string
+17,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_INSTITUTION,Name of international institution,False,ECOSOC,IO_ECOSOC,IO_ECOSOC,UN Economic and Social Council,string
+17,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_INSTITUTION,Name of international institution,False,FSB,IO_FSB,IO_FSB,Financial Stability Board,string
+17,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_INSTITUTION,Name of international institution,False,IADB,IO_IADB,IO_IADB,Inter-American Development Bank,string
+17,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_INSTITUTION,Name of international institution,False,IBRD,IO_IBRD,IO_IBRD,International Bank for Reconstruction and Development,string
+17,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_INSTITUTION,Name of international institution,False,IFC,IO_IFC,IO_IFC,International Finance Corporation,string
+17,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_INSTITUTION,Name of international institution,False,IMF,IO_IMF,IO_IMF,International Monetary Fund,string
+17,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_INSTITUTION,Name of international institution,False,UNGA,IO_UNGA,IO_UNGA,UN General Assembly,string
+17,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_INSTITUTION,Name of international institution,False,UNSC,IO_UNSC,IO_UNSC,UN Security Council,string
+17,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_INSTITUTION,Name of international institution,False,WTO,IO_WTO,IO_WTO,World Trade Organisation,string
+17,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_INSTITUTION,Name of international institution,False,_T,_T,_T,Total or no breakdown,string

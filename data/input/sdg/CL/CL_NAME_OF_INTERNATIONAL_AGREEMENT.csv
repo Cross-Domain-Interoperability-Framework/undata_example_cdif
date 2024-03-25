@@ -1,0 +1,6 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+13,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_AGREEMENT,Name of international agreement,False,BASCOV,BASCOV,BASCOV,Basel Convention,string
+13,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_AGREEMENT,Name of international agreement,False,MONPRO,MONPRO,MONPRO,Montreal Protocol,string
+13,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_AGREEMENT,Name of international agreement,False,ROTCON,ROTCON,ROTCON,Rotterdam Convention,string
+13,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_AGREEMENT,Name of international agreement,False,STOCON,STOCON,STOCON,Stockholm Convention,string
+13,COMPOSITE_BREAKDOWN,NAME_OF_INTERNATIONAL_AGREEMENT,Name of international agreement,False,_T,_T,_T,Total or no breakdown,string

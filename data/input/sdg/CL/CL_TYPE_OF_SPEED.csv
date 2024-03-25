@@ -1,0 +1,5 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+24,COMPOSITE_BREAKDOWN,TYPE_OF_SPEED,Type of speed,False,10MBPS,IS_GE10M,IS_GE10M,10 mbps and over,string
+24,COMPOSITE_BREAKDOWN,TYPE_OF_SPEED,Type of speed,False,256KT2MBPS,IS_256KT2M,IS_256KT2M,Between 256 kbps and 2 mbps,string
+24,COMPOSITE_BREAKDOWN,TYPE_OF_SPEED,Type of speed,False,2MT10MBPS,IS_2MT10M,IS_2MT10M,Between 2 mbps and 10 mbps,string
+24,COMPOSITE_BREAKDOWN,TYPE_OF_SPEED,Type of speed,False,ANYS,_T,_T,Total or no breakdown,string

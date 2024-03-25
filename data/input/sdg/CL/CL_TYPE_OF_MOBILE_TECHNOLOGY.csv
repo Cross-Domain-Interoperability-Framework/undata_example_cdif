@@ -1,0 +1,5 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+22,COMPOSITE_BREAKDOWN,TYPE_OF_MOBILE_TECHNOLOGY,Type of mobile technology,False,AL2G,AL2G,AL2G,At least 2G mobile network,string
+22,COMPOSITE_BREAKDOWN,TYPE_OF_MOBILE_TECHNOLOGY,Type of mobile technology,False,AL3G,AL3G,AL3G,At least 3G mobile network,string
+22,COMPOSITE_BREAKDOWN,TYPE_OF_MOBILE_TECHNOLOGY,Type of mobile technology,False,AL4G,AL4G,AL4G,At least 4G mobile network,string
+22,COMPOSITE_BREAKDOWN,TYPE_OF_MOBILE_TECHNOLOGY,Type of mobile technology,False,_T,_T,_T,Total or no breakdown,string

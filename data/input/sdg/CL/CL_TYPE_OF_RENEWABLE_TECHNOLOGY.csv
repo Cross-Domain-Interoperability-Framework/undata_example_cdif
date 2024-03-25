@@ -1,0 +1,9 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+57,COMPOSITE_BREAKDOWN,TYPE_OF_RENEWABLE_TECHNOLOGY,Type of renewable technology,False,ALL,_T,_T,Total or no breakdown,string
+57,COMPOSITE_BREAKDOWN,TYPE_OF_RENEWABLE_TECHNOLOGY,Type of renewable technology,False,BIOENERGY,TRT_BIOENERGY,TRT_BIOENERGY,Bioenergy,string
+57,COMPOSITE_BREAKDOWN,TYPE_OF_RENEWABLE_TECHNOLOGY,Type of renewable technology,False,GEOTHERMAL,TRT_GEOTHERMAL,TRT_GEOTHERMAL,Geothermal energy,string
+57,COMPOSITE_BREAKDOWN,TYPE_OF_RENEWABLE_TECHNOLOGY,Type of renewable technology,False,MARINE,TRT_MARINE,TRT_MARINE,Marine energy,string
+57,COMPOSITE_BREAKDOWN,TYPE_OF_RENEWABLE_TECHNOLOGY,Type of renewable technology,False,MULTIPLE,TRT_MULTIPLE,TRT_MULTIPLE,Multiple renewables,string
+57,COMPOSITE_BREAKDOWN,TYPE_OF_RENEWABLE_TECHNOLOGY,Type of renewable technology,False,HYDROPOWER,TRT_HYDROPOWER,TRT_HYDROPOWER,Hydropower,string
+57,COMPOSITE_BREAKDOWN,TYPE_OF_RENEWABLE_TECHNOLOGY,Type of renewable technology,False,SOLAR,TRT_SOLAR,TRT_SOLAR,Solar energy,string
+57,COMPOSITE_BREAKDOWN,TYPE_OF_RENEWABLE_TECHNOLOGY,Type of renewable technology,False,WIND,TRT_WIND,TRT_WIND,Wind energy,string

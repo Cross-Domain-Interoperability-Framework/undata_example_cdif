@@ -1,0 +1,11 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+41,COMPOSITE_BREAKDOWN,PARLIAMENTARY_COMMITTEES,Parliamentary committees,False,FOR_AFF,PC_FOR_AFF,PC_FOR_AFF,Foreign Affairs,string
+41,COMPOSITE_BREAKDOWN,PARLIAMENTARY_COMMITTEES,Parliamentary committees,False,DEFENCE,PC_DEFENCE,PC_DEFENCE,Defence,string
+41,COMPOSITE_BREAKDOWN,PARLIAMENTARY_COMMITTEES,Parliamentary committees,False,FINANCE,PC_FINANCE,PC_FINANCE,Finance,string
+41,COMPOSITE_BREAKDOWN,PARLIAMENTARY_COMMITTEES,Parliamentary committees,False,HUM_RIGH,PC_HUM_RIGH,PC_HUM_RIGH,Human Rights,string
+41,COMPOSITE_BREAKDOWN,PARLIAMENTARY_COMMITTEES,Parliamentary committees,False,GEN_EQU,PC_GEN_EQU,PC_GEN_EQU,Gender Equality,string
+41,COMPOSITE_BREAKDOWN,PARLIAMENTARY_COMMITTEES,Parliamentary committees,False,FAFF_DEF,PC_FAFF_DEF,PC_FAFF_DEF,Foreign Affairs and Defence,string
+41,COMPOSITE_BREAKDOWN,PARLIAMENTARY_COMMITTEES,Parliamentary committees,False,HR_GEQU,PC_HR_GEQU,PC_HR_GEQU,Human Rights and Gender Equality,string
+41,COMPOSITE_BREAKDOWN,PARLIAMENTARY_COMMITTEES,Parliamentary committees,False,FAFF_DEF_FIN,PC_FAFF_DEF_FIN,PC_FAFF_DEF_FIN,"Foreign Affairs, Defence and Finance",string
+41,COMPOSITE_BREAKDOWN,PARLIAMENTARY_COMMITTEES,Parliamentary committees,False,FAFF_DEF_HR,PC_FAFF_DEF_HR,PC_FAFF_DEF_HR,"Foreign Affairs, Defence and Human Rights",string
+41,COMPOSITE_BREAKDOWN,PARLIAMENTARY_COMMITTEES,Parliamentary committees,False,FAFF_HR,PC_FAFF_HR,PC_FAFF_HR,Foreign Affairs and Human Rights,string

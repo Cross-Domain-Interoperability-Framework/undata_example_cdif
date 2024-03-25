@@ -1,0 +1,5 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+56,COMPOSITE_BREAKDOWN,LEVEL_OF_GOVERNMENT,Level_of_government,False,LOCAL,LG_LOCAL,LG_LOCAL,Local Government,string
+56,COMPOSITE_BREAKDOWN,LEVEL_OF_GOVERNMENT,Level_of_government,False,NAT,LG_NAT,LG_NAT,National Government,string
+56,COMPOSITE_BREAKDOWN,LEVEL_OF_GOVERNMENT,Level_of_government,False,REG,LG_REG,LG_REG,Regional Government,string
+56,COMPOSITE_BREAKDOWN,LEVEL_OF_GOVERNMENT,Level_of_government,False,_T,_T,_T,Total or no breakdown,string

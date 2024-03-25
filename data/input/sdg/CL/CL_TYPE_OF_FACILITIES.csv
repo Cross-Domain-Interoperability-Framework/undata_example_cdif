@@ -1,0 +1,4 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+16,COMPOSITE_BREAKDOWN,TYPE_OF_FACILITIES,Type of facilities,False,EDUFAC,EDUFAC,EDUFAC,Education facilities,string
+16,COMPOSITE_BREAKDOWN,TYPE_OF_FACILITIES,Type of facilities,False,HEAFAC,HEAFAC,HEAFAC,Health facilities,string
+16,COMPOSITE_BREAKDOWN,TYPE_OF_FACILITIES,Type of facilities,False,_T,_T,_T,Total or no breakdown,string

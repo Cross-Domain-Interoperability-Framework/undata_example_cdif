@@ -1,0 +1,7 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+23,COMPOSITE_BREAKDOWN,NAME_OF_NON_COMMUNICABLE_DISEASE,Name of non-communicable disease,False,CAN,NCD_CNCR,NCD_CNCR,Cancer,string
+23,COMPOSITE_BREAKDOWN,NAME_OF_NON_COMMUNICABLE_DISEASE,Name of non-communicable disease,False,CAR,NCD_CARDIO,NCD_CARDIO,Cardiovascular disease,string
+23,COMPOSITE_BREAKDOWN,NAME_OF_NON_COMMUNICABLE_DISEASE,Name of non-communicable disease,False,DIA,NCD_DIABTS,NCD_DIABTS,Diabetes,string
+23,COMPOSITE_BREAKDOWN,NAME_OF_NON_COMMUNICABLE_DISEASE,Name of non-communicable disease,False,RES,NCD_CRESPD,NCD_CRESPD,Chronic respiratory disease,string
+23,COMPOSITE_BREAKDOWN,NAME_OF_NON_COMMUNICABLE_DISEASE,Name of non-communicable disease,False,NCOM,NCD_NCOM,NCD_NCOM,"Non-communicable disease: Cardiovascular disease, cancer, diabetes, or chronic respiratory disease",string
+23,COMPOSITE_BREAKDOWN,NAME_OF_NON_COMMUNICABLE_DISEASE,Name of non-communicable disease,False,_T,_T,_T,Total or no breakdown,string

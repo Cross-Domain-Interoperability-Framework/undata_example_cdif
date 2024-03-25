@@ -1,0 +1,9 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+52,COMPOSITE_BREAKDOWN,REPORT_ORDINAL,Report Ordinal,False,FIRST,RO_FIRST,RO_FIRST,First,string
+52,COMPOSITE_BREAKDOWN,REPORT_ORDINAL,Report Ordinal,False,SECOND,RO_SECOND,RO_SECOND,Second,string
+52,COMPOSITE_BREAKDOWN,REPORT_ORDINAL,Report Ordinal,False,THIRD,RO_THIRD,RO_THIRD,Third,string
+52,COMPOSITE_BREAKDOWN,REPORT_ORDINAL,Report Ordinal,False,FOURTH,RO_FOURTH,RO_FOURTH,Fourth,string
+52,COMPOSITE_BREAKDOWN,REPORT_ORDINAL,Report Ordinal,False,FIFTH,RO_FIFTH,RO_FIFTH,Fifth,string
+52,COMPOSITE_BREAKDOWN,REPORT_ORDINAL,Report Ordinal,False,SIXTH,RO_SIXTH,RO_SIXTH,Sixth,string
+52,COMPOSITE_BREAKDOWN,REPORT_ORDINAL,Report Ordinal,False,SEVENTH,RO_SEVENTH,RO_SEVENTH,Seventh,string
+52,COMPOSITE_BREAKDOWN,REPORT_ORDINAL,Report Ordinal,False,EIGHTH,RO_EIGHTH,RO_EIGHTH,Eighth,string

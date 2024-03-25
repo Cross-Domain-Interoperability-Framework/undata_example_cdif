@@ -1,0 +1,3 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+64,COMPOSITE_BREAKDOWN,NUTRIENT_LOADING,Nutrient Loading,False,N_LOAD,NL_N_LOAD,NL_N_LOAD,Nitrogen Loading,string
+64,COMPOSITE_BREAKDOWN,NUTRIENT_LOADING,Nutrient Loading,False,P_LOAD,NL_P_LOAD,NL_P_LOAD,Phosphorus Loading,string

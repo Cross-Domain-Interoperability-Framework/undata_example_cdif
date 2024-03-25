@@ -1,0 +1,45 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,ALL,_T,_T,Total or no breakdown,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,AGE,GRD_AGE,GRD_AGE,Age,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,WEDLOCK,GRD_WEDLOCK,GRD_WEDLOCK,Born out of wedlock,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,DISHEA,GRD_DISHEA,GRD_DISHEA,Disability or health status,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,EDU,GRD_EDU,GRD_EDU,Educational,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,ETH,GRD_ETH,GRD_ETH,Ethnic,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,ETHCOLLAN,GRD_ETHCOLLAN,GRD_ETHCOLLAN,"Ethnicity, colour, language",string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,ETHCOLLANNAL,GRD_ETHCOLLANNAL,GRD_ETHCOLLANNAL,"Ethnicity, colour, language, nationality",string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,FAM,GRD_FAM,GRD_FAM,Family status,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,GENID,GRD_GENID,GRD_GENID,Gender identity,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,GEO,GRD_GEO,GRD_GEO,Geographic location,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,LANDIA,GRD_LANDIA,GRD_LANDIA,Language  or dialect,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,MARFAM,GRD_MARFAM,GRD_MARFAM,Marital and family status,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,MAR,GRD_MAR,GRD_MAR,Marital status,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,MIG,GRD_MIG,GRD_MIG,Migration status,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,OTHER,GRD_OTHER,GRD_OTHER,Other,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,RES,GRD_RES,GRD_RES,Place of residence,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,POLVIEW,GRD_POLVIEW,GRD_POLVIEW,Political opinion,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,PREGY,GRD_PREGY,GRD_PREGY,Pregnancy,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,RACE,GRD_RACE,GRD_RACE,Race,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,RELIGION,GRD_RELIGION,GRD_RELIGION,Religion or belief,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,SEX,GRD_SEX,GRD_SEX,Sex,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,SEXOGENID,GRD_SEXOGENID,GRD_SEXOGENID,Sexual orientation and gender identity,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,SEXO,GRD_SEXO,GRD_SEXO,Sexual orientation,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,SOCIOECON,GRD_SOCIOECON,GRD_SOCIOECON,Socioeconomic status,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,WEALTH,GRD_WEALTH,GRD_WEALTH,Wealth status,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,COLR,GRD_COLR,GRD_COLR,Colour,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,ORIGIN,GRD_ORIGIN,GRD_ORIGIN,Place of origin,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,TRAD,GRD_TRAD,GRD_TRAD,Traditions,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,NETW,GRD_NETW,GRD_NETW,Networking,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,WORK,GRD_WORK,GRD_WORK,Work status,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,CLOTH,GRD_CLOTH,GRD_CLOTH,Clothing,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,DIS,GRD_DIS,GRD_DIS,Disability,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,ETHCOLLANMIG,GRD_ETHCOLLANMIG,GRD_ETHCOLLANMIG,"Ethnic, colour, language, migration",string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,ETHI,GRD_ETHI,GRD_ETHI,Ethnic or immigration status,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,ETHRACECOLLAN,GRD_ETHRACECOLLAN,GRD_ETHRACECOLLAN,"Ethnicity, race, colour, language",string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,HEALTH,GRD_HEALTH,GRD_HEALTH,Health status,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,NATION,GRD_NATION,GRD_NATION,Nationality,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,PHYSCOND,GRD_PHYSCOND,GRD_PHYSCOND,Physical condition,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,RACECOLR,GRD_RACECOLR,GRD_RACECOLR,Race or Colour,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,SEXGENID,GRD_SEXGENID,GRD_SEXGENID,Sexual/gender identity,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,ETHCUL,GRD_ETHCUL,GRD_ETHCUL,Ethnicity or culture,string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,HEAILLINJ,GRD_HEAILLINJ,GRD_HEAILLINJ,"Health problems, illness or injury",string
+39,COMPOSITE_BREAKDOWN,GROUNDS_OF_DISCRIMINATION,Grounds of discrimination,False,ETHIO,GRD_ETHIO,GRD_ETHIO,Ethnic or migration origin,string

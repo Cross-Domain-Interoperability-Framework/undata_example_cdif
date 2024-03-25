@@ -1,0 +1,12 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+61,COMPOSITE_BREAKDOWN,LAND_COVER,Land cover,False,ARTIFICIAL,LC_ART,LC_ART,Artificial surfaces,string
+61,COMPOSITE_BREAKDOWN,LAND_COVER,Land cover,False,CROPLAND,LC_CRP,LC_CRP,Croplands,string
+61,COMPOSITE_BREAKDOWN,LAND_COVER,Land cover,False,GRASSLAND,LC_GRS,LC_GRS,Grassland,string
+61,COMPOSITE_BREAKDOWN,LAND_COVER,Land cover,False,TREE_COVERED,LC_TRE,LC_TRE,Tree-covered areas,string
+61,COMPOSITE_BREAKDOWN,LAND_COVER,Land cover,False,SHRUB_COVERED,LC_SHR,LC_SHR,Shrub-covered areas,string
+61,COMPOSITE_BREAKDOWN,LAND_COVER,Land cover,False,HERB_AQUA_FLOOD,LC_SAF,LC_SAF,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",string
+61,COMPOSITE_BREAKDOWN,LAND_COVER,Land cover,False,SPARSE_NAT_VEG,LC_SNV,LC_SNV,Sparsely natural vegetated areas,string
+61,COMPOSITE_BREAKDOWN,LAND_COVER,Land cover,False,TERRESTRIAL_BARREN,LC_TBL,LC_TBL,Terrestrial barren land,string
+61,COMPOSITE_BREAKDOWN,LAND_COVER,Land cover,False,GLACIERS,LC_PSG,LC_PSG,Permanent snow and glaciers,string
+61,COMPOSITE_BREAKDOWN,LAND_COVER,Land cover,False,INLAND_WATER,LC_IWB,LC_IWB,Inland water bodies,string
+61,COMPOSITE_BREAKDOWN,LAND_COVER,Land cover,False,MGCI,LC_MGCI,LC_MGCI,Mountain Green Cover Index (MGCI),string

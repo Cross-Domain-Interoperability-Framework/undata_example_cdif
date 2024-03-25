@@ -1,0 +1,106 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,AF,C04,AF,Afghanistan,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,AL,C08,AL,Albania,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,DZ,C12,DZ,Algeria,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,AO,C24,AO,Angola,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,AM,C51,AM,Armenia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,AZ,C31,AZ,Azerbaijan,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,BD,C50,BD,Bangladesh,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,BY,C112,BY,Belarus,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,BJ,C204,BJ,Benin,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,BO,C68,BO,Bolivia (Plurinational State of),string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,BA,C70,BA,Bosnia and Herzegovina,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,BW,C72,BW,Botswana,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,BR,C76,BR,Brazil,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,BG,C100,BG,Bulgaria,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,CV,C132,CV,Cabo Verde,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,KH,C116,KH,Cambodia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,CM,C120,CM,Cameroon,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,CN,C156,CN,China,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,CO,C170,CO,Colombia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,KM,C174,KM,Comoros,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,CD,C180,CD,Democratic Republic of the Congo,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,CR,C188,CR,Costa Rica,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,CI,C384,CI,Côte d'Ivoire,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,HR,C191,HR,Croatia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,CU,C192,CU,Cuba,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,DO,C214,DO,Dominican Republic,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,EC,C218,EC,Ecuador,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,EG,C818,EG,Egypt,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,SV,C222,SV,El Salvador,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,ER,C232,ER,Eritrea,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,EE,C233,EE,Estonia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,ET,C231,ET,Ethiopia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,FJ,C242,FJ,Fiji,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,GM,C270,GM,Gambia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,GE,C268,GE,Georgia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,GH,C288,GH,Ghana,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,GT,C320,GT,Guatemala,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,GY,C328,GY,Guyana,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,HT,C332,HT,Haiti,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,HN,C340,HN,Honduras,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,HU,C348,HU,Hungary,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,IN,C356,IN,India,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,ID,C360,ID,Indonesia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,JM,C388,JM,Jamaica,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,JO,C400,JO,Jordan,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,KZ,C398,KZ,Kazakhstan,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,KE,C404,KE,Kenya,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,XK,C412,XK,Kosovo,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,KG,C417,KG,Kyrgyzstan,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,LA,C418,LA,Lao People's Democratic Republic,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,LV,C428,LV,Latvia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,LB,C422,LB,Lebanon,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,LS,C426,LS,Lesotho,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,LR,C430,LR,Liberia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,LT,C440,LT,Lithuania,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,MK,C807,MK,North Macedonia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,MG,C450,MG,Madagascar,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,MW,C454,MW,Malawi,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,MY,C458,MY,Malaysia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,ML,C466,ML,Mali,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,MX,C484,MX,Mexico,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,MD,C498,MD,Republic of Moldova,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,MA,C504,MA,Morocco,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,MZ,C508,MZ,Mozambique,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,MM,C104,MM,Myanmar,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,NA,C516,NA,Namibia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,NP,C524,NP,Nepal,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,NI,C558,NI,Nicaragua,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,NG,C566,NG,Nigeria,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,PK,C586,PK,Pakistan,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,PS,C275,PS,State of Palestine,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,PA,C591,PA,Panama,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,PY,C600,PY,Paraguay,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,PE,C604,PE,Peru,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,PH,C608,PH,Philippines,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,PL,C616,PL,Poland,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,RO,C642,RO,Romania,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,RW,C646,RW,Rwanda,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,WS,C882,WS,Samoa,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,SN,C686,SN,Senegal,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,RS,C688,RS,Serbia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,SL,C694,SL,Sierra Leone,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,SO,C706,SO,Somalia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,ZA,C710,ZA,South Africa,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,SS,C728,SS,South Sudan,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,LK,C144,LK,Sri Lanka,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,SD,C729,SD,Sudan,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,SR,C740,SR,Suriname,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,SZ,C748,SZ,Eswatini,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,SY,C760,SY,Syrian Arab Republic,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,TJ,C762,TJ,Tajikistan,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,TZ,C834,TZ,United Republic of Tanzania,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,TH,C764,TH,Thailand,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,TG,C768,TG,Togo,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,TO,C776,TO,Tonga,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,TN,C788,TN,Tunisia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,TR,C792,TR,Turkey,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,UG,C800,UG,Uganda,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,UA,C804,UA,Ukraine,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,UZ,C860,UZ,Uzbekistan,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,VU,C548,VU,Vanuatu,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,VN,C704,VN,Viet Nam,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,YE,C887,YE,Yemen,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,ZM,C894,ZM,Zambia,string
+53,CUST_BREAKDOWN,COUNTERPART,Counterpart,False,ZW,C716,ZW,Zimbabwe,string

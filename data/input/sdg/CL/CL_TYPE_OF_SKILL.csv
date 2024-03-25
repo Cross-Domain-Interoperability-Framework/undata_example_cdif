@@ -1,0 +1,18 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,ARSP,SKILL_ICTSSHT,SKILL_ICTSSHT,Using basic arithmetic formula in a spreadsheet,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,COPA,SKILL_ICTCPT,SKILL_ICTCPT,Using copy and paste tools to duplicate or move information within a document,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,EMAIL,SKILL_ICTATCH,SKILL_ICTATCH,Sending e-mails with attached files,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,EPRS,SKILL_ICTPST,SKILL_ICTPST,Creating electronic presentations with presentation software,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,INST,SKILL_ICTCDV,SKILL_ICTCDV,Connecting and installing new devices,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,PCPR,SKILL_ICTPRGM,SKILL_ICTPRGM,Writing a computer program using a specialized programming language,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,SOFT,SKILL_ICTSFWR,SKILL_ICTSFWR,"Finding, downloading, installing and configuring software",string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,TRAF,SKILL_ICTTRFF,SKILL_ICTTRFF,Transferring files between a computer and other devices,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,LITE,SKILL_LTRCY,SKILL_LTRCY,Literacy,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,NUME,SKILL_NMRCY,SKILL_NMRCY,Numeracy,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,CMFL,SKILL_ICTCMFL,SKILL_ICTCMFL,Copying or moving a file or folder,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,SKILL_MATH,SKILL_MATH,SKILL_MATH,Skill: Minimum proficiency in mathematics,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,SKILL_READ,SKILL_READ,SKILL_READ,Skill: Minimum proficiency in reading,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,_T,_T,_T,Total or no breakdown,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,PRVCY,SKILL_ICTPRVCY,SKILL_ICTPRVCY,"Changing privacy settings on your device, account or app to limit the sharing of personal data and information (e.g. name, contact information, photos)",string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,VRFY,SKILL_ICTVRFY,SKILL_ICTVRFY,Verifying the reliability of information found online ,string
+20,COMPOSITE_BREAKDOWN,TYPE_OF_SKILL,Type of skill,False,SCRTY,SKILL_ICTSCRTY,SKILL_ICTSCRTY,"Setting up effective security measures (e.g. strong passwords, log-in attempt notification) to protect devices and online accounts",string

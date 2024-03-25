@@ -1,0 +1,8 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+44,COMPOSITE_BREAKDOWN,MOUNTAIN_ELEVATION,Mountain Elevation,False,1,ELV_1,ELV_1,Elevation > 4500 meters,string
+44,COMPOSITE_BREAKDOWN,MOUNTAIN_ELEVATION,Mountain Elevation,False,2,ELV_2,ELV_2,Elevation 3500–4500 meters,string
+44,COMPOSITE_BREAKDOWN,MOUNTAIN_ELEVATION,Mountain Elevation,False,3,ELV_3,ELV_3,Elevation 2500–3500 meters,string
+44,COMPOSITE_BREAKDOWN,MOUNTAIN_ELEVATION,Mountain Elevation,False,4,ELV_4,ELV_4,Elevation 1500–2500 meters and slope > 2,string
+44,COMPOSITE_BREAKDOWN,MOUNTAIN_ELEVATION,Mountain Elevation,False,5,ELV_5,ELV_5,Elevation 1000–1500 meters and slope > 5 or local elevation range (LER 7 kilometer radius) > 300 meters,string
+44,COMPOSITE_BREAKDOWN,MOUNTAIN_ELEVATION,Mountain Elevation,False,6,ELV_6,ELV_6,Elevation 300–1000 meters and local elevation range (7 kilometer radius) > 300 meters,string
+44,COMPOSITE_BREAKDOWN,MOUNTAIN_ELEVATION,Mountain Elevation,False,ALL,_T,_T,Total or no breakdown,string

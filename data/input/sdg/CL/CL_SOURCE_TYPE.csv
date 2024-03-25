@@ -1,0 +1,5 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+6,SOURCE_TYPE,SOURCE_TYPE,Source Type,True,NA,NA,NA,Not available,string
+6,SOURCE_TYPE,SOURCE_TYPE,Source Type,True,OTHER,O,O,Other,string
+6,SOURCE_TYPE,SOURCE_TYPE,Source Type,True,ADMIN_RECORDS,R,R,Administrative records,string
+6,SOURCE_TYPE,SOURCE_TYPE,Source Type,True,HH_SURVEYS,S,S,Household based surveys,string

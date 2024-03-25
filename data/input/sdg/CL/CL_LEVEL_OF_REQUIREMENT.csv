@@ -1,0 +1,4 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+50,COMPOSITE_BREAKDOWN,LEVEL_OF_REQUIREMENT,Level of requirement,False,ADVANCED,LOR_ADVANCED,LOR_ADVANCED,Advanced,string
+50,COMPOSITE_BREAKDOWN,LEVEL_OF_REQUIREMENT,Level of requirement,False,MINIMUM,LOR_MINIMUM,LOR_MINIMUM,Minimum,string
+50,COMPOSITE_BREAKDOWN,LEVEL_OF_REQUIREMENT,Level of requirement,False,TOTAL,_T,_T,Total or no breakdown,string

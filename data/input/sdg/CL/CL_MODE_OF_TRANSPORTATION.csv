@@ -1,0 +1,7 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+21,COMPOSITE_BREAKDOWN,MODE_OF_TRANSPORTATION,Mode of transportation,False,AIR,MOT_AIR,MOT_AIR,Air transport,string
+21,COMPOSITE_BREAKDOWN,MODE_OF_TRANSPORTATION,Mode of transportation,False,RAI,MOT_RAI,MOT_RAI,Rail transport,string
+21,COMPOSITE_BREAKDOWN,MODE_OF_TRANSPORTATION,Mode of transportation,False,ROA,MOT_ROA,MOT_ROA,Road transport,string
+21,COMPOSITE_BREAKDOWN,MODE_OF_TRANSPORTATION,Mode of transportation,False,_T,_T,_T,Total or no breakdown,string
+21,COMPOSITE_BREAKDOWN,MODE_OF_TRANSPORTATION,Mode of transportation,False,IWW,MOT_IWW,MOT_IWW,Inland waterway transport,string
+21,COMPOSITE_BREAKDOWN,MODE_OF_TRANSPORTATION,Mode of transportation,False,SEA,MOT_SEA,MOT_SEA,Maritime,string

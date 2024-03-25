@@ -1,0 +1,6 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+25,COMPOSITE_BREAKDOWN,MIGRATORY_STATUS,Migratory status,False,_T,_T,_T,Total or no breakdown,string
+25,COMPOSITE_BREAKDOWN,MIGRATORY_STATUS,Migratory status,False,MIGPER,MS_MIGRANT,MS_MIGRANT,Migrants,string
+25,COMPOSITE_BREAKDOWN,MIGRATORY_STATUS,Migratory status,False,NONMIG,MS_NOMIGRANT,MS_NOMIGRANT,Non-migrant,string
+25,COMPOSITE_BREAKDOWN,MIGRATORY_STATUS,Migratory status,False,EUMIG,MS_EUMIGRANT,MS_EUMIGRANT,EU Migrants,string
+25,COMPOSITE_BREAKDOWN,MIGRATORY_STATUS,Migratory status,False,NONEUMIG,MS_NONEUMIGRANT,MS_NONEUMIGRANT,Non-EU Migrants,string

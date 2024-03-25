@@ -1,0 +1,4 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+46,COMPOSITE_BREAKDOWN,FREQUENCY_OF_CHLOROPHYLL_A_CONCENTRATION,Frequency of Chlorophyll-a concentration,False,Moderate,FCC_M,FCC_M,Moderate,string
+46,COMPOSITE_BREAKDOWN,FREQUENCY_OF_CHLOROPHYLL_A_CONCENTRATION,Frequency of Chlorophyll-a concentration,False,High,FCC_H,FCC_H,High,string
+46,COMPOSITE_BREAKDOWN,FREQUENCY_OF_CHLOROPHYLL_A_CONCENTRATION,Frequency of Chlorophyll-a concentration,False,Extreme,FCC_E,FCC_E,Extreme,string

@@ -1,0 +1,8 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+4,NATURE,NATURE,Nature,True,C,C,C,Country data,string
+4,NATURE,NATURE,Nature,True,CA,CA,CA,Country adjusted data,string
+4,NATURE,NATURE,Nature,True,E,E,E,Estimated data,string
+4,NATURE,NATURE,Nature,True,G,G,G,Global monitoring data,string
+4,NATURE,NATURE,Nature,True,M,M,M,Modeled data,string
+4,NATURE,NATURE,Nature,True,N,N,N,Non-relevant,string
+4,NATURE,NATURE,Nature,True,NA,_X,_X,Data nature not available,string

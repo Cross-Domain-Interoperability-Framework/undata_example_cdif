@@ -1,0 +1,10 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+2,FREQ,FREQ,Freq,False,ANNUAL,A,A,Annual,string
+2,FREQ,FREQ,Freq,False,DAILYB,B,B,Daily - businessweek,string
+2,FREQ,FREQ,Freq,False,DAILY,D,D,Daily,string
+2,FREQ,FREQ,Freq,False,HOURLY,H,H,Hourly,string
+2,FREQ,FREQ,Freq,False,MONTHLY,M,M,Monthly,string
+2,FREQ,FREQ,Freq,False,MINUTELY,N,N,Minutely,string
+2,FREQ,FREQ,Freq,False,QUARTELY,Q,Q,Quarterly,string
+2,FREQ,FREQ,Freq,False,HALFY,S,S,"Half-yearly, semester",string
+2,FREQ,FREQ,Freq,False,WEEKLY,W,W,Weekly,string

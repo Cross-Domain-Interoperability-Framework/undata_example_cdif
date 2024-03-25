@@ -1,0 +1,22 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,TXC,IFF_TXC,IFF_TXC,Tax and commercial IFFs,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,TXC_TMI,IFF_TXC_TMI,IFF_TXC_TMI,Trade misinvoicing,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,TXC_TEV,IFF_TXC_TEV,IFF_TXC_TEV,Tax evasion,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,TXC_ATA,IFF_TXC_ATA,IFF_TXC_ATA,Aggressive tax avoidance,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ILM,IFF_ILM,IFF_ILM,Illegal markets,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ILM_DRG,IFF_ILM_DRG,IFF_ILM_DRG,Drug trafficking,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ILM_SOM,IFF_ILM_SOM,IFF_ILM_SOM,Smuggling of migrants,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ILM_WLD,IFF_ILM_WLD,IFF_ILM_WLD,Wildlife trafficking,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ILM_FIR,IFF_ILM_FIR,IFF_ILM_FIR,Firearms trafficking,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ILM_IMN,IFF_ILM_IMN,IFF_ILM_IMN,Illegal mining,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ILM_OTHR,IFF_ILM_OTHR,IFF_ILM_OTHR,Other illegal markets,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,COR,IFF_COR,IFF_COR,Corruption,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,COR_BRB,IFF_COR_BRB,IFF_COR_BRB,Bribery,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,COR_TIN,IFF_COR_TIN,IFF_COR_TIN,Trading in influence ,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,COR_OTHR,IFF_COR_OTHR,IFF_COR_OTHR,Other corruption,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ETF,IFF_ETF,IFF_ETF,Exploitation-type and terrorism financing,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ETF_TIP,IFF_ETF_TIP,IFF_ETF_TIP,Trafficking in persons,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ETF_EXT,IFF_ETF_EXT,IFF_ETF_EXT,Extortion,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ETF_THE,IFF_ETF_THE,IFF_ETF_THE,Theft,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ETF_FRA,IFF_ETF_FRA,IFF_ETF_FRA,Fraud,string
+63,COMPOSITE_BREAKDOWN,ILLICIT_FINANCIAL_FLOWS,Illicit Financial Flows,False,ETF_OTHR,IFF_ETF_OTHR,IFF_ETF_OTHR,Other exploitation-type and terrorism financing,string

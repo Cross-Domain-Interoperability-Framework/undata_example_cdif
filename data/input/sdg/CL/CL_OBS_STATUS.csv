@@ -1,0 +1,21 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,A,A,A,Normal value,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,B,B,B,Time series break,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,D,D,D,Definition differs,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,E,E,E,Estimated value,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,F,F,F,Forecast value,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,G,G,G,Experimental value,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,H,H,H,Missing value; holiday or weekend,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,I,I,I,Imputed value (CCSA definition),string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,J,J,J,Derogation,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,K,K,K,Data included in another category,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,L,L,L,Missing value; data exist but were not collected,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,M,M,M,Missing value; data cannot exist,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,N,N,N,Not significant,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,O,O,O,Missing value,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,P,P,P,Provisional value,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,Q,Q,Q,Missing value; suppressed,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,S,S,S,Strike and other special events,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,U,U,U,Low reliability,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,V,V,V,Unvalidated value,string
+33,OBS_STATUS,OBS_STATUS,Observation Status,True,W,W,W,Includes data from another category,string

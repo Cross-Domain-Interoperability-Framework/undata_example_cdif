@@ -1,0 +1,33 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,ADVIMP,ADVIMP,ADVIMP,Advanced implementation,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,FULIMP,FULIMP,FULIMP,Fully implemented,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,NODATA,NODATA,NODATA,No data available,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,NOTIMP,NOTIMP,NOTIMP,Not implemented,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,NOTREL,NOTREL,NOTREL,Not relevant,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,STAIMP,STAIMP,STAIMP,Started implementation,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,UNDDEV,UNDDEV,UNDDEV,Under development,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,HIPAR,HIPAR,HIPAR,High level of participation,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,MOPAR,MOPAR,MOPAR,Moderate level of participation,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,LOPAR,LOPAR,LOPAR,Low level of participation,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,CLDPR,CLDPR,CLDPR,Clearly defined procedures,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,NCDPR,NCDPR,NCDPR,Not clearly defined procedures,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,NA,NA,NA,Not applicable,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,HIGIMP,DEG_HIG,DEG_HIG,High level of implementation,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,LOWIMP,DEG_LOW,DEG_LOW,Low level of implementation,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,MHIGIMP,DEG_MHIG,DEG_MHIG,Medium-high level of implementation,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,MLOWIMP,DEG_MLOW,DEG_MLOW,Medium-low level of implementation,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,VLOWIMP,DEG_VLOW,DEG_VLOW,Very low level of implementation,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,VHIGIMP,DEG_VHIG,DEG_VHIG,Very high level of implementation,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,_T,_T,_T,Total or no breakdown,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,ABT2ACHIEVE,ABT2_ACHIEVE,ABT2_ACHIEVE,National target reflecting ABT2 exists and progress is on track to achieve it,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,ABT2EXCEED,ABT2_EXCEED,ABT2_EXCEED,National target reflecting ABT2  exists and progress is on track to exceed it,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,ABT2INSUFNT,ABT2_INSUFNT,ABT2_INSUFNT,"National target reflecting ABT2  exists and progress is there, but at as insufficient rate",string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,ABT2DIGRESS,ABT2_DIGRESS,ABT2_DIGRESS,"National target reflecting ABT2 exists, but moving away from it",string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,ABT2NOPROG,ABT2_NOPROG,ABT2_NOPROG,"National target reflecting ABT2  exists, but no progress",string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,ABT2NONTLT,ABT2_NONTLT,ABT2_NONTLT,No national target reflecting ABT 2,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,LS_COMP,LS_COMP,LS_COMP,Compilation,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,LS_DISSEM,LS_DISSEM,LS_DISSEM,Dissemination,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,LS_COMPDISSE,LS_COMPDISSE,LS_COMPDISSE,Regular compilation and dissemination,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,LI_IMP_ADMNG,LI_IMP_ADMNG,LI_IMP_ADMNG,Implementation and adaptive management,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,LI_PLDV,LI_PLDV,LI_PLDV,Plan development,string
+12,COMPOSITE_BREAKDOWN,LEVEL_STATUS,Level/Status,False,LI_PLA_DSG,LI_PLA_DSG,LI_PLA_DSG,Plan adoption/designation,string

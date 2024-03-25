@@ -1,0 +1,6 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+51,COMPOSITE_BREAKDOWN,TYPE_OF_SUPPORT,Type of support,False,MITIGATION,TOS_MITIGATION,TOS_MITIGATION,Mitigation,string
+51,COMPOSITE_BREAKDOWN,TYPE_OF_SUPPORT,Type of support,False,ADAPTATION,TOS_ADAPTATION,TOS_ADAPTATION,Adaptation,string
+51,COMPOSITE_BREAKDOWN,TYPE_OF_SUPPORT,Type of support,False,CROSS_CUTTING,TOS_CROSS_CUTTING,TOS_CROSS_CUTTING,Cross-cutting,string
+51,COMPOSITE_BREAKDOWN,TYPE_OF_SUPPORT,Type of support,False,OTHER,TOS_OTHER,TOS_OTHER,Other,string
+51,COMPOSITE_BREAKDOWN,TYPE_OF_SUPPORT,Type of support,False,TOTAL,_T,_T,Total or no breakdown,string

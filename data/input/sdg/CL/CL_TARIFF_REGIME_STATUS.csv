@@ -1,0 +1,4 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+19,COMPOSITE_BREAKDOWN,TARIFF_REGIME_STATUS,Tariff regime (status),False,MFN,MFN,MFN,Most-Favoured-Nation status,string
+19,COMPOSITE_BREAKDOWN,TARIFF_REGIME_STATUS,Tariff regime (status),False,PRF,PRF,PRF,Preferential status,string
+19,COMPOSITE_BREAKDOWN,TARIFF_REGIME_STATUS,Tariff regime (status),False,_T,_T,_T,Total or no breakdown,string

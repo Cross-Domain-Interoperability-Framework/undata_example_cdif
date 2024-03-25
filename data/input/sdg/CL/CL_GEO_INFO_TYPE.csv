@@ -1,0 +1,5 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+34,GEO_INFO_TYPE,GEO_INFO_TYPE,Geo Info Type,True,GML,GML,GML,Geography Markup Language,string
+34,GEO_INFO_TYPE,GEO_INFO_TYPE,Geo Info Type,True,GMLJP2,GMLJP2,GMLJP2,GML in JPEG 2000 for Geographic Imagery,string
+34,GEO_INFO_TYPE,GEO_INFO_TYPE,Geo Info Type,True,KML_2_2,KML_2_2,KML_2_2,KML version 2.2,string
+34,GEO_INFO_TYPE,GEO_INFO_TYPE,Geo Info Type,True,GeoJSON_1_1,GeoJSON_1_1,GeoJSON_1_1,GeoJSON version 1.0,string

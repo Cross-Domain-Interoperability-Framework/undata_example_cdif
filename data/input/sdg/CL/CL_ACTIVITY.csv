@@ -1,0 +1,34 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+32,ACTIVITY,ACTIVITY,Activity,False,TOTAL,_T,_T,Total or no breakdown,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_A,ISIC4_A,ISIC4_A,"Agriculture, forestry and fishing",string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_B,ISIC4_B,ISIC4_B,Mining and quarrying,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_C,ISIC4_C,ISIC4_C,Manufacturing,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_D,ISIC4_D,ISIC4_D,"Electricity, gas, steam and air conditioning supply",string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_E,ISIC4_E,ISIC4_E,"Water supply; sewerage, waste management and remediation activities",string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_F,ISIC4_F,ISIC4_F,Construction,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_G,ISIC4_G,ISIC4_G,Wholesale and retail trade; repair of motor vehicles and motorcycles,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_H,ISIC4_H,ISIC4_H,Transportation and storage,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_I,ISIC4_I,ISIC4_I,Accommodation and food service activities,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_J,ISIC4_J,ISIC4_J,Information and communication,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_K,ISIC4_K,ISIC4_K,Financial and insurance activities,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_L,ISIC4_L,ISIC4_L,Real estate activities,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_M,ISIC4_M,ISIC4_M,"Professional, scientific and technical activities",string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_N,ISIC4_N,ISIC4_N,Administrative and support service activities,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_O,ISIC4_O,ISIC4_O,Public administration and defence; compulsory social security,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_P,ISIC4_P,ISIC4_P,Education,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_Q,ISIC4_Q,ISIC4_Q,Human health and social work activities,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_R,ISIC4_R,ISIC4_R,"Arts, entertainment and recreation",string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_S,ISIC4_S,ISIC4_S,Other service activities,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_T,ISIC4_T,ISIC4_T,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_U,ISIC4_U,ISIC4_U,Activities of extraterritorial organisations and bodies,string
+32,ACTIVITY,ACTIVITY,Activity,False,TOBERECYCLED,ISIC4_EX38_GTU,ISIC4_EX38_GTU,XXX,string
+32,ACTIVITY,ACTIVITY,Activity,False,NONAGR,ISIC4_BTU,ISIC4_BTU,Non-agriculture,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_C10T32X19,ISIC4_C10T32X19,ISIC4_C10T32X19,Manufacturing excl. coke and refined petroleum products and repair and installation of machinery and equipment,string
+32,ACTIVITY,ACTIVITY,Activity,False,SERVICES,ISIC4_GTS,ISIC4_GTS,Services,string
+32,ACTIVITY,ACTIVITY,Activity,False,PRIV_HH,HH,HH,Private households,string
+32,ACTIVITY,ACTIVITY,Activity,False,SERV_HH,ISIC4_GTS_HH,ISIC4_GTS_HH,"Services, and activities by households",string
+32,ACTIVITY,ACTIVITY,Activity,False,INDUSTRIES,ISIC4_BTFXE,ISIC4_BTFXE,Industries,string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_EX38_GTS_U,ISIC4_EX38_GTS_U,ISIC4_EX38_GTS_U,"Other economic activities excluding ISIC 01-03, 05-09, 10-33, 35, 38, 41-43, 97-98",string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_A01_A0210_A0322,ISIC4_A01_A0210_A0322,ISIC4_A01_A0210_A0322,Agriculture (ISIC4 A01 A0210 A0322),string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC4_GTT,ISIC4_GTT,ISIC4_GTT,Services (G to T),string
+32,ACTIVITY,ACTIVITY,Activity,False,ISIC3_D,ISIC3_D,ISIC3_D,Manufacturing (ISIC3 D),string

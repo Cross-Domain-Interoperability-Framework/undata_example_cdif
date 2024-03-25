@@ -1,0 +1,11 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+31,INCOME_WEALTH_QUANTILE,INCOME_WEALTH_QUANTILE,Quantile,False,Q1,Q1,Q1,Quantile 1 (poorest),string
+31,INCOME_WEALTH_QUANTILE,INCOME_WEALTH_QUANTILE,Quantile,False,Q2,Q2,Q2,Quantile 2,string
+31,INCOME_WEALTH_QUANTILE,INCOME_WEALTH_QUANTILE,Quantile,False,Q3,Q3,Q3,Quantile 3,string
+31,INCOME_WEALTH_QUANTILE,INCOME_WEALTH_QUANTILE,Quantile,False,Q4,Q4,Q4,Quantile 4,string
+31,INCOME_WEALTH_QUANTILE,INCOME_WEALTH_QUANTILE,Quantile,False,Q5,Q5,Q5,Quantile 5 (richest),string
+31,INCOME_WEALTH_QUANTILE,INCOME_WEALTH_QUANTILE,Quantile,False,B40,B40,B40,Bottom 40%,string
+31,INCOME_WEALTH_QUANTILE,INCOME_WEALTH_QUANTILE,Quantile,False,R60,R60,R60,Richest 60%,string
+31,INCOME_WEALTH_QUANTILE,INCOME_WEALTH_QUANTILE,Quantile,False,_T,_T,_T,Total or no breakdown,string
+31,INCOME_WEALTH_QUANTILE,INCOME_WEALTH_QUANTILE,Quantile,False,B50,B50,B50,Bottom 50%,string
+31,INCOME_WEALTH_QUANTILE,INCOME_WEALTH_QUANTILE,Quantile,False,R50,R50,R50,Richest 50%,string

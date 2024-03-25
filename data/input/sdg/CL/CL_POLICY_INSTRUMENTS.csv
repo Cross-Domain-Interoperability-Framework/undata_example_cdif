@@ -1,0 +1,6 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+36,COMPOSITE_BREAKDOWN,POLICY_INSTRUMENTS,Policy instruments,False,POLICY_MACRO,POL_MACRO,POL_MACRO,"Macro policies (e.g. national strategies/action plans, new institutions/entities)",string
+36,COMPOSITE_BREAKDOWN,POLICY_INSTRUMENTS,Policy instruments,False,POLICY_ECONFIS,POL_ECONFIS,POL_ECONFIS,"Economic and fiscal instruments (taxes and tax incentives, grants, preferential loans, etc.) ",string
+36,COMPOSITE_BREAKDOWN,POLICY_INSTRUMENTS,Policy instruments,False,POLICY_REGLEG,POL_REGLEG,POL_REGLEG,"Regulatory and legal instruments (e.g. laws, standards, enforcement measures)",string
+36,COMPOSITE_BREAKDOWN,POLICY_INSTRUMENTS,Policy instruments,False,POLICY_VOLSRG,POL_VOLSRG,POL_VOLSRG,"Voluntary and self-regulation schemes (e.g. sectoral partnerships, codes of conduct, CSR initiatives)",string
+36,COMPOSITE_BREAKDOWN,POLICY_INSTRUMENTS,Policy instruments,False,_T,_T,_T,Total or no breakdown,string

@@ -1,0 +1,32 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,UNIT,0,0,Units,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,TEN,1,1,Tens,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,TRILLION,12,12,Trillions,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,QUADRILLION,15,15,Quadrillions,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,HUNDRED,2,2,Hundreds,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,THOUSAND,3,3,Thousands,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,T_THOUSAND,4,4,Tens of thousands,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,MILLION,6,6,Millions,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,BILLION,9,9,Billions,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,5,5,5,Hundreds of thousands,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,7,7,7,Tens of millions,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,8,8,8,Hundreds of millions,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,10,10,10,Tens of billions,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,11,11,11,Hundreds of billions,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,13,13,13,Tens of trillions,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,14,14,14,Hundreds of trillions,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-1,-1,-1,Tenths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-2,-2,-2,Hundredths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-3,-3,-3,Thousandths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-4,-4,-4,Ten-thousandths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-5,-5,-5,Hundred-thousandths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-6,-6,-6,Millionths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-7,-7,-7,Ten-millionths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-8,-8,-8,Hundred-millionths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-9,-9,-9,Billionths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-10,-10,-10,Ten-billionths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-11,-11,-11,Hundred-billionths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-12,-12,-12,Trillionths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-13,-13,-13,Ten-trillionths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-14,-14,-14,Hundred-trillionths,string
+7,UNIT_MULT,UNIT_MULT,UnitMultiplier,True,-15,-15,-15,Quadrillionths,string

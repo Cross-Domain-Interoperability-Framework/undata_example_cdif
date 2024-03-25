@@ -1,0 +1,6 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+62,CUST_BREAKDOWN,BIOCLIMATIC_BELT,Bioclimatic belt,False,NIVAL,C01,NIVAL,Nival,string
+62,CUST_BREAKDOWN,BIOCLIMATIC_BELT,Bioclimatic belt,False,ALPINE,C02,ALPINE,Alpine,string
+62,CUST_BREAKDOWN,BIOCLIMATIC_BELT,Bioclimatic belt,False,MONTANE,C03,MONTANE,Montane,string
+62,CUST_BREAKDOWN,BIOCLIMATIC_BELT,Bioclimatic belt,False,REMAIN_MOUNT,C04,REMAIN_MOUNT,Remaining mountain area,string
+62,CUST_BREAKDOWN,BIOCLIMATIC_BELT,Bioclimatic belt,False,TOTAL,_T,_T,Total or no breakdown,string

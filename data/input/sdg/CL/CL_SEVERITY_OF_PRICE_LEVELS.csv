@@ -1,0 +1,4 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+55,COMPOSITE_BREAKDOWN,SEVERITY_OF_PRICE_LEVELS,Severity of price levels,False,ABNORMAL,SPL_A,SPL_A,Abnormal: High food prices,string
+55,COMPOSITE_BREAKDOWN,SEVERITY_OF_PRICE_LEVELS,Severity of price levels,False,MODERATE,SPL_M,SPL_M,Moderate: Moderately high food prices,string
+55,COMPOSITE_BREAKDOWN,SEVERITY_OF_PRICE_LEVELS,Severity of price levels,False,TOTAL,_T,_T,Total or no breakdown,string

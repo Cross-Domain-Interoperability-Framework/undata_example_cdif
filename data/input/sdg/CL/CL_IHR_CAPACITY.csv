@@ -1,0 +1,43 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR01,IHR_01,IHR_01,"National legislation, policy and financing",string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR02,IHR_02,IHR_02,Coordination and National Focal Point communications,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR03,IHR_03,IHR_03,Surveillance,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR04,IHR_04,IHR_04,Response,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR05,IHR_05,IHR_05,Preparedness,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR06,IHR_06,IHR_06,Risk communication,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR07,IHR_07,IHR_07,Human resources,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR08,IHR_08,IHR_08,Laboratory,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR09,IHR_09,IHR_09,Points of entry,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR10,IHR_10,IHR_10, Zoonotic events,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR11,IHR_11,IHR_11,Food safety,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR12,IHR_12,IHR_12,Chemical events,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,IHR13,IHR_13,IHR_13,Radionuclear emergencies,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR01,SPAR_01,SPAR_01,Legislation and Financing,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR02,SPAR_02,SPAR_02,IHR Coordination and National IHR Focal Point Functions,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR03,SPAR_03,SPAR_03,Zoonotic events and the human–animal interface,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR04,SPAR_04,SPAR_04,Food safety,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR05,SPAR_05,SPAR_05,Laboratory,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR06,SPAR_06,SPAR_06,Surveillance,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR07,SPAR_07,SPAR_07,Human resources,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR08,SPAR_08,SPAR_08,National Health Emergency Framework,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR09,SPAR_09,SPAR_09,Health Service Provision,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR10,SPAR_10,SPAR_10,Risk Communication,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR11,SPAR_11,SPAR_11,Points of entry,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR12,SPAR_12,SPAR_12,Chemical events,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR13,SPAR_13,SPAR_13,Radiation emergencies,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,_T,_T,_T,Total or no breakdown,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C01,SPAR2_C01,SPAR2_C01,"Policy, Legal and normative Instruments to implement IHR",string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C02,SPAR2_C02,SPAR2_C02,"IHR Coordination, National IHR Focal Point functions and advocacy",string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C03,SPAR2_C03,SPAR2_C03,Financing,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C04,SPAR2_C04,SPAR2_C04,Laboratory,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C05,SPAR2_C05,SPAR2_C05,Surveillance,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C06,SPAR2_C06,SPAR2_C06,Human resources,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C07,SPAR2_C07,SPAR2_C07,Health emergency management,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C08,SPAR2_C08,SPAR2_C08,Health services provision,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C09,SPAR2_C09,SPAR2_C09,Infection prevention and control (IPC),string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C10,SPAR2_C10,SPAR2_C10,Risk communication and community engagement (RCCE),string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C11,SPAR2_C11,SPAR2_C11,Points of entry (PoEs) and border health,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C12,SPAR2_C12,SPAR2_C12,Zoonotic diseases,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C13,SPAR2_C13,SPAR2_C13,Food safety,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C14,SPAR2_C14,SPAR2_C14,Chemical events,string
+28,COMPOSITE_BREAKDOWN,IHR_CAPACITY,IHR Capacity,False,SPAR2-C15,SPAR2_C15,SPAR2_C15,Radiation emergencies,string

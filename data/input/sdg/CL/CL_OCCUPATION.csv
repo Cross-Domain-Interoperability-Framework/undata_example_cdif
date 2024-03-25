@@ -1,0 +1,52 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+18,OCCUPATION,OCCUPATION,Type of occupation,False,DENT,ISCO08_2261,ISCO08_2261,Dentists,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,NURSMID,ISCO08_222_322,ISCO08_222_322,Nursing and midwifery personnel,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,PHAR,ISCO08_2262,ISCO08_2262,Pharmacists,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,PHYS,ISCO08_221,ISCO08_221,Medical doctors,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco08,_T,_T,Total or no breakdown,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco08-0,ISCO08_0,ISCO08_0,Armed forces occupations (isco-08),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco08-1,ISCO08_1,ISCO08_1,Managers (isco-08),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco08-2,ISCO08_2,ISCO08_2,Professionals (isco-08),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco08-3,ISCO08_3,ISCO08_3,Technicians and associate professionals (isco-08),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco08-4,ISCO08_4,ISCO08_4,Clerical support workers (isco-08),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco08-5,ISCO08_5,ISCO08_5,Service and sales workers (isco-08),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco08-6,ISCO08_6,ISCO08_6,"Skilled agricultural, forestry and fishery workers (isco-08)",string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco08-7,ISCO08_7,ISCO08_7,Craft and related trades workers (isco-08),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco08-8,ISCO08_8,ISCO08_8,"Plant and machine operators, and assemblers (isco-08)",string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco08-9,ISCO08_9,ISCO08_9,Elementary occupations (isco-08),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco08-X,ISCO08_X,ISCO08_X,Not elsewhere classified (isco-08),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco88,_T,_T,Total or no breakdown,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco88-0,ISCO88_0,ISCO88_0,Armed forces (isco-88),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco88-1,ISCO88_1,ISCO88_1,"Legislators, senior officials and managers (isco-88)",string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco88-2,ISCO88_2,ISCO88_2,Professionals (isco-88),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco88-3,ISCO88_3,ISCO88_3,Technicians and associate professionals (isco-88),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco88-4,ISCO88_4,ISCO88_4,Clerks (isco-88),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco88-5,ISCO88_5,ISCO88_5,Service workers and shop and market sales workers (isco-88),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco88-6,ISCO88_6,ISCO88_6,Skilled agricultural and fishery workers (isco-88),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco88-7,ISCO88_7,ISCO88_7,Craft and related trades workers (isco-88),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco88-8,ISCO88_8,ISCO88_8,Plant and machine operators and assemblers (isco-88),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco88-9,ISCO88_9,ISCO88_9,Elementary occupations (isco-88),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,isco88-X,ISCO88_X,ISCO88_X,Not elsewhere classified (isco-88),string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,_T,_T,_T,Total or no breakdown,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO68_0-1,ISCO68_0-1,ISCO68_0-1,"Professional, technical and related workers",string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO68_2,ISCO68_2,ISCO68_2,Administrative and managerial workers,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO68_3,ISCO68_3,ISCO68_3,Clerical and related workers,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO68_4,ISCO68_4,ISCO68_4,Sales workers,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO68_5,ISCO68_5,ISCO68_5,Service workers,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO68_6,ISCO68_6,ISCO68_6,"Agriculture, animal husbandry and forestry workers, fishermen and hunters",string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO68_7-9,ISCO68_7-9,ISCO68_7-9,"Production and related workers, transport equipment operators and labourers",string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO68_AF,ISCO68_AF,ISCO68_AF,Armed Forces,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO68_X,ISCO68_X,ISCO68_X,Not elsewhere classified,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO88_2221,ISCO88_2221,ISCO88_2221,Medical doctors,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO88_2222,ISCO88_2222,ISCO88_2222,Dentists,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO88_2224,ISCO88_2224,ISCO88_2224,Pharmacists,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ISCO88_223,ISCO88_223,ISCO88_223,Nursing and midwifery professionals,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,NURS,ISCO08_2221_3221,ISCO08_2221_3221,Nursing personnel,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,JUDGES,ISCO08_2612,ISCO08_2612,JUDGES,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,REGISTRARS,ISCO08_2619R,ISCO08_2619R,Registrars included in 2619 - Legal Professionals Not Elsewhere Classified,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,SENIORMAN,ISCO08_1112,ISCO08_1112,Senior Managers: Senior Government Officials,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,OTHERMAN,ISCO08_121_1120,ISCO08_121_1120,Other Managers: Managing Directors and Chief Executives and Business Services and Administration Managers,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ADMINPRO,ISCO08_21_25_26_242,ISCO08_21_25_26_242,Administration Professionals,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,ASSOCPRO,ISCO08_31T35X32,ISCO08_31T35X32,Business and Administration Associate Professionals,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,GENERAL,ISCO08_41,ISCO08_41,General and Keyboard Clerks,string
+18,OCCUPATION,OCCUPATION,Type of occupation,False,TOTAL_PSP,AGG_PSP,AGG_PSP,"Total national-level public service personnel (including police, education, health, front-desk administrative and all other public service personnel)",string

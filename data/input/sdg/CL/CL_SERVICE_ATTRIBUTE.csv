@@ -1,0 +1,7 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+60,COMPOSITE_BREAKDOWN,SERVICE_ATTRIBUTE,Service Attribute,False,ACCESS,SA_ACCESS,SA_ACCESS,Easy to get to the place,string
+60,COMPOSITE_BREAKDOWN,SERVICE_ATTRIBUTE,Service Attribute,False,AFFORD,SA_AFFORD,SA_AFFORD,Affordable,string
+60,COMPOSITE_BREAKDOWN,SERVICE_ATTRIBUTE,Service Attribute,False,QUALITY,SA_QUALITY,SA_QUALITY,Clean and in good condition facilities,string
+60,COMPOSITE_BREAKDOWN,SERVICE_ATTRIBUTE,Service Attribute,False,EQUALITY,SA_EQUALITY,SA_EQUALITY,Equal treatment,string
+60,COMPOSITE_BREAKDOWN,SERVICE_ATTRIBUTE,Service Attribute,False,ATTITUDE,SA_ATTITUDE,SA_ATTITUDE,Attitude or courtesy of staff,string
+60,COMPOSITE_BREAKDOWN,SERVICE_ATTRIBUTE,Service Attribute,False,AVERAGE,SA_AVERAGE,SA_AVERAGE,Average of positive responses for the five other aspects,string

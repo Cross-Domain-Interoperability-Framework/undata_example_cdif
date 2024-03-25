@@ -1,0 +1,4 @@
+Enumeration_Code,Enumeration_Code_SDMX,Enumeration_Code2,Enumeration_Name,isAttribute,EnumerationValue_Code,EnumerationValue_Code_SDMX,EnumerationValue_Code2,EnumerationValue_Name,EnumerationValue_Type
+26,DISABILITY_STATUS,DISABILITY_STATUS,Disability status,False,PD,PD,PD,Persons with disability,string
+26,DISABILITY_STATUS,DISABILITY_STATUS,Disability status,False,PWD,PWD,PWD,Persons without disability,string
+26,DISABILITY_STATUS,DISABILITY_STATUS,Disability status,False,_T,_T,_T,Total or no breakdown,string
