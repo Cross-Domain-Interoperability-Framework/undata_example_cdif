@@ -1,533 +1,1567 @@
 [
   {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/AttributeComponent",
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable-platformType",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent"
-      }
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/MeasureComponent",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent"
-      }
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/REPORTING_TYPE",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/TIME_COVERAGE",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/ClassificationItem",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/qualifies",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "platformType"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent"
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ControlledVocabularyEntry"
       }
     ]
   },
   {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/groups",
+    "@id": "http://data.un.org/metadata/sdg/VARIABLE",
     "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionComponent"
     ]
   },
   {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/DimensionalDataSet",
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent-specialization",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/DataSet"
-      }
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/hasCode",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/VALUE_TYPE",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/dataStructure__SI_POV_DAY_1",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/DimensionalDataStructure"
-    ],
-    "https://unstats.un.org/ddi_cdi_profile/hasComponent": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/VARIABLE"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/GEOGRAPHY"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/TIME_PERIOD"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/FREQ"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/SEX"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/OBS_VALUE"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/IS_LATEST_PERIOD"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/TIME_DETAIL"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/VALUE_TYPE"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/UNITE_MEASURE"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/BASE_PERIOD"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/NATURE"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/SOURCE"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/FOOT_NOTE"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/RELEASE_STATUS"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/RELEASE_NAME"
-      }
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/takesValuesFrom",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/SubstantiveValueDomain"
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "specialization"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/EnumerationDomain"
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SpecializationRole"
       }
     ]
   },
   {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructure",
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition\n==========\nUse of a represented variable within a data set.  \n\nExamples\n======== \n1. Gender: Dan Gillman has gender <m, male>, Arofan Gregory has gender <m, male>, etc.\n2. Number of employees: Microsoft has 90,000 employees; IBM has 433,000 employees, etc.\n3. Endowment: Johns Hopkins has endowment of <3, $1,000,000 and above>, Yale has endowment of <3, $1,000,000 and above>, etc.\n4. A tornado near Winterset, Iowa, had a peak wind speed of 170 mph. Two instance variables of a person's height reference the same represented variable. This indicates that they are intended to: be measured with the same unit of measurement, have the same intended data type, have the same substantive value domain, use a sentinel value domain drawn from the same set of sentinel value domains, have the same sentinel (missing value) concepts, and draw their population from the same universe. In other words, the two instance variables should be comparable.\n\nExplanatory notes\n================= \nThe instance variable class inherits all of the properties and relationships of the represented variable class and, in turn, the conceptual variable class. This means that an instance variable can be completely populated without the need to create an associated represented variable or conceptual variable. If, however, a user wishes to indicate that a particular instance variable is patterned after a particular represented variable or a particular conceptual variable that may be indicated by including a relationship to the represented variable and/or conceptual variable. Including these references is an important method of indicating that multiple instance variables have the same representation, measure the same concept, and are drawn from the same universe. If two instance variables of a person's height reference the same represented variable. This indicates that they are intended to: be measured with the same unit of measurement, have the same intended data type, have the same substantive value domain, use a sentinel value domain drawn from the same set of sentinel value domains, have the same sentinel (missing value) concepts, and draw their population from the same universe. In other words, the two instance variables should be comparable. The instance variable describes actual instances of data that have been collected."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "InstanceVariable"
+      }
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:Ndd136bea3baa4097a818f3ff1c27a57e"
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable"
       }
     ]
   },
   {
-    "@id": "_:Ndd136bea3baa4097a818f3ff1c27a57e",
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionComponent-categoricalAdditivity",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/hasComponent"
-      }
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/StatisticalClassification",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/EnumerationDomain"
-      },
-      {
-        "@id": "_:N13b97cbaa5594d99b5734e2e665e5d49"
-      }
-    ]
-  },
-  {
-    "@id": "_:N13b97cbaa5594d99b5734e2e665e5d49",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/hasClassificationItem"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#someValuesFrom": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/ClassificationItem"
-      }
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/takesSubstantiveValuesFrom",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/RepresentedVariable"
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionComponent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "categoricalAdditivity"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/SubstantiveValueDomain"
+        "@id": "http://www.w3.org/2001/XMLSchema#boolean"
       }
     ]
   },
   {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/TIME_DETAIL",
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable_isBasedOn_RepresentedVariable",
     "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/OBS_STATUS",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/EnumerationDomain",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/isStructuredBy",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/DataSet"
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "isBasedOn"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructure"
-      }
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/DimensionalDataStructure",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructure"
-      }
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/dataset__SI_POV_DAY_1",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/DimensionalDataSet"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/RepresentedVariable",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/hasClassificationItem",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/CodeList",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/EnumerationDomain"
-      },
-      {
-        "@id": "_:Nce383f958ec144979281e82ae1b771af"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nce383f958ec144979281e82ae1b771af",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/hasCode"
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable"
       }
     ],
-    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/Code"
+        "@value": "InstanceVariable_isBasedOn_RepresentedVariable"
       }
     ]
   },
   {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/TIME_PERIOD",
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable-simpleUnitOfMeasure",
     "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/DimensionComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/GEOGRAPHY",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/DimensionComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/InstanceVariable",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/RepresentedVariable"
-      }
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/FOOT_NOTE",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/hasComponent",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/IS_LATEST_PERIOD",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/SOURCE",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/OBS_VALUE",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/MeasureComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/RELEASE_STATUS",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/SEX",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/DimensionComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/dataStructure",
-    "https://unstats.un.org/ddi_cdi_profile/hasComponent": [
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/TIME_COVERAGE"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/REPORTING_TYPE"
-      },
-      {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/VARIABLE"
-      }
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/VARIABLE",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/DimensionComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/DataSet",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/PhysicalDataSet",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/BASE_PERIOD",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/Code",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/LogicalRecord",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/isDefinedBy",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent"
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "simpleUnitOfMeasure"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/RepresentedVariable"
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
       }
     ]
   },
   {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/Level",
+    "@id": "http://data.un.org/metadata/sdg/SOURCE",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable_measures_Universe",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "measures"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/Universe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "RepresentedVariable_measures_Universe"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SpecializationRole",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition\n============\nSpecific roles played by represented variables in terms of time, geography, and other concepts which are important for the harmonization and integration of data."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "SpecializationRole"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent_isDefinedBy_RepresentedVariable",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "isDefinedBy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DataStructureComponent_isDefinedBy_RepresentedVariable"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructure_has_PrimaryKey",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructure"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/PrimaryKey"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DataStructure_has_PrimaryKey"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable_measures_Population",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "measures"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/Population"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "InstanceVariable_measures_Population"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/FREQ",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionComponent"
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/VALUE_TYPE",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SubstantiveValueDomain_takesConceptsFrom_SubstantiveConceptualDomain",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SubstantiveValueDomain"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "takesConceptsFrom"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SubstantiveConceptualDomain"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "SubstantiveValueDomain_takesConceptsFrom_SubstantiveConceptualDomain"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructure_has_ComponentPosition",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructure"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ComponentPosition"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DataStructure_has_ComponentPosition"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition \n============ \nRole given to a represented variable in the context of a data structure to qualify observations or provide other types of supplementary information.  \n\nExamples \n========== \nThe publication status of an observation (e.g. provisional, final, revised)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "AttributeComponent"
+      }
+    ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:N2514597643ed4f95a8ed99c37ad5858d"
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent"
       }
     ]
   },
   {
-    "@id": "_:N2514597643ed4f95a8ed99c37ad5858d",
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain_uses_LevelStructure",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/groups"
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain"
       }
     ],
-    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+    "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/ClassificationItem"
+        "@value": "uses"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/LevelStructure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "EnumerationDomain_uses_LevelStructure"
       }
     ]
   },
   {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/DataStore",
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionComponent",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/NATURE",
-    "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/SubstantiveValueDomain",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/DimensionComponent",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition \n============ \nRole given to a represented variable in the context of a dimensional data structure to identify the universes associated with data points. The variable acts as a field in the compound identifier (the key structure) to disambiguate the cells in the multi-dimensional \"cube\".  \n\nExplanatory notes \n=================== \nThe categories from each dimension often are used in combination to identify a cell. The meaning of the combination of the categories supplies meaning to the cell."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DimensionComponent"
+      }
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "https://unstats.un.org/ddi_cdi_profile/DataStructureComponent"
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent"
       }
     ]
   },
   {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/RELEASE_NAME",
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain",
     "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition \n============ \nA base class acting as an extension point to allow all codifications (codelist, statistical classification, etc.) to be understood as enumerated value domains."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "EnumerationDomain"
+      }
     ]
   },
   {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/UNITE_MEASURE",
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable-describedUnitOfMeasure",
     "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/AttributeComponent"
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "describedUnitOfMeasure"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ControlledVocabularyEntry"
+      }
     ]
   },
   {
-    "@id": "https://unstats.un.org/ddi_cdi_profile/FREQ",
+    "@id": "http://data.un.org/metadata/sdg/TIME_DETAIL",
     "@type": [
-      "https://unstats.un.org/ddi_cdi_profile/DimensionComponent"
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent-identifier",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "identifier"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/Identifier"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent-semantic",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "semantic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/PairedControlledVocabularyEntry"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/NATURE",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable_takesSentinelValuesFrom_SentinelValueDomain",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "takesSentinelValuesFrom"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SentinelValueDomain"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "RepresentedVariable_takesSentinelValuesFrom_SentinelValueDomain"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataSet-identifier",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataSet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "identifier"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/Identifier"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructure_has_DataStructureComponent",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructure"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DataStructure_has_DataStructureComponent"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/TimeRole",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition\n============\nTime-specific role given to a represented variable in the context of a data structure. The specific characterization of the role (e.g. event, valid, transaction, reference, etc.) may be given by a controlled vocabulary."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "TimeRole"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SpecializationRole"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/TimeRole-time",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/TimeRole"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "time"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ControlledVocabularyEntry"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain_references_CategorySet",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "references"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/CategorySet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "EnumerationDomain_references_CategorySet"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/OBS_STATUS",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/GEOGRAPHY",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionComponent"
+    ],
+    "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent-specialization": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/GeoRole"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalDataSet_has_DimensionalKey",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalDataSet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalKey"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DimensionalDataSet_has_DimensionalKey"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/SI_POV_DAY_1",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalDataSet"
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/MeasureComponent",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition \n============ \nRole given to a represented variable in the context of a data structure to hold the observed/derived values.  \n\nExamples \n========== \nHeight of a person in a wide or long dataset or number of citizens in a country in a dataset for multiple countries (dimensional dataset)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "MeasureComponent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalDataStructure_uses_DimensionGroup",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalDataStructure"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "uses"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionGroup"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DimensionalDataStructure_uses_DimensionGroup"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable_takesSubstantiveValuesFrom_SubstantiveValueDomain",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "takesSubstantiveValuesFrom"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SubstantiveValueDomain"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "RepresentedVariable_takesSubstantiveValuesFrom_SubstantiveValueDomain"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/GeoRole-geography",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/GeoRole"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "geography"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ControlledVocabularyEntry"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/GeoRole",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition\n============\nGeography-specific role given to a represented variable in the context of a data structure. The specific characterization of the role (e.g. reference, coordinates, etc.) may be given by a controlled vocabulary."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "GeoRole"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SpecializationRole"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataSet-catalogDetails",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataSet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "catalogDetails"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/CatalogDetails"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalDataSet",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition\n============\nOrganized collection of multidimensional data. It is structured by a dimensional data structure.\n\nExamples\n==========\nA dimensional dataset with Income values in each data point, where the dimensions organizing the data points are Sex and Marital Status.\n\nExplanatory notes\n===================\nSimilar to Structural N-Cube."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DimensionalDataSet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataSet"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/TIME_COVERAGE",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructure",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition \n============\nData organization based on reusable data structure components."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DataStructure"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable_isBasedOn_ConceptualVariable",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "isBasedOn"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ConceptualVariable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "RepresentedVariable_isBasedOn_ConceptualVariable"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataSet_has_DataPoint",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataSet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataPoint"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DataSet_has_DataPoint"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/IS_LATEST_PERIOD",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/UNIT_MEASURE",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain-name",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "name"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ObjectName"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/FOOT_NOTE",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/REPORTING_TYPE",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/SI_POV_DAY_1/DSD",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalDataStructure"
+    ],
+    "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/hasComponent": [
+      {
+        "@id": "http://data.un.org/metadata/sdg/VARIABLE"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/GEOGRAPHY"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/TIME_PERIOD"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/FREQ"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/SEX"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/OBS_VALUE"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/IS_LATEST_PERIOD"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/TIME_DETAIL"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/TIME_COVERAGE"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/VALUE_TYPE"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/UNIT_MEASURE"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/BASE_PERIOD"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/NATURE"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/SOURCE"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/FOOT_NOTE"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/REPORTING_TYPE"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/OBS_STATUS"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/RELEASE_STATUS"
+      },
+      {
+        "@id": "http://data.un.org/metadata/sdg/RELEASE_NAME"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/OBS_VALUE",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/MeasureComponent"
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalDataSet-name",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalDataSet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "name"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ObjectName"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionComponent_isStructuredBy_ValueDomain",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionComponent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "isStructuredBy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ValueDomain"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DimensionComponent_isStructuredBy_ValueDomain"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable-hasIntendedDataType",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "hasIntendedDataType"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ControlledVocabularyEntry"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain-purpose",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "purpose"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InternationalString"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataSet_has_Key",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataSet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/Key"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DataSet_has_Key"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/RELEASE_NAME",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SubstantiveValueDomain_takesValuesFrom_EnumerationDomain",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SubstantiveValueDomain"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "takesValuesFrom"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "SubstantiveValueDomain_takesValuesFrom_EnumerationDomain"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/RELEASE_STATUS",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/RepresentedVariable",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition \n========== \nConceptual variable with a substantive value domain specified.   \n\nExamples \n========== \nThe pair (Number of Employees, Integer), where \"Number of Employees\" is the characteristic of the population (variable) and \"Integer\" is how that measure will be represented (value domain).  \n\nExplanatory notes \n=================== \nExtends from conceptual variable and can contain all descriptive fields without creating a conceptual variable. By referencing a conceptual variable it can indicate a common relationship with represented variables expressing the same characteristic of a universe measured in another way, such as Age of Persons in hours rather than years. Represented variable constrains the coverage of the unit type to a specific universe. In the above case the universe with the measurement of Age in hours may be constrained to Persons under 5 days (120 hours old). Represented variable can define sentinel values for multiple storage systems which have the same conceptual domain but specialized value domains."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "RepresentedVariable"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain-identifier",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "identifier"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/Identifier"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataSet",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition \n============ \nOrganized collection of data based on keys."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DataSet"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/BASE_PERIOD",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructure_has_ForeignKey",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructure"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ForeignKey"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DataStructure_has_ForeignKey"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalDataSet_represents_ScopedMeasure",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalDataSet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "represents"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ScopedMeasure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DimensionalDataSet_represents_ScopedMeasure"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionalDataStructure",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition\n============\nStructure of a dimensional data set (organized collection of multidimensional data). It is described by dimension, measure and attribute components.\n\nExamples\n==========\nThe structure described by [City, Average Income, Total Population] where City is a dimension and Average Income and Total Population are measures."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DimensionalDataStructure"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructure"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SubstantiveValueDomain",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition \n==========\nValue domain for a substantive conceptual domain. Typically a description and/or enumeration of allowed values of interest.  \n\nExamples \n========\nAll real decimal numbers relating to the subject matter of interest between 0 and 1 specified in Arabic numerals. (From the Generic Statistical Information Model [GSIM] 1.1). The codes \"M\" male and \"F\" for female .   \n\nExplanatory notes \n=================\nIn DDI-CDI the value domain for a variable is separated into \"substantive\" and \"sentinel\" values. Substantive values are the values of primary interest. Sentinel values are additional values that may carry supplementary information, such as reasons for missing. This duality is described in ISO 11404. Substantive values for height might be real numbers expressed in meters. The full value domain might also include codes for different kinds of missing values - one code for \"refused\" and another for \"don’t know\". Sentinel values may also convey some substantive information and at the same time represent missing values.\n\nAn example might be where a numeric variable like number of employees be sometimes a count and sometimes a code representing a range of counts in order to avoid disclosure of information about a specific entity. The substantive value domain may use either a value description, for described values, or a codelist for enumerated values, or both. A value domain may consist of substantive values or sentinel values. Substantive values are those associated directly with some subject matter area. They do not address concerns around processing, such as missing values. Substantive values are called \"regular values\" in ISO/IEC 11404 - General Purpose Datatypes. The enumerated case is one where all values are listed.\n\nAn example is the categorical values for gender: the conceptual domain could consist of the concept of male and the concept of female. These might be represented in codes and associated labels as 1 (\"Male\") 2 (\"Female\"). The described case is one where some description is needed to define the set of values. Take the following description for height in meters: \"a real number between 0 and 3, represented to two Arabic decimal places\". This description might be structured in some way to be machine actionable (datatype=\"double”, min=\"0\", max=\"3\", decimals=\"2\")."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "SubstantiveValueDomain"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/SEX",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionComponent"
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataSet_isStructuredBy_DataStructure",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataSet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "isStructuredBy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DataSet_isStructuredBy_DataStructure"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable-physicalDataType",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "physicalDataType"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ControlledVocabularyEntry"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/MeasureComponent-name",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/MeasureComponent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "name"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ObjectName"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable-source",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "source"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/Reference"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SubstantiveValueDomain_isDescribedBy_ValueAndConceptDescription",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/SubstantiveValueDomain"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "isDescribedBy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ValueAndConceptDescription"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "SubstantiveValueDomain_isDescribedBy_ValueAndConceptDescription"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent_qualifies_DataStructureComponent",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/AttributeComponent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "qualifies"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "AttributeComponent_qualifies_DataStructureComponent"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.un.org/metadata/sdg/TIME_PERIOD",
+    "@type": [
+      "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DimensionComponent"
+    ],
+    "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent-specialization": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/TimeRole"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable-variableFunction",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/InstanceVariable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "variableFunction"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ControlledVocabularyEntry"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/DataStructureComponent",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Definition \n============ \nRole given to a represented variable in the context of a data structure.  \n\nExplanatory notes \n=================== \nA represented variable can have different roles in different data structures. For instance, the variable sex can be a measure in a wide data structure and a dimension in a dimensional data structure."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DataStructureComponent"
+      }
+    ]
+  },
+  {
+    "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain_isDefinedBy_Concept",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/EnumerationDomain"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "isDefinedBy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/Concept"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "EnumerationDomain_isDefinedBy_Concept"
+      }
     ]
   }
 ]
