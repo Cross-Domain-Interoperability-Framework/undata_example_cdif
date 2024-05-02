@@ -1,4 +1,5 @@
 venv/
 .env
 src/.ipynb_checkpoints/
+data/output/.ipynb_checkpoints/
 data/input/sdg/OBS/.ipynb_checkpoints/
