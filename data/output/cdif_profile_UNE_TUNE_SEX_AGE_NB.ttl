@@ -1,4 +1,5 @@
 @prefix cdi: <http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/> .
+@prefix ilo: <http://data.un.org/metadata/ilo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -161,6 +162,43 @@ cdi:TimeRole a rdfs:Class ;
 ============
 Time-specific role given to a represented variable in the context of a data structure. The specific characterization of the role (e.g. event, valid, transaction, reference, etc.) may be given by a controlled vocabulary."""@en ;
     rdfs:subClassOf cdi:SpecializationRole .
+
+ilo:DECIMALS a cdi:AttributeComponent .
+
+ilo:LOWER_BOUND a cdi:AttributeComponent .
+
+ilo:NOTE_CLASSIF a cdi:AttributeComponent .
+
+ilo:NOTE_INDICATOR a cdi:AttributeComponent .
+
+ilo:NOTE_SOURCE a cdi:AttributeComponent .
+
+ilo:OBS_STATUS a cdi:AttributeComponent .
+
+ilo:OBS_VALUE a cdi:MeasureComponent .
+
+ilo:SOURCE a cdi:AttributeComponent .
+
+ilo:UNE_TUNE_SEX_AGE_NB a cdi:DimensionalDataSet ;
+    cdi:DimensionalDataSet-name "Unemployment by sex and age (thousands)"@en,
+        "Desocupación según sexo y edad (miles)"@es,
+        "Chômage par sexe et âge (milliers)"@fr .
+
+<http://data.un.org/metadata/ilo/UNE_TUNE_SEX_AGE_NB/DSD> a cdi:DimensionalDataStructure ;
+    cdi:hasComponent ilo:AGE,
+        ilo:FREQ,
+        ilo:MEASURE,
+        ilo:REF_AREA,
+        ilo:SEX,
+        ilo:TIME_PERIOD .
+
+ilo:UNIT_MEASURE a cdi:AttributeComponent .
+
+ilo:UNIT_MEASURE_TYPE a cdi:AttributeComponent .
+
+ilo:UNIT_MULT a cdi:AttributeComponent .
+
+ilo:UPPER_BOUND a cdi:AttributeComponent .
 
 cdi:AttributeComponent_qualifies_DataStructureComponent a rdf:Property ;
     rdfs:label "qualifies" ;
@@ -411,4 +449,18 @@ cdi:TimeRole-time a rdf:Property ;
     rdfs:label "time" ;
     rdfs:domain cdi:TimeRole ;
     rdfs:range cdi:ControlledVocabularyEntry .
+
+ilo:AGE a cdi:DimensionComponent .
+
+ilo:FREQ a cdi:DimensionComponent .
+
+ilo:MEASURE a cdi:DimensionComponent .
+
+ilo:REF_AREA a cdi:DimensionComponent ;
+    cdi:DataStructureComponent-specialization cdi:GeoRole .
+
+ilo:SEX a cdi:DimensionComponent .
+
+ilo:TIME_PERIOD a cdi:DimensionComponent ;
+    cdi:DataStructureComponent-specialization cdi:TimeRole .
 
