@@ -686,9 +686,9 @@ Time-specific role given to a represented variable in the context of a data stru
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_AREA> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_AREA/CIV> a skos:Concept ;
-    rdfs:label "Côte dIvoire"@en,
+    rdfs:label "Côte d'Ivoire"@en,
         "Côte d'Ivoire"@es,
-        "Côte dIvoire"@fr ;
+        "Côte d'Ivoire"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_AREA> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_AREA/CMR> a skos:Concept ;
@@ -860,9 +860,9 @@ Time-specific role given to a represented variable in the context of a data stru
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_AREA> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_AREA/FLK> a skos:Concept ;
-    rdfs:label "Falkland Islands (Malvinas)"@en,
-        "Islas Malvinas (Falkland Islands)"@es,
-        "Îles Falkland (Malvinas)"@fr ;
+    rdfs:label "Falkland Islands, Malvinas"@en,
+        "Islas Malvinas, Falkland Islands"@es,
+        "Îles Falkland, Malvinas"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_AREA> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_AREA/FRA> a skos:Concept ;
@@ -1048,7 +1048,7 @@ Time-specific role given to a represented variable in the context of a data stru
 <http://data.un.org/metadata/ilo/Concept/CL_AREA/IRN> a skos:Concept ;
     rdfs:label "Iran (Islamic Republic of)"@en,
         "Irán (República Islámica del)"@es,
-        "Iran (République islamique d)"@fr ;
+        "Iran (République islamique d')"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_AREA> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_AREA/IRQ> a skos:Concept ;
@@ -2605,6 +2605,18 @@ Time-specific role given to a represented variable in the context of a data stru
         "Hebdomadaire"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_FREQ> .
 
+<http://data.un.org/metadata/ilo/Concept/CL_MEASURE/CCF_XOXR_RT> a skos:Concept ;
+    rdfs:label "Official exchange rate"@en,
+        "Tipo de cambio oficial"@es,
+        "Taux de change officiel"@fr ;
+    skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
+
+<http://data.un.org/metadata/ilo/Concept/CL_MEASURE/CCF_XPPP_RT> a skos:Concept ;
+    rdfs:label "PPP conversion factor, private consumption"@en,
+        "Factor de conversión PPA, consumo privado"@es,
+        "Facteur de conversion PPA, consommation privée"@fr ;
+    skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
+
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/CLD_TPOP_NB> a skos:Concept ;
     rdfs:label "Child population"@en,
         "Población infantil"@es,
@@ -2702,33 +2714,33 @@ Time-specific role given to a represented variable in the context of a data stru
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/CPI_ACPI_RT> a skos:Concept ;
-    rdfs:label "CPI, annual rate of change"@en,
-        "IPC, tasa de variación anual"@es,
-        "IPC, taux de variation annuel"@fr ;
+    rdfs:label "CPI annual rate of change"@en,
+        "IPC tasa de variación anual"@es,
+        "IPC taux de variation annuel"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/CPI_MCPI_RT> a skos:Concept ;
-    rdfs:label "CPI, monthly rate of change"@en,
-        "IPC, tasa de variación mensual"@es,
-        "IPC, taux de variation mensuelle"@fr ;
+    rdfs:label "CPI monthly rate of change"@en,
+        "IPC tasa de variación mensual"@es,
+        "IPC taux de variation mensuelle"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/CPI_NCPD_RT> a skos:Concept ;
-    rdfs:label "CPI, percentage change from previous period"@en,
-        "IPC, porcentaje de variación con respecto al período anterior"@es,
-        "IPC, variation en pourcentage de la période précédente"@fr ;
+    rdfs:label "CPI percentage change from previous period"@en,
+        "IPC porcentaje de variación con respecto al período anterior"@es,
+        "IPC variation en pourcentage de la période précédente"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/CPI_NCYR_RT> a skos:Concept ;
-    rdfs:label "CPI, percentage change from previous year"@en,
-        "IPC, porcentaje de variación con respecto al año anterior"@es,
-        "IPC, variation en pourcentage de l'année précédente"@fr ;
+    rdfs:label "CPI percentage change from previous year"@en,
+        "IPC porcentaje de variación con respecto al año anterior"@es,
+        "IPC variation en pourcentage de l'année précédente"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/CPI_NWGT_RT> a skos:Concept ;
-    rdfs:label "CPI, country weights"@en,
-        "IPC, ponderaciones de los países"@es,
-        "IPC, pondérations des pays"@fr ;
+    rdfs:label "CPI country weights"@en,
+        "IPC ponderaciones de los países"@es,
+        "IPC pondérations des pays"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/CPI_XCPI_RT> a skos:Concept ;
@@ -2738,69 +2750,69 @@ Time-specific role given to a represented variable in the context of a data stru
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EAP_2EAP_NB> a skos:Concept ;
-    rdfs:label "Labour force -- ILO modelled estimates"@en,
-        "Fuerza de trabajo -- Estimaciones modeladas de la OIT"@es,
-        "Main-d'oeuvre -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Labour force (ILO modelled estimates)"@en,
+        "Fuerza de trabajo (estimaciones modeladas de la OIT"@es,
+        "Main-d'oeuvre (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EAP_2MDN_NB> a skos:Concept ;
-    rdfs:label "Median age of the labour force -- ILO modelled estimates"@en,
-        "Edad media de la fuerza de trabajo -- Estimaciones modeladas de la OIT"@es,
-        "Age médian de la main-d'>>uvre -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Median age of the labour force (ILO modelled estimates)"@en,
+        "Edad media de la fuerza de trabajo (estimaciones modeladas de la OIT"@es,
+        "Age médian de la main-d'oeuvre (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EAP_2WAP_RT> a skos:Concept ;
-    rdfs:label "Labour force participation rate -- ILO modelled estimates"@en,
-        "Tasa de participación en la fuerza de trabajo, hombres -- Estimaciones modeladas de la OIT"@es,
-        "Taux de participation de la main-d'oeuvre -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Labour force participation rate (ILO modelled estimates)"@en,
+        "Tasa de participación en la fuerza de trabajo -- hombres (estimaciones modeladas de la OIT"@es,
+        "Taux de participation de la main-d'oeuvre (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EAP_3EAP_NB> a skos:Concept ;
-    rdfs:label "Youth labour force"@en,
-        "Fuerza de trabajo juvenil"@es,
-        "Main-d'oeuvre des jeunes"@fr ;
+    rdfs:label "Youth labour force (previous ILO definition)"@en,
+        "Fuerza de trabajo juvenil (definición anterior de la OIT)"@es,
+        "Main-d'oeuvre des jeunes (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EAP_3WAP_RT> a skos:Concept ;
-    rdfs:label "Youth labour force participation rate"@en,
-        "Tasa de participación en la fuerza de trabajo de los jóvenes"@es,
-        "Taux de participation de la main-d'oeuvre des jeunes"@fr ;
+    rdfs:label "Youth labour force participation rate (previous ILO definition)"@en,
+        "Tasa de participación en la fuerza de trabajo de los jóvenes (definición anterior de la OIT)"@es,
+        "Taux de participation de la main-d'oeuvre des jeunes (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EAP_5EAP_NB> a skos:Concept ;
-    rdfs:label "Labour force -- 19th ICLS"@en,
-        "Fuerza de trabajo -- 19 CIET"@es,
-        "Main-d'oeuvre -- 19e CIST"@fr ;
+    rdfs:label "Labour force (current ILO definition)"@en,
+        "Fuerza de trabajo (definición actual de la OIT)"@es,
+        "Main-d'oeuvre (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EAP_5WAP_RT> a skos:Concept ;
-    rdfs:label "Labour force participation rate -- 19th ICLS"@en,
-        "Tasa de participación en la fuerza de trabajo, hombres -- 19 CIET"@es,
-        "Taux de participation de la main-d'oeuvre -- 19e CIST"@fr ;
+    rdfs:label "Labour force participation rate (current ILO definition)"@en,
+        "Tasa de participación en la fuerza de trabajo (definición actual de la OIT)"@es,
+        "Taux de participation de la main-d'oeuvre (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EAP_DWA1_RT> a skos:Concept ;
-    rdfs:label "Labour force participation rate, seasonally adjusted series"@en,
-        "Tasa de participación en la fuerza de trabajo, series desestacionalizadas"@es,
-        "Taux de participation dans la main-d'oeuvre, séries corrigées des variations saisonnières"@fr ;
+    rdfs:label "Labour force participation rate, SA (previous ILO definition)"@en,
+        "Tasa de participación en la fuerza de trabajo, DES (definición anterior de la OIT)"@es,
+        "Taux de participation dans la main-d'oeuvre, CVS (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EAP_DWAP_RT> a skos:Concept ;
-    rdfs:label "Labour force participation rate"@en,
-        "Tasa de participación en la fuerza de trabajo"@es,
-        "Taux de participation de la main-d'oeuvre"@fr ;
+    rdfs:label "Labour force participation rate (previous ILO definition)"@en,
+        "Tasa de participación en la fuerza de trabajo (definición anterior de la OIT)"@es,
+        "Taux de participation de la main-d'oeuvre (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EAP_TEA1_NB> a skos:Concept ;
-    rdfs:label "Labour force, seasonally adjusted series"@en,
-        "Fuerza de trabajo, series desestacionalizadas"@es,
-        "Main-d'oeuvre, series corrigées des variations saisonnières"@fr ;
+    rdfs:label "Labour force, SA (previous ILO definition)"@en,
+        "Fuerza de trabajo, DES (definición anterior de la OIT)"@es,
+        "Main-d'oeuvre, CSV (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EAP_TEAP_NB> a skos:Concept ;
-    rdfs:label "Labour force"@en,
-        "Fuerza de trabajo"@es,
-        "Main-d'oeuvre"@fr ;
+    rdfs:label "Labour force (previous ILO definition)"@en,
+        "Fuerza de trabajo (definición anterior de la OIT)"@es,
+        "Main-d'oeuvre (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EAR_4HCR_NB> a skos:Concept ;
@@ -3008,411 +3020,411 @@ Time-specific role given to a represented variable in the context of a data stru
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_2EET_NB> a skos:Concept ;
-    rdfs:label "Youth not in employment, education or training (NEET) -- ILO modelled estimates"@en,
-        "Jóvenes que no están ocupados, ni estudian ni reciben formación -- Estimaciones modeladas de la OIT"@es,
-        "Jeunes qui ne sont ni en emploi, ni étudiants ni en formation -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Youth not in employment, education or training (ILO modelled estimates)"@en,
+        "Jóvenes que no están ocupados, ni estudian ni reciben formación (estimaciones modeladas de la OIT"@es,
+        "Jeunes qui ne sont ni en emploi, ni étudiants ni en formation (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_2EET_RT> a skos:Concept ;
-    rdfs:label "Share of youth not in employment, education or training (NEET) -- ILO modelled estimates"@en,
-        "Proporción de jóvenes que no están ocupados, ni estudian ni reciben formación -- Estimaciones modeladas de la OIT"@es,
-        "Proportion de jeunes qui ne sont ni en emploi, ni étudiants ni en formation -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Share of youth not in employment, education or training (ILO modelled estimates)"@en,
+        "Proporción de jóvenes que no están ocupados, ni estudian ni reciben formación (estimaciones modeladas de la OIT"@es,
+        "Proportion de jeunes qui ne sont ni en emploi, ni étudiants ni en formation (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_2EIP_NB> a skos:Concept ;
-    rdfs:label "Persons outside the labour force -- ILO modelled estimates"@en,
-        "Personas fuera de la fuerza de trabajo -- Estimaciones modeladas de la OIT"@es,
-        "Personnes hors main-d'oeuvre -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Persons outside the labour force (ILO modelled estimates)"@en,
+        "Personas fuera de la fuerza de trabajo (estimaciones modeladas de la OIT"@es,
+        "Personnes hors main-d'oeuvre (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_2JOB_NB> a skos:Concept ;
-    rdfs:label "Potential labour force and willing non-jobseekers -- ILO modelled estimates"@en,
-        "Fuerza de trabajo potencial y personas que no buscan empleo dispuestas -- Estimaciones modeladas de la OIT"@es,
-        "Main d'>uvre potentielle et non-demandeurs d'emploi volontaires -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Potential labour force and willing non-jobseekers (ILO modelled estimates)"@en,
+        "Fuerza de trabajo potencial y personas que no buscan empleo dispuestas (estimaciones modeladas de la OIT"@es,
+        "Main d'oeuvre potentielle et non-demandeurs d'emploi volontaires (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_2JOB_RT> a skos:Concept ;
-    rdfs:label "Potential labour force and willing non-jobseekers rate -- ILO modelled estimates"@en,
-        "Tasa de fuerza de trabajo potencial y no demandantes de empleo dispuestos -- Estimaciones modeladas de la OIT"@es,
-        "Main d'>uvre potentielle et taux de non-demandeurs d'emploi volontaires -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Potential labour force and willing non-jobseekers rate (ILO modelled estimates)"@en,
+        "Tasa de fuerza de trabajo potencial y no demandantes de empleo dispuestos (estimaciones modeladas de la OIT"@es,
+        "Main d'oeuvre potentielle et taux de non-demandeurs d'emploi volontaires (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_2PLF_NB> a skos:Concept ;
-    rdfs:label "Potential labour force -- ILO modelled estimates"@en,
-        "Fuerza de trabajo potencial -- Estimaciones modeladas de la OIT"@es,
-        "Main-d'oeuvre potentielle -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Potential labour force (ILO modelled estimates)"@en,
+        "Fuerza de trabajo potencial (estimaciones modeladas de la OIT"@es,
+        "Main-d'oeuvre potentielle (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_2PLF_RT> a skos:Concept ;
-    rdfs:label "Potential labour force rate -- ILO modelled estimates"@en,
-        "Tasa de la uerza de trabajo potencial -- Estimaciones modeladas de la OIT"@es,
-        "Taux de main-d'oeuvre potentielle -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Potential labour force rate (ILO modelled estimates)"@en,
+        "Tasa de la uerza de trabajo potencial (estimaciones modeladas de la OIT"@es,
+        "Taux de main-d'oeuvre potentielle (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_2WAP_RT> a skos:Concept ;
-    rdfs:label "Inactivity rate -- ILO modelled estimates"@en,
-        "Tasa de inactividad -- Estimaciones modeladas de la OIT"@es,
-        "Taux d'inactivité -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Inactivity rate (ILO modelled estimates)"@en,
+        "Tasa de inactividad (estimaciones modeladas de la OIT"@es,
+        "Taux d'inactivité (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_3DIS_NB> a skos:Concept ;
-    rdfs:label "Youth discouraged jobseekers"@en,
-        "Buscadores desalentados jóvenes"@es,
-        "Jeunes demandeurs d'emploi découragés"@fr ;
+    rdfs:label "Youth discouraged jobseekers (previous ILO definition)"@en,
+        "Buscadores desalentados jóvenes (definición anterior de la OIT)"@es,
+        "Jeunes demandeurs d'emploi découragés (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_3EIP_NB> a skos:Concept ;
-    rdfs:label "Youth outside the labour force"@en,
-        "Jóvenes fuera de la fuerza de trabajo"@es,
-        "Jeunes hors main-d'oeuvre"@fr ;
+    rdfs:label "Youth outside the labour force (previous ILO definition)"@en,
+        "Jóvenes fuera de la fuerza de trabajo (definición anterior de la OIT)"@es,
+        "Jeunes hors main-d'oeuvre (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_3WAP_RT> a skos:Concept ;
-    rdfs:label "Youth inactivity rate"@en,
-        "Tasa de inactividad juvenil"@es,
-        "Taux d'inactivité des jeunes"@fr ;
+    rdfs:label "Youth inactivity rate (previous ILO definition)"@en,
+        "Tasa de inactividad juvenil (definición anterior de la OIT)"@es,
+        "Taux d'inactivité des jeunes (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_5EET_NB> a skos:Concept ;
-    rdfs:label "Youth not in employment, education or training (NEET)  -- 19th ICLS"@en,
-        "Jóvenes que no están ocupados, ni estudian ni reciben formación -- 19 CIET"@es,
-        "Jeunes qui ne sont ni en emploi, ni étudiants ni en formation -- 19e CIST"@fr ;
+    rdfs:label "Youth not in employment, education or training (current ILO definition)"@en,
+        "Jóvenes que no están ocupados, ni estudian ni reciben formación (definición actual de la OIT)"@es,
+        "Jeunes qui ne sont ni en emploi, ni étudiants ni en formation (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_5EET_RT> a skos:Concept ;
-    rdfs:label "Share of youth not in employment, education or training (NEET)  -- 19th ICLS"@en,
-        "Proporción de jóvenes que no están ocupados, ni estudian ni reciben formación -- 19 CIET"@es,
-        "Proportion de jeunes qui ne sont ni en emploi, ni étudiants ni en formation -- 19e CIST"@fr ;
+    rdfs:label "Share of youth not in employment, education or training (current ILO definition)"@en,
+        "Proporción de jóvenes que no están ocupados, ni estudian ni reciben formación (definición actual de la OIT)"@es,
+        "Proportion de jeunes qui ne sont ni en emploi, ni étudiants ni en formation (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_5EIP_NB> a skos:Concept ;
-    rdfs:label "Persons outside the labour force -- 19th ICLS"@en,
-        "Personas fuera de la fuerza de trabajo -- 19 CIET"@es,
-        "Personnes hors main-d'oeuvre -- 19e CIST"@fr ;
+    rdfs:label "Persons outside the labour force (current ILO definition)"@en,
+        "Personas fuera de la fuerza de trabajo (definición actual de la OIT)"@es,
+        "Personnes hors main-d'oeuvre (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_5PLF_NB> a skos:Concept ;
-    rdfs:label "Potential labour force -- 19th ICLS"@en,
-        "Fuerza de trabajo potencial -- 19 CIET"@es,
-        "Main-d'oeuvre potentielle -- 19e CIST"@fr ;
+    rdfs:label "Potential labour force (current ILO definition)"@en,
+        "Fuerza de trabajo potencial (definición actual de la OIT)"@es,
+        "Main-d'oeuvre potentielle (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_5WAP_RT> a skos:Concept ;
-    rdfs:label "Inactivity rate -- 19th ICLS"@en,
-        "Tasa de inactividad -- 19 CIET"@es,
-        "Taux d'inactivité -- 19e CIST"@fr ;
+    rdfs:label "Inactivity rate (current ILO definition)"@en,
+        "Tasa de inactividad (definición actual de la OIT)"@es,
+        "Taux d'inactivité (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_DWAP_RT> a skos:Concept ;
-    rdfs:label "Inactivity rate"@en,
-        "Tasa de inactividad"@es,
-        "Taux d'inactivité"@fr ;
+    rdfs:label "Inactivity rate (previous ILO definition)"@en,
+        "Tasa de inactividad (definición anterior de la OIT)"@es,
+        "Taux d'inactivité (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_NEET_NB> a skos:Concept ;
-    rdfs:label "Youth not in employment, education or training (NEET)"@en,
-        "Jóvenes que no están ocupados, ni estudian ni reciben formación"@es,
-        "Jeunes qui ne sont ni en emploi, ni étudiants ni en formation"@fr ;
+    rdfs:label "Youth not in employment, education or training (previous ILO definition)"@en,
+        "Jóvenes que no están ocupados, ni estudian ni reciben formación (definición anterior de la OIT)"@es,
+        "Jeunes qui ne sont ni en emploi, ni étudiants ni en formation (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_NEET_RT> a skos:Concept ;
-    rdfs:label "Share of youth not in employment, education or training (NEET)"@en,
-        "Proporción de jóvenes que no están ocupados, ni estudian ni reciben formación"@es,
-        "Proportion de jeunes qui ne sont ni en emploi, ni étudiants ni en formation"@fr ;
+    rdfs:label "Share of youth not in employment, education or training (previous ILO definition)"@en,
+        "Proporción de jóvenes que no están ocupados, ni estudian ni reciben formación (definición anterior de la OIT)"@es,
+        "Proportion de jeunes qui ne sont ni en emploi, ni étudiants ni en formation (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_TEIP_NB> a skos:Concept ;
-    rdfs:label "Persons outside the labour force"@en,
-        "Personas fuera de la fuerza de trabajo"@es,
-        "Personnes hors main-d'oeuvre"@fr ;
+    rdfs:label "Persons outside the labour force (previous ILO definition)"@en,
+        "Personas fuera de la fuerza de trabajo (definición anterior de la OIT)"@es,
+        "Personnes hors main-d'oeuvre (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_WDIS_NB> a skos:Concept ;
-    rdfs:label "Discouraged jobseekers"@en,
-        "Buscadores desalentados"@es,
-        "Demandeurs d'emploi découragés"@fr ;
+    rdfs:label "Discouraged jobseekers (previous ILO definition)"@en,
+        "Buscadores desalentados (definición anterior de la OIT)"@es,
+        "Demandeurs d'emploi découragés (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_WPLF_NB> a skos:Concept ;
-    rdfs:label "Potential labour force"@en,
-        "Fuerza de trabajo potencial"@es,
-        "Main-d'oeuvre potentielle"@fr ;
+    rdfs:label "Potential labour force (previous ILO definition)"@en,
+        "Fuerza de trabajo potencial (definición anterior de la OIT)"@es,
+        "Main-d'oeuvre potentielle (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_XJOB_NB> a skos:Concept ;
-    rdfs:label "Potential labour force and willing non-jobseekers"@en,
-        "Fuerza de trabajo potencial y personas que no buscan empleo dispuestas"@es,
-        "Main d'oeuvre potentielle et non-demandeurs d'emploi volontaires"@fr ;
+    rdfs:label "Potential labour force and willing non-jobseekers (previous ILO definition)"@en,
+        "Fuerza de trabajo potencial y personas que no buscan empleo dispuestas (definición anterior de la OIT)"@es,
+        "Main d'oeuvre potentielle et non-demandeurs d'emploi volontaires (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EIP_XJOB_RT> a skos:Concept ;
-    rdfs:label "Potential labour force and willing non-jobseekers rate"@en,
-        "Tasa de fuerza de trabajo potencial y no demandantes de empleo dispuestos"@es,
-        "Main d'oeuvre potentielle et taux de non-demandeurs d'emploi volontaires"@fr ;
+    rdfs:label "Potential labour force and willing non-jobseekers rate (previous ILO definition)"@en,
+        "Tasa de fuerza de trabajo potencial y no demandantes de empleo dispuestos (definición anterior de la OIT)"@es,
+        "Main d'oeuvre potentielle et taux de non-demandeurs d'emploi volontaires (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_2EMP_NB> a skos:Concept ;
-    rdfs:label "Employment -- ILO modelled estimates"@en,
-        "Ocupación -- Estimaciones modeladas de la OIT"@es,
-        "Emploi -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Employment (ILO modelled estimates)"@en,
+        "Ocupación (estimaciones modeladas de la OIT"@es,
+        "Emploi (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_2FTE_NB> a skos:Concept ;
-    rdfs:label "Number of full-time equivalent jobs"@en,
-        "Horas de trabajo perdidas debido a la crisis de COVID-19, expresadas como número de empleos FTE -- Estimaciones modeladas de la OIT"@es,
-        "Heures de travail perdues en raison de la crise du COVID-19, exprimées en nombre d'emplois ETP - Estimations modélisées du BIT"@fr ;
+    rdfs:label "Full-time equivalent employment (ILO modelled estimates)"@en,
+        "Ocupación equivalente a tiempo completo (estimaciones modeladas de la OIT)"@es,
+        "Emploi en équivalent temps plein (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_2IFL_NB> a skos:Concept ;
-    rdfs:label "Informal employment -- ILO modelled estimates"@en,
-        "Ocupación informal -- Estimaciones modeladas de la OIT"@es,
-        "Emploi informel -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Informal employment (ILO modelled estimates)"@en,
+        "Ocupación informal (estimaciones modeladas de la OIT"@es,
+        "Emploi informel (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_2IFL_RT> a skos:Concept ;
-    rdfs:label "Informal employment rate -- ILO modelled estimates"@en,
-        "Tasa de la ocupación informal -- Estimaciones modeladas de la OIT"@es,
-        "Taux d'emploi informel -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Informal employment rate (ILO modelled estimates)"@en,
+        "Tasa de la ocupación informal (estimaciones modeladas de la OIT"@es,
+        "Taux d'emploi informel (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_2TRU_NB> a skos:Concept ;
-    rdfs:label "Time-related underemployment -- ILO modelled estimates"@en,
-        "Personas en subocupación por insuficiencia de tiempo de trabajo -- Estimaciones modeladas de la OIT, Noviembre 2019"@es,
+    rdfs:label "Time-related underemployment (ILO modelled estimates)"@en,
+        "Personas en subocupación por insuficiencia de tiempo de trabajo (estimaciones modeladas de la OIT -- Noviembre 2019"@es,
         "Sous-emploi lié à la durée du travail -- Estimations modelisees du BIT"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_2TRU_RT> a skos:Concept ;
-    rdfs:label "Time-related underemployment rate -- ILO modelled estimates"@en,
-        "Tasa de subocupación por insuficiencia de tiempo de trabajo -- Estimaciones modeladas de la OIT"@es,
-        "Taux de sous-emploi lié à la durée du travail -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Time-related underemployment rate (ILO modelled estimates)"@en,
+        "Tasa de subocupación por insuficiencia de tiempo de trabajo (estimaciones modeladas de la OIT"@es,
+        "Taux de sous-emploi lié à la durée du travail (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_2WAP_RT> a skos:Concept ;
-    rdfs:label "Employment-to-population ratio -- ILO modelled estimates"@en,
-        "Tasa de ocupación -- Estimaciones modeladas de la OIT"@es,
-        "Ratio emploi-population en âge de travailler -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Employment-to-population ratio (ILO modelled estimates)"@en,
+        "Tasa de ocupación (estimaciones modeladas de la OIT"@es,
+        "Ratio emploi-population en âge de travailler (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_3EMP_NB> a skos:Concept ;
-    rdfs:label "Youth employment"@en,
-        "Ocupación des los jóvenes"@es,
-        "Emploi des jeunes"@fr ;
+    rdfs:label "Youth employment (previous ILO definition)"@en,
+        "Ocupación des los jóvenes (definición anterior de la OIT)"@es,
+        "Emploi des jeunes (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_3WAP_RT> a skos:Concept ;
-    rdfs:label "Youth employment-to-population ratio"@en,
-        "Razón ocupación-población en edad de trabajar de los jóvenes"@es,
-        "Ratio emploi-population en âge de travailler des jeunes"@fr ;
+    rdfs:label "Youth employment-to-population ratio (previous ILO definition)"@en,
+        "Razón ocupación-población en edad de trabajar de los jóvenes (definición anterior de la OIT)"@es,
+        "Ratio emploi-population en âge de travailler des jeunes (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_5EMP_NB> a skos:Concept ;
-    rdfs:label "Employment -- 19th ICLS"@en,
-        "Ocupación -- 19 CIET"@es,
-        "Emploi -- 19e CIST"@fr ;
+    rdfs:label "Employment (current ILO definition)"@en,
+        "Ocupación (definición actual de la OIT)"@es,
+        "Emploi (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_5NIF_NB> a skos:Concept ;
-    rdfs:label "Informal employment -- 19th ICLS"@en,
-        "Ocupación informal -- 19 CIET"@es,
-        "Emploi informel -- 19e CIST"@fr ;
+    rdfs:label "Informal employment (current ILO definition)"@en,
+        "Ocupación informal (definición actual de la OIT)"@es,
+        "Emploi informel (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_5NIF_RT> a skos:Concept ;
-    rdfs:label "Informal employment rate -- 19th ICLS"@en,
-        "Tasa de la ocupación informal -- 19 CIET"@es,
-        "Taux d'emploi informel -- 19e CIST"@fr ;
+    rdfs:label "Informal employment rate (current ILO definition)"@en,
+        "Tasa de la ocupación informal (definición actual de la OIT)"@es,
+        "Taux d'emploi informel (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_5PIF_NB> a skos:Concept ;
-    rdfs:label "Employment outside the formal sector -- 19th ICLS"@en,
-        "Ocupación fuera del sector formal -- 19 CIET"@es,
-        "Emploi en dehors du secteur formel -- 19e CIST"@fr ;
+    rdfs:label "Employment outside the formal sector (current ILO definition)"@en,
+        "Ocupación fuera del sector formal (definición actual de la OIT)"@es,
+        "Emploi en dehors du secteur formel (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_5PIF_RT> a skos:Concept ;
-    rdfs:label "Share of employment outside the formal sector -- 19th ICLS"@en,
-        "Proporción de la ocupación fuera del sector formal -- 19 CIET"@es,
-        "Part de l'emploi en dehors du secteur formel -- 19e CIST"@fr ;
+    rdfs:label "Share of employment outside the formal sector (current ILO definition)"@en,
+        "Proporción de la ocupación fuera del sector formal (definición actual de la OIT)"@es,
+        "Part de l'emploi en dehors du secteur formel (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_5WAP_RT> a skos:Concept ;
-    rdfs:label "Employment-to-population ratio -- 19th ICLS"@en,
-        "Tasa de ocupación -- 19 CIET"@es,
-        "Ratio emploi-population en âge de travailler -- 19e CIST"@fr ;
+    rdfs:label "Employment-to-population ratio (current ILO definition)"@en,
+        "Tasa de ocupación (definición actual de la OIT)"@es,
+        "Ratio emploi-population en âge de travailler (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_CARE_NB> a skos:Concept ;
-    rdfs:label "Care employment"@en,
-        "Ocupación en actividades de cuidados"@es,
-        "Emploi dans les activités de soins"@fr ;
+    rdfs:label "Care employment (previous ILO definition)"@en,
+        "Ocupación en actividades de cuidados (definición anterior de la OIT)"@es,
+        "Emploi dans les activités de soins (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_CNIF_NB> a skos:Concept ;
-    rdfs:label "Informal care employment"@en,
-        "Ocupación informal en actividades de cuidados"@es,
-        "Emploi informel dans les activités de soins"@fr ;
+    rdfs:label "Informal care employment (previous ILO definition)"@en,
+        "Ocupación informal en actividades de cuidados (definición anterior de la OIT)"@es,
+        "Emploi informel dans les activités de soins (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_CNIF_RT> a skos:Concept ;
-    rdfs:label "Informal care employment rate"@en,
-        "Tasa de la ocupación informal en actividades de cuidados"@es,
-        "Taux d'emploi informel dans les activités de soins"@fr ;
+    rdfs:label "Informal care employment rate (previous ILO definition)"@en,
+        "Tasa de la ocupación informal en actividades de cuidados (definición anterior de la OIT)"@es,
+        "Taux d'emploi informel dans les activités de soins (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_CPIF_NB> a skos:Concept ;
-    rdfs:label "Care employment outside the formal sector"@en,
-        "Ocupación en actividades de cuidados fuera del sector formal"@es,
-        "Emploi dans les activités de soins en dehors du secteur formel"@fr ;
+    rdfs:label "Care employment outside the formal sector (previous ILO definition)"@en,
+        "Ocupación en actividades de cuidados fuera del sector formal (definición anterior de la OIT)"@es,
+        "Emploi dans les activités de soins en dehors du secteur formel (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_CPIF_RT> a skos:Concept ;
-    rdfs:label "Share of care employment outside the formal sector"@en,
-        "Proporción de la ocupación en actividades de cuidados fuera del sector formal"@es,
-        "Part de l'emploi dans les activités de soins en dehors du secteur formel"@fr ;
+    rdfs:label "Share of care employment outside the formal sector (previous ILO definition)"@en,
+        "Proporción de la ocupación en actividades de cuidados fuera del sector formal (definición anterior de la OIT)"@es,
+        "Part de l'emploi dans les activités de soins en dehors du secteur formel (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_DWA1_RT> a skos:Concept ;
-    rdfs:label "Employment-to-population ratio, seasonally adjusted series"@en,
-        "Razón ocupación-población en edad de trabajar, series desestacionalizadas"@es,
-        "Ratio emploi-population en âge de travailler, séries corrigées des variations saisonnières"@fr ;
+    rdfs:label "Employment-to-population ratio, SA (previous ILO definition)"@en,
+        "Razón ocupación-población en edad de trabajar, DES (definición anterior de la OIT)"@es,
+        "Ratio emploi-population en âge de travailler, CVS (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_DWAP_RT> a skos:Concept ;
-    rdfs:label "Employment-to-population ratio"@en,
-        "Razón ocupación-población en edad de trabajar"@es,
-        "Ratio emploi-population en âge de travailler"@fr ;
+    rdfs:label "Employment-to-population ratio (previous ILO definition)"@en,
+        "Razón ocupación-población en edad de trabajar (definición anterior de la OIT)"@es,
+        "Ratio emploi-population en âge de travailler (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_NIFL_NB> a skos:Concept ;
-    rdfs:label "Informal employment"@en,
-        "Ocupación informal"@es,
-        "Emploi informel"@fr ;
+    rdfs:label "Informal employment (previous ILO definition)"@en,
+        "Ocupación informal (definición anterior de la OIT)"@es,
+        "Emploi informel (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_NIFL_RT> a skos:Concept ;
-    rdfs:label "Informal employment rate"@en,
-        "Tasa de la ocupación informal"@es,
-        "Taux d'emploi informel"@fr ;
+    rdfs:label "Informal employment rate (previous ILO definition)"@en,
+        "Tasa de la ocupación informal (definición anterior de la OIT)"@es,
+        "Taux d'emploi informel (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_NORM_NB> a skos:Concept ;
-    rdfs:label "Employment"@en,
-        "Ocupación"@es,
-        "Emploi"@fr ;
+    rdfs:label "Employment by educational mismatch (using normative approach) (previous ILO definition)"@en,
+        "Ocupación según desajuste del nivel educativo (enfoque normativo) (definición anterior de la OIT)"@es,
+        "Emploi par inadéquation du niveau éducatif (approche normative) (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_PIFL_NB> a skos:Concept ;
-    rdfs:label "Employment outside the formal sector"@en,
-        "Ocupación fuera del sector formal"@es,
-        "Emploi en dehors du secteur formel"@fr ;
+    rdfs:label "Employment outside the formal sector (previous ILO definition)"@en,
+        "Ocupación fuera del sector formal (definición anterior de la OIT)"@es,
+        "Emploi en dehors du secteur formel (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_PIFL_RT> a skos:Concept ;
-    rdfs:label "Share of employment outside the formal sector"@en,
-        "Proporción de la ocupación fuera del sector formal"@es,
-        "Part de l'emploi en dehors du secteur formel"@fr ;
+    rdfs:label "Share of employment outside the formal sector (previous ILO definition)"@en,
+        "Proporción de la ocupación fuera del sector formal (definición anterior de la OIT)"@es,
+        "Part de l'emploi en dehors du secteur formel (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_PTER_RT> a skos:Concept ;
-    rdfs:label "Part-time employment rate -- Common definition"@en,
-        "Tasa de ocupación a tiempo parcial -- Definición común"@es,
-        "Taux d'emploi à temps partiel -- Définition commune"@fr ;
+    rdfs:label "Part-time (defined as less than 35 actual weekly hours) employment rate (previous ILO definition)"@en,
+        "Tasa de ocupación a tiempo parcial (definido como menos de 35 horas de trabajo efectuadas por semana) (definición anterior de la OIT)"@es,
+        "Taux d'emploi à temps partiel (défini comme moins de 35 heures effectuées par semaine) (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_PUBL_NB> a skos:Concept ;
-    rdfs:label "Public sector employment"@en,
-        "Ocupación en el sector público"@es,
-        "Emploi dans le secteur public"@fr ;
+    rdfs:label "Public sector employment (previous ILO definition)"@en,
+        "Ocupación en el sector público (definición anterior de la OIT)"@es,
+        "Emploi dans le secteur public (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_SNIF_NB> a skos:Concept ;
-    rdfs:label "Informal employment in STEM occupations"@en,
-        "Ocupación informal en profesiones STEM"@es,
-        "Emploi informel dans les professions STIM"@fr ;
+    rdfs:label "Informal employment in STEM occupations (previous ILO definition)"@en,
+        "Ocupación informal en profesiones STEM (definición anterior de la OIT)"@es,
+        "Emploi informel dans les professions STIM (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_SNIF_RT> a skos:Concept ;
-    rdfs:label "Informal employment in STEM occupations rate"@en,
-        "Tasa de la ocupación informal en profesiones STEM"@es,
-        "Taux d'emploi informel dans les professions STIM"@fr ;
+    rdfs:label "Informal employment in STEM occupations rate (previous ILO definition)"@en,
+        "Tasa de la ocupación informal en profesiones STEM (definición anterior de la OIT)"@es,
+        "Taux d'emploi informel dans les professions STIM (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_SPIF_NB> a skos:Concept ;
-    rdfs:label "Employment in STEM occupations outside the formal sector"@en,
-        "Ocupación en profesiones STEM fuera del sector formal"@es,
-        "Emploi dans les professions STIM en dehors du secteur formel"@fr ;
+    rdfs:label "Employment in STEM occupations outside the formal sector (previous ILO definition)"@en,
+        "Ocupación en profesiones STEM fuera del sector formal (definición anterior de la OIT)"@es,
+        "Emploi dans les professions STIM en dehors du secteur formel (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_SPIF_RT> a skos:Concept ;
-    rdfs:label "Share of employment in STEM occupations outside the formal sector"@en,
-        "Proporción de la ocupación en profesiones STEM fuera del sector formal"@es,
-        "Part de l'emploi dans les professions STIM en dehors du secteur formel"@fr ;
+    rdfs:label "Share of employment in STEM occupations outside the formal sector (previous ILO definition)"@en,
+        "Proporción de la ocupación en profesiones STEM fuera del sector formal (definición anterior de la OIT)"@es,
+        "Part de l'emploi dans les professions STIM en dehors du secteur formel (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_STAT_NB> a skos:Concept ;
-    rdfs:label "Employment"@en,
-        "Ocupación"@es,
-        "Emploi"@fr ;
+    rdfs:label "Employment by educational mismatch (using statistical approach) (previous ILO definition)"@en,
+        "Ocupación según desajuste del nivel educativo (enfoque estadístico) (definición anterior de la OIT)"@es,
+        "Emploi par inadéquation du niveau éducatif (approche statistique) (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_STEM_NB> a skos:Concept ;
-    rdfs:label "Employment in STEM occupations"@en,
-        "Ocupación en profesiones STEM"@es,
-        "Emploi dans les professions STIM"@fr ;
+    rdfs:label "Employment in STEM occupations (previous ILO definition)"@en,
+        "Ocupación en profesiones STEM (definición anterior de la OIT)"@es,
+        "Emploi dans les professions STIM (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_TEM1_NB> a skos:Concept ;
-    rdfs:label "Employment, seasonally adjusted series"@en,
-        "Ocupación, series desestacionalizadas"@es,
-        "Emploi, series corrigées des variations saisonnières"@fr ;
+    rdfs:label "Employment, SA (previous ILO definition)"@en,
+        "Ocupación, DES (definición anterior de la OIT)"@es,
+        "Emploi, CSV (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_TEMP_NB> a skos:Concept ;
-    rdfs:label "Employment"@en,
-        "Ocupación"@es,
-        "Emploi"@fr ;
+    rdfs:label "Employment (previous ILO definition)"@en,
+        "Ocupación (definición anterior de la OIT)"@es,
+        "Emploi (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_TNIF_NB> a skos:Concept ;
-    rdfs:label "Informal tourism sector employment"@en,
-        "Ocupación informal en el sector turístico"@es,
-        "Emploi informel dans le secteur du tourisme"@fr ;
+    rdfs:label "Informal tourism sector employment (previous ILO definition)"@en,
+        "Ocupación informal en el sector turístico (definición anterior de la OIT)"@es,
+        "Emploi informel dans le secteur du tourisme (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_TNIF_RT> a skos:Concept ;
-    rdfs:label "Informal tourism sector employment rate"@en,
-        "Tasa de la ocupación informal en el sector turístico"@es,
-        "Taux d'emploi informel dans le secteur du tourisme"@fr ;
+    rdfs:label "Informal tourism sector employment rate (previous ILO definition)"@en,
+        "Tasa de la ocupación informal en el sector turístico (definición anterior de la OIT)"@es,
+        "Taux d'emploi informel dans le secteur du tourisme (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_TOUR_NB> a skos:Concept ;
-    rdfs:label "Tourism sector employment"@en,
-        "Ocupación en el sector turístico"@es,
-        "Emploi dans le secteur du tourisme"@fr ;
+    rdfs:label "Tourism sector employment (previous ILO definition)"@en,
+        "Ocupación en el sector turístico (definición anterior de la OIT)"@es,
+        "Emploi dans le secteur du tourisme (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_TPIF_NB> a skos:Concept ;
-    rdfs:label "Tourism sector employment outside the formal sector"@en,
-        "Ocupación en el sector turístico fuera del sector formal"@es,
-        "Emploi dans le secteur du tourisme en dehors du secteur formel"@fr ;
+    rdfs:label "Tourism sector employment outside the formal sector (previous ILO definition)"@en,
+        "Ocupación en el sector turístico fuera del sector formal (definición anterior de la OIT)"@es,
+        "Emploi dans le secteur du tourisme en dehors du secteur formel (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/EMP_TPIF_RT> a skos:Concept ;
-    rdfs:label "Share of tourism sector employment outside the formal sector"@en,
-        "Proporción de la ocupación en el sector turísticofuera del sector formal"@es,
-        "Part de l'emploi dans le secteur du tourisme en dehors du secteur formel"@fr ;
+    rdfs:label "Share of tourism sector employment outside the formal sector (previous ILO definition)"@en,
+        "Proporción de la ocupación en el sector turísticofuera del sector formal (definición anterior de la OIT)"@es,
+        "Part de l'emploi dans le secteur du tourisme en dehors du secteur formel (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/FOW_5SFP_NB> a skos:Concept ;
-    rdfs:label "Subsistence foodstuff producers -- 19th ICLS"@en,
-        "Productores de alimentos de subsistencia -- 19 CIET"@es,
-        "Producteurs d'aliments de subsistance -- 19e CIST"@fr ;
+    rdfs:label "Subsistence foodstuff producers (current ILO definition)"@en,
+        "Productores de alimentos de subsistencia (definición actual de la OIT)"@es,
+        "Producteurs d'aliments de subsistance (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/FOW_5SFP_RT> a skos:Concept ;
-    rdfs:label "Subsistence foodstuff production rate -- 19th ICLS"@en,
-        "Tasa de producción de alimentos de subsistencia -- 19 CIET"@es,
-        "Taux de production d'aliments de subsistance -- 19e CIST"@fr ;
+    rdfs:label "Subsistence foodstuff production rate (current ILO definition)"@en,
+        "Tasa de producción de alimentos de subsistencia (definición actual de la OIT)"@es,
+        "Taux de production d'aliments de subsistance (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/FOW_TVOL_NB> a skos:Concept ;
@@ -3428,39 +3440,39 @@ Time-specific role given to a represented variable in the context of a data stru
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GDP_205U_NB> a skos:Concept ;
-    rdfs:label "Output per worker (GDP constant 2015 US $) -- ILO modelled estimates"@en,
-        "Producción por trabajador (PIB en $ dólares constantes de 2015 US $) -- Estimaciones modeladas de la OIT"@es,
-        "Production par travailleur (PIB en $ dollars constants de 2015 US $) -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "GDP (in constant 2015 US $) per worker (ILO modelled estimates)"@en,
+        "PIB (en dólares estadounidenses constantes de 2015) por trabajador (estimaciones modeladas de la OIT)"@es,
+        "PIB (en dollars américains constants de 2015) par travailleur (estimations modélisées de l'OIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GDP_211P_NB> a skos:Concept ;
-    rdfs:label "Output per worker (GDP constant 2017 international $ at PPP) -- ILO modelled estimates"@en,
-        "Producción por trabajador (PIB en $ dólares internacionales constantes de 2017 en PPA) -- Estimaciones modeladas de la OIT"@es,
-        "Production par travailleur (PIB en $ dollars internationaux constants de 2017 à la PPA) -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "GDP (in constant 2017 PPP $) per worker (ILO modelled estimates)"@en,
+        "PIB (en dólares PPA constantes de 2017) por trabajador (estimaciones modeladas de la OIT"@es,
+        "PIB (en dollars PPA constants de 2017) par travailleur (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GDP_2HRW_NB> a skos:Concept ;
-    rdfs:label "Output per hour worked (GDP constant 2017 international $ at PPP) -- ILO modelled estimates"@en,
-        "Producción por hora trabajada (PIB en $ dólares internacionales constantes de 2017 en PPA) -- Estimaciones modeladas de la OIT"@es,
-        "Production par heure travaillée (PIB en $ dollars internationaux constants de 2017 à la PPA) -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "GDP (in constant 2017 PPP $) per hour worked (ILO modelled estimates)"@en,
+        "PIB (en dólares PPA constantes de 2017) por hora trabajada (estimaciones modeladas de la OIT"@es,
+        "PIB (en dollars PPA constants de 2017) par heure travaillée (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GDP_2TOT_NB> a skos:Concept ;
-    rdfs:label "Real Gross Domestic Product (GDP) -- ILO modelled estimates"@en,
-        "Producto Interno Bruto (PIB) real -- Estimaciones modeladas de la OIT"@es,
-        "Produit intérieur brut (PIB) réel -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Real GDP (ILO modelled estimates)"@en,
+        "PIB real (estimaciones modeladas de la OIT"@es,
+        "PIB réel (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GED_2LFP_NB> a skos:Concept ;
-    rdfs:label "Prime-age labour force participation of couple households with children under 6 -- ILO modelled estimates"@en,
-        "Participación en la fuerza de trabajo para personas de 25 a 54 años, parejas con niños de menos de 6 años -- Estimaciones modeladas de la OIT"@es,
-        "Participation de la main-d'oeuvre des personnes agées de 25 à 54 ans, couples avec enfants de moins de 6 ans -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Prime-age labour force (ILO modelled estimates)"@en,
+        "Fuerza de trabajo para personas de 25 a 54 años (estimaciones modeladas de la OIT"@es,
+        "Main-d'oeuvre des personnes agées de 25 à 54 ans (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GED_2LFP_RT> a skos:Concept ;
-    rdfs:label "Prime-age labour force participation rate -- ILO modelled estimates"@en,
-        "Tasa de participación en la fuerza de trabajo para personas de 25 a 54 años -- Estimaciones modeladas de la OIT"@es,
-        "Taux de participation de la main-d'oeuvre des personnes agées de 25 à 54 ans -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Prime-age labour force participation rate (ILO modelled estimates)"@en,
+        "Tasa de participación en la fuerza de trabajo para personas de 25 a 54 años (estimaciones modeladas de la OIT"@es,
+        "Taux de participation de la main-d'oeuvre des personnes agées de 25 à 54 ans (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GED_PEAR_NB> a skos:Concept ;
@@ -3470,153 +3482,153 @@ Time-specific role given to a represented variable in the context of a data stru
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GED_PEPR_RT> a skos:Concept ;
-    rdfs:label "Prime-age employment-to-population ratio"@en,
-        "Relación ocupación-poblaciónpara personas de 25 a 54 años"@es,
-        "Ratio emploi-population en âge de travailler des personnes agées de 25 à 54 ans"@fr ;
+    rdfs:label "Prime-age employment-to-population ratio (previous ILO definition)"@en,
+        "Relación ocupación-población para personas de 25 a 54 años (definición anterior de la OIT)"@es,
+        "Ratio emploi-population des personnes agées de 25 à 54 ans (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GED_PHOW_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours actually worked of employed prime-age household members"@en,
-        "Promedio de horas semanales realmente trabajadas de personas empleadas de 25 a 54 años"@es,
-        "Heures hebdomadaires moyennes effectivement travaillées des personnes agées de 25 à 54 ans"@fr ;
+    rdfs:label "Mean weekly hours actually worked of employed prime-age household members (previous ILO definition)"@en,
+        "Promedio de horas semanales realmente trabajadas de personas empleadas de 25 a 54 años (definición anterior de la OIT)"@es,
+        "Heures hebdomadaires moyennes effectivement travaillées des personnes agées de 25 à 54 ans (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GED_PLFP_RT> a skos:Concept ;
-    rdfs:label "Prime-age labour force participation rate"@en,
-        "Tasa de participación en la fuerza de trabajo para personas de 25 a 54 años"@es,
-        "Taux de participation de la main-d'>uvre des personnes agées de 25 à 54 ans"@fr ;
+    rdfs:label "Prime-age labour force participation rate (previous ILO definition)"@en,
+        "Tasa de participación en la fuerza de trabajo para personas de 25 a 54 años (definición anterior de la OIT)"@es,
+        "Taux de participation de la main-d'oeuvre des personnes agées de 25 à 54 ans (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GED_TWAP_NB> a skos:Concept ;
-    rdfs:label "Prime-age population"@en,
-        "Población en edad de máxima edad"@es,
-        "Population d'âge moyen"@fr ;
+    rdfs:label "Prime-age population (previous ILO definition)"@en,
+        "Población de 25 a 54 años (definición anterior de la OIT)"@es,
+        "Population âgée de 25 à 54 ans (ancienne définition de l'OIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GED_XLU1_RT> a skos:Concept ;
-    rdfs:label "Prime-age unemployment rate"@en,
-        "Tasa de desocupación para personas de 25 a 54 años"@es,
-        "Taux de chômage des personnes agées de 25 à 54 ans"@fr ;
+    rdfs:label "Prime-age unemployment rate (previous ILO definition)"@en,
+        "Tasa de desocupación para personas de 25 a 54 años (definición anterior de la OIT)"@es,
+        "Taux de chômage des personnes agées de 25 à 54 ans (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GED_XLU2_RT> a skos:Concept ;
-    rdfs:label "Prime-age combined rate of time-related underemployment and unemployment (LU2)"@en,
-        "Tasa combinada de subocupación por insuficiencia de tiempo de trabajo y desocupación (SU2) para personas de 25 a 54 años"@es,
-        "Taux combiné du sous-emploi lié au temps de travail et du chômage (SU2) des personnes agées de 25 à 54 ans"@fr ;
+    rdfs:label "LU2: Combined rate of time-related underemployment and unemployment for persons ages 25 to 54 (previous ILO definition)"@en,
+        "SU2: Tasa combinada de subocupación por insuficiencia de tiempo de trabajo y desocupación para personas de 25 a 54 años (definición anterior de la OIT)"@es,
+        "SU2: Taux combiné du sous-emploi lié au temps de travail et du chômage des personnes agées de 25 à 54 ans (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GED_XLU3_RT> a skos:Concept ;
-    rdfs:label "Prime-age combined rate of unemployment and potential labour force (LU3)"@en,
-        "Tasa combinada desocupación y fuerza de trabajo potencial (SU3) para personas de 25 a 54 años"@es,
-        "Taux combiné du chômage et et de la main-d'oeuvre potentielle (SU3) des personnes agées de 25 à 54 ans"@fr ;
+    rdfs:label "LU3: Combined rate of unemployment and potential labour force for persons ages 25 to 54 (previous ILO definition)"@en,
+        "SU3: Tasa combinada desocupación y fuerza de trabajo potencial para personas de 25 a 54 años (definición anterior de la OIT)"@es,
+        "SU3: Taux combiné du chômage et et de la main-d'oeuvre potentielle des personnes agées de 25 à 54 ans (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/GED_XLU4_RT> a skos:Concept ;
-    rdfs:label "Prime-age composite rate of labour underutilization (LU4)"@en,
-        "Tasa compuesta de subutilización de la fuerza de trabajo (SU4) para personas de 25 a 54 años"@es,
-        "Taux composite de la sous-utilisation de la main-d'oeuvre (SU4) des personnes agées de 25 à 54 ans"@fr ;
+    rdfs:label "LU4: Composite rate of labour underutilization for persons ages 25 to 54 (previous ILO definition)"@en,
+        "SU4: Tasa compuesta de subutilización de la fuerza de trabajo para personas de 25 a 54 años (definición anterior de la OIT)"@es,
+        "SU4: Taux composite de la sous-utilisation de la main-d'oeuvre des personnes agées de 25 à 54 ans (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_2EMP_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours actually worked per employed person  -- ILO modelled estimates"@en,
-        "Promedio de horas trabajadas por semana por persona empleada -- Estimaciones modeladas de la OIT"@es,
-        "Nombre moyen d'heures réellement effectuées par semaine par personne en emploi par sexe -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Average weekly hours actually worked per employed person (ILO modelled estimates)"@en,
+        "Promedio de horas trabajadas por semana por persona empleada (estimaciones modeladas de la OIT"@es,
+        "Nombre moyen d'heures réellement effectuées par semaine par personne en emploi par sexe (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_2LSS_RT> a skos:Concept ;
-    rdfs:label "Working hours lost due to the COVID-19 crisis -- ILO modelled estimates"@en,
-        "Horas de trabajo perdidas debido a la crisis de COVID-19 -- Estimaciones modeladas de la OIT"@es,
-        "Heures de travail perdues en raison de la crise du COVID-19 -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Working hours lost due to the COVID-19 crisis (ILO modelled estimates)"@en,
+        "Horas de trabajo perdidas debido a la crisis de COVID-19 (estimaciones modeladas de la OIT"@es,
+        "Heures de travail perdues en raison de la crise du COVID-19 (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_2TDP_RT> a skos:Concept ;
-    rdfs:label "Ratio of total weekly hours worked to population aged 15-64 -- ILO modelled estimates"@en,
-        "Relación entre el total de las horas trabajadas por semana para las personas empleadas y la población de 15 a 64 años -- Estimaciones modeladas de la OIT"@es,
-        "Ratio du total des heures effectuées par semaine par les personnes pourvue d'un emploi sur la population âgée de 15 à 64 ans -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Ratio of total weekly hours worked to population aged 15-64 (ILO modelled estimates)"@en,
+        "Relación entre el total de las horas trabajadas por semana para las personas empleadas y la población de 15 a 64 años (estimaciones modeladas de la OIT"@es,
+        "Ratio du total des heures effectuées par semaine par les personnes pourvue d'un emploi sur la population âgée de 15 à 64 ans (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_2TOT_NB> a skos:Concept ;
-    rdfs:label "Total weekly hours worked of employed persons -- ILO modelled estimates"@en,
-        "Total de horas trabajadas por semana para las personas empleadas -- Estimaciones modeladas de la OIT"@es,
-        "Total des heures effectuées par semaine pour les personnes pourvue d'un emploi -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Total weekly hours worked of employed persons (ILO modelled estimates)"@en,
+        "Total de horas trabajadas por semana para las personas empleadas (estimaciones modeladas de la OIT"@es,
+        "Total des heures effectuées par semaine pour les personnes pourvue d'un emploi (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_CARE_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours actually worked per person in care employment"@en,
+    rdfs:label "Average weekly hours actually worked per person in care employment"@en,
         "Media de horas semanales efectivamente trabajadas por ocupado en actividades de cuidados"@es,
         "Heures hebdomadaires moyennes effectivement travaillées par personne pourvue d'un emploi dans les activités de soins"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_EARE_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours actually worked per employee in care employment"@en,
+    rdfs:label "Average weekly hours actually worked per employee in care employment"@en,
         "Promedio de horas semanales efectivamente trabajadas por asalariado en empleo de cuidados"@es,
         "Heures hebdomadaires moyennes effectivement travaillées par salarié dans les activités de soin à autrui"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_PUBE_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours actually worked per employee in the public sector"@en,
+    rdfs:label "Average weekly hours actually worked per employee in the public sector"@en,
         "Promedio de horas efectivamente trabajadas por semana por asalariado en el sector público"@es,
         "Nombre moyen d'heures réellement effectuées par semaine par salarié dans le secteur public"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_PUBL_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours actually worked per person in the public sector"@en,
+    rdfs:label "Average weekly hours actually worked per person in the public sector"@en,
         "Promedio de horas efectivamente trabajadas por semana por persona ocupada en el sector público"@es,
         "Nombre moyen d'heures réellement effectuées par semaine par personne en emploi dans le secteur public"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_STEE_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours actually worked per employee in a STEM occupation"@en,
+    rdfs:label "Average weekly hours actually worked per employee in a STEM occupation"@en,
         "Promedio de horas efectivamente trabajadas por semana por asalariado en profesiones STEM"@es,
         "Nombre moyen d'heures réellement effectuées par semaine par salarié dans les professions STIM"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_STEM_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours actually worked per person in in a STEM occupation"@en,
+    rdfs:label "Average weekly hours actually worked per person in in a STEM occupation"@en,
         "Promedio de horas efectivamente trabajadas por semana por persona ocupada en profesiones STEM"@es,
         "Nombre moyen d'heures réellement effectuées par semaine par personne en emploi dans les professions STIM"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_TEMP_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours actually worked per employed person"@en,
+    rdfs:label "Average weekly hours actually worked per employed person"@en,
         "Promedio de horas efectivamente trabajadas por semana por persona ocupada"@es,
         "Nombre moyen d'heures réellement effectuées par semaine par personne en emploi"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_TOUE_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours actually worked per employee in tourism sector employment"@en,
+    rdfs:label "Average weekly hours actually worked per employee in tourism sector employment"@en,
         "Promedio de horas efectivamente trabajadas por semana por asalariado en el sector turístico"@es,
         "Nombre moyen d'heures réellement effectuées par semaine par salarié dans le secteur du tourisme"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_TOUR_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours actually worked per person in tourism sector employment"@en,
+    rdfs:label "Average weekly hours actually worked per person in tourism sector employment"@en,
         "Promedio de horas efectivamente trabajadas por semana por persona ocupada en el sector turístico"@es,
         "Nombre moyen d'heures réellement effectuées par semaine par personne en emploi dans le secteur du tourisme"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_UEES_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours usually worked per employee"@en,
+    rdfs:label "Average weekly hours usually worked per employee"@en,
         "Promedio de horas habitualmente trabajadas por semana por asalariado"@es,
         "Nombre moyen d'heures habituellement effectuéss par semaine par salarié"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_UEMP_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours usually worked per employed person"@en,
+    rdfs:label "Average weekly hours usually worked per employed person"@en,
         "Promedio de horas habitualmente trabajadas por semana por persona ocupada"@es,
         "Nombre moyen d'heures habituellement effectuées par semaine par personne en emploi"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/HOW_XEES_NB> a skos:Concept ;
-    rdfs:label "Mean weekly hours actually worked per employee"@en,
+    rdfs:label "Average weekly hours actually worked per employee"@en,
         "Promedio de horas efectivamente trabajadas por semana por asalariado"@es,
         "Nombre moyen d'heures réellement effectuées par semaine par salarié"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/ILR_CBCN_NB> a skos:Concept ;
-    rdfs:label "Collective bargaining"@en,
-        "Trabajadores amparados por convenios colectivos"@es,
-        "Travailleurs couverts par la négociation collective"@fr ;
+    rdfs:label "Persons covered by collective bargaining"@en,
+        "Personas amparadas por convenios colectivos"@es,
+        "Personnes couverts par la négociation collective"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/ILR_CBCN_RT> a skos:Concept ;
@@ -3686,25 +3698,25 @@ Time-specific role given to a represented variable in the context of a data stru
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LAC_4HRL_NB> a skos:Concept ;
-    rdfs:label "Hourly labour cost per employee"@en,
-        "Costo de la mano de obra por hora y por asalariado"@es,
-        "Coût de la main-d'oeuvre par heure et par salarié"@fr ;
+    rdfs:label "Average hourly labour cost per employee"@en,
+        "Costo promedio por hora de la mano de obra por asalariado"@es,
+        "Coût moyen de la main-d'oeuvre par heure et par salarié"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LAC_XEES_NB> a skos:Concept ;
-    rdfs:label "Hourly labour cost per employee"@en,
-        "Costo de la mano de obra por hora y por asalariado"@es,
-        "Coût de la main-d'oeuvre par heure et par salarié"@fr ;
+    rdfs:label "Mean nominal hourly labour cost per employee"@en,
+        "Costo nominal promedio por hora de la mano de obra por asalariado"@es,
+        "Coût moyen nominal de la main-d'oeuvre par heure par salarié"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LAI_INDE_RT> a skos:Concept ;
     rdfs:label "Inspectors per 10'000 employed persons"@en,
-        "Cantidad de inspectores por 10'000 personas ocupadas"@es,
-        "Nombre d'inspecteurs pour 10'000 personnes en emploi"@fr ;
+        "Inspectores por 10'000 personas ocupadas"@es,
+        "Inspecteurs pour 10'000 personnes en emploi"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LAI_INSP_NB> a skos:Concept ;
-    rdfs:label "Labour inspectors"@en,
+    rdfs:label "Number of labour inspectors"@en,
         "Número de inspectores del trabajo"@es,
         "Nombre d'inspecteurs du travail"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
@@ -3716,111 +3728,111 @@ Time-specific role given to a represented variable in the context of a data stru
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LAI_VIST_NB> a skos:Concept ;
-    rdfs:label "Labour inspection visits"@en,
-        "Visitas de inspección del trabajo"@es,
-        "Visites d'inspection du travail"@fr ;
+    rdfs:label "Number of labour inspection visits"@en,
+        "Número de visitas de inspección del trabajo"@es,
+        "Nombre de visites d'inspection du travail"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LAI_WOPL_NB> a skos:Concept ;
-    rdfs:label "Registered workplaces that could be selected for labour inspection"@en,
-        "Lugares de trabajo registrados que pueden ser seleccionados para una inspección del trabajo"@es,
-        "Lieux de travail enregistrés pouvant être sélectionnés pour l'inspection du travail"@fr ;
+    rdfs:label "Number of registered workplaces that could be selected for labour inspection"@en,
+        "Número de lugares de trabajo registrados que pueden ser seleccionados para una inspección del trabajo"@es,
+        "Nombre de lieux de travail enregistrés pouvant être sélectionnés pour l'inspection du travail"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LAP_2FTM_RT> a skos:Concept ;
-    rdfs:label "Ratio of women's to men's labour income -- ILO modelled estimates"@en,
-        "Relación entre el ingreso laboral de las mujeres y el de los hombres -- Estimaciones modeladas de la OIT"@es,
-        "Rapport entre le revenu du travail des femmes et celui des hommes -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Ratio of women's to men's labour income (ILO modelled estimates)"@en,
+        "Relación entre el ingreso laboral de las mujeres y el de los hombres (estimaciones modeladas de la OIT"@es,
+        "Rapport entre le revenu du travail des femmes et celui des hommes (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LAP_2GDP_RT> a skos:Concept ;
-    rdfs:label "Labour income share -- ILO modelled estimates"@en,
-        "Participación del ingreso laboral -- Estimaciones modeladas de la OIT"@es,
-        "Part du revenu du travail -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Labour income share (ILO modelled estimates)"@en,
+        "Participación del ingreso laboral (estimaciones modeladas de la OIT"@es,
+        "Part du revenu du travail (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LAP_2LID_RT> a skos:Concept ;
-    rdfs:label "Labour income distribution -- ILO modelled estimates"@en,
-        "Distribución del ingreso laboral -- Estimaciones modeladas de la OIT"@es,
-        "Répartition du revenu du travail -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Labour income distribution (ILO modelled estimates)"@en,
+        "Distribución del ingreso laboral (estimaciones modeladas de la OIT"@es,
+        "Répartition du revenu du travail (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_2LU2_RT> a skos:Concept ;
-    rdfs:label "Combined rate of time-related underemployment and unemployment (LU2) -- ILO modelled estimates"@en,
-        "Tasa combinada de subocupación por insuficiencia de tiempo de trabajo y desocupación (SU2) -- Estimaciones modeladas de la OIT"@es,
-        "Taux combiné du sous-emploi lié au temps de travail et du chômage (SU2) -- Estimations modelisees du BIT"@fr ;
+    rdfs:label "LU2: Combined rate of time-related underemployment and unemployment (ILO modelled estimates)"@en,
+        "SU2: Tasa combinada de subocupación por insuficiencia de tiempo de trabajo y desocupación (estimaciones modeladas de la OIT)"@es,
+        "SU2: Taux combiné du sous-emploi lié au temps de travail et du chômage (estimations modelisees du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_2LU3_RT> a skos:Concept ;
-    rdfs:label "Combined rate of unemployment and potential labour force (LU3) -- ILO modelled estimates"@en,
-        "Tasa combinada de desocupación y fuerza de trabajo potencial (SU3) -- Estimaciones modeladas de la OIT"@es,
-        "Taux combiné du chômage et de la main-d'oeuvre potentielle (SU3) -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "LU3: Combined rate of unemployment and potential labour force (ILO modelled estimates)"@en,
+        "SU3: Tasa combinada de desocupación y fuerza de trabajo potencial (estimaciones modeladas de la OIT)"@es,
+        "SU3: Taux combiné du chômage et de la main-d'oeuvre potentielle (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_2LU4_NB> a skos:Concept ;
-    rdfs:label "Composite measure of labour underutilization (LU4) -- ILO modelled estimates"@en,
-        "Medida compuesta de subutilización de la fuerza de trabajo (SU4) -- Estimaciones modeladas de la OIT"@es,
-        "Mesure composite de la sous-utilisation de la main-d'oeuvre (SU4) -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "LU4: Composite measure of labour underutilization (ILO modelled estimates)"@en,
+        "SU4: Medida compuesta de subutilización de la fuerza de trabajo (estimaciones modeladas de la OIT)"@es,
+        "SU4: Mesure composite de la sous-utilisation de la main-d'oeuvre (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_2LU4_RT> a skos:Concept ;
-    rdfs:label "Composite rate of labour underutilization (LU4) -- ILO modelled estimates"@en,
-        "Tasa compuesta de subutilización de la fuerza de trabajo (SU4) -- Estimaciones modeladas de la OIT"@es,
-        "Taux composite de la sous-utilisation de la main-d'oeuvre (SU4) -- Estimations modelisees du BIT"@fr ;
+    rdfs:label "LU4: Composite rate of labour underutilization (ILO modelled estimates)"@en,
+        "SU4: Tasa compuesta de subutilización de la fuerza de trabajo (estimaciones modeladas de la OIT)"@es,
+        "SU4: Taux composite de la sous-utilisation de la main-d'uvre (estimations modelisees du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_2LUX_NB> a skos:Concept ;
-    rdfs:label "Jobs gap -- ILO modelled estimates"@en,
-        "Brecha de empleos -- Estimaciones modeladas de la OIT"@es,
-        "Écart d'emplois -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Jobs gap (ILO modelled estimates)"@en,
+        "Brecha de empleos (estimaciones modeladas de la OIT"@es,
+        "Écart d'emplois (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_2LUX_RT> a skos:Concept ;
-    rdfs:label "Jobs gap rate -- ILO modelled estimates"@en,
-        "Tasa de incidencia de la brecha laboral -- Estimaciones modeladas de la OIT"@es,
-        "Taux d'incidence des écarts d'emplois -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Jobs gap rate (ILO modelled estimates)"@en,
+        "Tasa de incidencia de la brecha laboral (estimaciones modeladas de la OIT"@es,
+        "Taux d'incidence des écarts d'emplois (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_5LU2_RT> a skos:Concept ;
-    rdfs:label "Combined rate of time-related underemployment and unemployment (LU2) -- 19th ICLS"@en,
-        "Tasa combinada de subocupación por insuficiencia de tiempo de trabajo y desocupación (SU2) -- 19 CIET"@es,
-        "Taux combiné du sous-emploi lié au temps de travail et du chômage (SU2) -- 19e CIST"@fr ;
+    rdfs:label "LU2: Combined rate of time-related underemployment and unemployment (current ILO definition)"@en,
+        "SU2: Tasa combinada de subocupación por insuficiencia de tiempo de trabajo y desocupación (definición actual de la OIT)"@es,
+        "SU2: Taux combiné du sous-emploi lié au temps de travail et du chômage (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_5LU3_RT> a skos:Concept ;
-    rdfs:label "Combined rate of unemployment and potential labour force (LU3) -- 19th ICLS"@en,
-        "Tasa combinada de desocupación y fuerza de trabajo potencial (SU3) -- 19 CIET"@es,
-        "Taux combiné du chômage et de la main-d'oeuvre potentielle (SU3) -- 19e CIST"@fr ;
+    rdfs:label "LU3: Combined rate of unemployment and potential labour force (current ILO definition)"@en,
+        "SU3: Tasa combinada de desocupación y fuerza de trabajo potencial (definición actual de la OIT)"@es,
+        "SU3: Taux combiné du chômage et de la main-d'oeuvre potentielle (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_5LU4_NB> a skos:Concept ;
-    rdfs:label "Composite measure of labour underutilization (LU4) -- 19th ICLS"@en,
-        "Medida compuesta de subutilización de la fuerza de trabajo (SU4) -- 19 CIET"@es,
-        "Mesure composite de la sous-utilisation de la main-d'oeuvre (SU4) -- 19e CIST"@fr ;
+    rdfs:label "LU4: Composite measure of labour underutilization (current ILO definition)"@en,
+        "SU4: Medida compuesta de subutilización de la fuerza de trabajo (definición actual de la OIT)"@es,
+        "SU4: Mesure composite de la sous-utilisation de la main-d'oeuvre (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_5LU4_RT> a skos:Concept ;
-    rdfs:label "Composite rate of labour underutilization (LU4) -- 19th ICLS"@en,
-        "Tasa compuesta de subutilización de la fuerza de trabajo (SU4) -- 19 CIET"@es,
-        "Taux composite de la sous-utilisation de la main-d'oeuvre (SU4) -- 19e CIST"@fr ;
+    rdfs:label "LU4: Composite rate of labour underutilization (current ILO definition)"@en,
+        "SU4: Tasa compuesta de subutilización de la fuerza de trabajo (definición actual de la OIT)"@es,
+        "SU4: Taux composite de la sous-utilisation de la main-d'oeuvre (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_XLU2_RT> a skos:Concept ;
-    rdfs:label "Combined rate of time-related underemployment and unemployment (LU2)"@en,
-        "Tasa combinada de subocupación por insuficiencia de tiempo de trabajo y desocupación (SU2)"@es,
-        "Taux combiné du sous-emploi lié au temps de travail et du chômage (SU2)"@fr ;
+    rdfs:label "LU2: Combined rate of time-related underemployment and unemployment (previous ILO definition)"@en,
+        "SU2: Tasa combinada de subocupación por insuficiencia de tiempo de trabajo y desocupación (definición anterior de la OIT)"@es,
+        "SU2: Taux combiné du sous-emploi lié au temps de travail et du chômage (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_XLU3_RT> a skos:Concept ;
-    rdfs:label "Combined rate of unemployment and potential labour force (LU3)"@en,
-        "Tasa combinada de desocupación y fuerza de trabajo potencial (SU3)"@es,
-        "Taux combiné du chômage et de la main-d'oeuvre potentielle (SU3)"@fr ;
+    rdfs:label "LU3: Combined rate of unemployment and potential labour force (previous ILO definition)"@en,
+        "SU3: Tasa combinada de desocupación y fuerza de trabajo potencial (definición anterior de la OIT)"@es,
+        "SU3: Taux combiné du chômage et de la main-d'oeuvre potentielle (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_XLU4_RT> a skos:Concept ;
-    rdfs:label "Composite rate of labour underutilization (LU4)"@en,
-        "Tasa compuesta de subutilización de la fuerza de trabajo (SU4)"@es,
-        "Taux composite de la sous-utilisation de la main-d'oeuvre (SU4)"@fr ;
+    rdfs:label "LU4: Composite rate of labour underutilization (previous ILO definition)"@en,
+        "SU4: Tasa compuesta de subutilización de la fuerza de trabajo (definición anterior de la OIT)"@es,
+        "SU4: Taux composite de la sous-utilisation de la main-d'oeuvre (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/LUU_XLUX_NB> a skos:Concept ;
@@ -3946,13 +3958,13 @@ Time-specific role given to a represented variable in the context of a data stru
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/MST_TEAP_NB> a skos:Concept ;
     rdfs:label "Labour force"@en,
         "Fuerza de trabajo"@es,
-        "Main-d'oeuvre"@fr ;
+        "Main-d'uvre"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/MST_TEAP_RT> a skos:Concept ;
     rdfs:label "Labour force participation rate"@en,
-        "Tasa de participación en la fuerza de trabajo según sexo, edad y nacionalidad"@es,
-        "Taux de participation de la main-d'oeuvre par sexe, âge et nationalité"@fr ;
+        "Tasa de participación en la fuerza de trabajo"@es,
+        "Taux de participation de la main-d'uvre"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/MST_TEIP_NB> a skos:Concept ;
@@ -3998,51 +4010,51 @@ Time-specific role given to a represented variable in the context of a data stru
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/POP_2LDR_RT> a skos:Concept ;
-    rdfs:label "Labour dependency ratio -- ILO modelled estimates"@en,
-        "Tasa de dependencia demográfica -- Estimaciones modeladas de la OIT"@es,
-        "Ratio de dépendance démographique -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Labour dependency ratio (ILO modelled estimates)"@en,
+        "Tasa de dependencia demográfica (estimaciones modeladas de la OIT"@es,
+        "Ratio de dépendance démographique (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/POP_2POP_NB> a skos:Concept ;
-    rdfs:label "Population -- UN estimates and projections"@en,
-        "Población -- Estimaciones y proyecciones de la ONU"@es,
-        "Population -- Estimations et projections de l'ONU"@fr ;
+    rdfs:label "Population (UN estimates and projections)"@en,
+        "Población (estimaciones y proyecciones de la ONU)"@es,
+        "Population (estimations et projections de l'ONU)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/POP_3FOR_NB> a skos:Concept ;
-    rdfs:label "Youth working-age population"@en,
-        "Población juvenil en edad de trabajar"@es,
-        "Jeunes en âge de travailler"@fr ;
+    rdfs:label "Youth working-age population (previous ILO definition)"@en,
+        "Población juvenil en edad de trabajar (definición anterior de la OIT)"@es,
+        "Jeunes en âge de travailler (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/POP_3STG_NB> a skos:Concept ;
-    rdfs:label "Youth working-age population"@en,
-        "Población juvenil en edad de trabajar"@es,
-        "Jeunes en âge de travailler"@fr ;
+    rdfs:label "Youth working-age population (previous ILO definition)"@en,
+        "Población juvenil en edad de trabajar (definición anterior de la OIT)"@es,
+        "Jeunes en âge de travailler (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/POP_3TED_NB> a skos:Concept ;
-    rdfs:label "Youth transited"@en,
-        "Población juvenil transitada"@es,
-        "Population jeune transité"@fr ;
+    rdfs:label "Youth transited (previous ILO definition)"@en,
+        "Población juvenil transitada (definición anterior de la OIT)"@es,
+        "Population jeune transité (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/POP_3WAP_NB> a skos:Concept ;
-    rdfs:label "Youth working-age population"@en,
-        "Población juvenil en edad de trabajar"@es,
-        "Jeunes en âge de travailler"@fr ;
+    rdfs:label "Youth working-age population (previous ILO definition)"@en,
+        "Población juvenil en edad de trabajar (definición anterior de la OIT)"@es,
+        "Jeunes en âge de travailler (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/POP_5WAP_NB> a skos:Concept ;
-    rdfs:label "Working-age population -- 19th ICLS"@en,
-        "Población en edad de trabajar -- 19 CIET"@es,
-        "Population en âge de travailler -- 19e CIST"@fr ;
+    rdfs:label "Working-age population (current ILO definition)"@en,
+        "Población en edad de trabajar (definición actual de la OIT)"@es,
+        "Population en âge de travailler (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/POP_XWAP_NB> a skos:Concept ;
-    rdfs:label "Working-age population"@en,
-        "Población en edad de trabajar"@es,
-        "Population en âge de travailler"@fr ;
+    rdfs:label "Working-age population (previous ILO definition)"@en,
+        "Población en edad de trabajar (definición anterior de la OIT)"@es,
+        "Population en âge de travailler (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/PSE_TPSE_NB> a skos:Concept ;
@@ -4058,105 +4070,105 @@ Time-specific role given to a represented variable in the context of a data stru
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_0111_RT> a skos:Concept ;
-    rdfs:label "[1.1.1] Proportion of population below the international poverty line"@en,
-        "[1.1.1] Proporción de la población que vive por debajo del umbral internacional de la pobreza"@es,
-        "[1.1.1] Proportion de la population vivant au-dessous du seuil de pauvreté fixé au niveau international"@fr ;
+    rdfs:label "SDG 1.1.1: Working poverty rate (percentage of employed living below US$2.15 PPP)"@en,
+        "ODS 1.1.1: Tasa de trabajadores pobres (porcentaje de ocupados que viven con menos de US$2.15 PPA)"@es,
+        "ODD 1.1.1: Taux de travailleurs pauvres (pourcentage de personnes en emploi vivant avec moins de US$2.15 PPA)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_0131_RT> a skos:Concept ;
-    rdfs:label "[1.3.1] Proportion of population covered by social protection floors/systems"@en,
-        "[1.3.1] Porcentaje de la población cubierta por niveles mínimos o sistemas de protección social"@es,
-        "[1.3.1] Pourcentage de la population bénéficiant de socles ou systèmes de protection sociale"@fr ;
+    rdfs:label "SDG 1.3.1: Proportion of population covered by social protection floors/systems"@en,
+        "ODS 1.3.1: Porcentaje de la población cubierta por niveles mínimos o sistemas de protección social"@es,
+        "ODD 1.3.1: Pourcentage de la population bénéficiant de socles ou systèmes de protection sociale"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_0552_RT> a skos:Concept ;
-    rdfs:label "[5.5.2] Proportion of women in senior and middle management positions"@en,
-        "[5.5.2] Proporción de mujeres en cargos directivos superiores y medios"@es,
-        "[5.5.2] Proportion de femmes occupant des postes de direction supérieurs et intermédiaires"@fr ;
+    rdfs:label "SDG 5.5.2: Proportion of women in senior and middle management positions (previous ILO definition)"@en,
+        "ODS 5.5.2: Proporción de mujeres en cargos directivos superiores y medios (definición anterior de la OIT)"@es,
+        "ODD 5.5.2: Proportion de femmes occupant des postes de direction supérieurs et intermédiaires (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_0821_RT> a skos:Concept ;
-    rdfs:label "[8.2.1] Annual growth rate of real GDP per employed person (GDP constant 2017 international $ in PPP)"@en,
-        "[8.2.1] Tasa de crecimiento anual del PIB real por persona ocupada (PIB en $ internacionales constantes 2017 en PPA)"@es,
-        "[8.2.1] Taux de croissance annuelle du PIB réel par personne pourvue d'un emploi (PIB en $ internationaux constants 2017 en PPA)"@fr ;
+    rdfs:label "SDG 8.2.1: Annual growth rate of real GDP (using constant 2017 international $ in PPP) per employed person"@en,
+        "ODS 8.2.1: Tasa de crecimiento anual del PIB real por persona ocupada (PIB en $ internacionales constantes 2017 en PPA)"@es,
+        "ODD 8.2.1: Taux de croissance annuelle du PIB réel par personne pourvue d'un emploi (PIB en $ internationaux constants 2017 en PPA)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_0831_RT> a skos:Concept ;
-    rdfs:label "[8.3.1] Proportion of informal employment in total employment"@en,
-        "[8.3.1] Proporción de la ocupación informal en la ocupación total"@es,
-        "[8.3.1] Proportion de l'emploi informel dans l'emploi total"@fr ;
+    rdfs:label "SDG 8.3.1: Proportion of informal employment in total employment (previous ILO definition)"@en,
+        "ODS 8.3.1: Proporción de la ocupación informal en la ocupación total (definición anterior de la OIT)"@es,
+        "ODD 8.3.1: Proportion de l'emploi informel dans l'emploi total (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_0851_NB> a skos:Concept ;
-    rdfs:label "[8.5.1] Average hourly earnings of female and male employees"@en,
-        "[8.5.1] Ingreso medio por hora de mujeres y hombres empleados"@es,
-        "[8.5.1] Rémunération horaire moyenne des salariés hommes et femmes"@fr ;
+    rdfs:label "SDG 8.5.1: Average hourly earnings of female and male employees"@en,
+        "ODS 8.5.1: Ingreso medio por hora de mujeres y hombres empleados"@es,
+        "ODD 8.5.1: Rémunération horaire moyenne des salariés hommes et femmes"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_0852_RT> a skos:Concept ;
-    rdfs:label "[8.5.2] Unemployment rate"@en,
-        "[8.5.2] Tasa de desocupación"@es,
-        "[8.5.2] Taux de chômage"@fr ;
+    rdfs:label "SDG 8.5.2: Unemployment rate (previous ILO definition)"@en,
+        "ODS 8.5.2: Tasa de desocupación (definición anterior de la OIT)"@es,
+        "ODD 8.5.2: Taux de chômage (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_0861_RT> a skos:Concept ;
-    rdfs:label "[8.6.1] Proportion of youth (aged 15-24 years) not in employment, education or training"@en,
-        "[8.6.1] Porcentaje de jóvenes (15 a 24 años) que no tienen empleo, no estudian ni reciben capacitación"@es,
-        "[8.6.1] Pourcentage de jeunes (âgés de 15 à 24 ans) sans emploi, non scolarisés ni formation"@fr ;
+    rdfs:label "SDG 8.6.1: Proportion of youth not in education, employment or training (previous ILO definition)"@en,
+        "ODS 8.6.1: Proporción de jóvenes (de 15 a 24 años) que no están en el sistema educativo ni ocupados ni en formación (definición anterior de la OIT)"@es,
+        "ODD 8.6.1: Proportion de jeunes ni dans le système éducatif, ni en emploi ni en formation (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_0871_RT> a skos:Concept ;
-    rdfs:label "[8.7.1] Proportion of children engaged in economic activity"@en,
-        "[8.7.1] Proporción de niños ocupados en actividades económicas"@es,
-        "[8.7.1] Proportion d'enfants exerçant une activité économique"@fr ;
+    rdfs:label "SDG 8.7.1: Proportion of children engaged in economic activity"@en,
+        "ODS 8.7.1: Proporción de niños ocupados en actividades económicas"@es,
+        "ODD 8.7.1: Proportion d'enfants exerçant une activité économique"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_0882_RT> a skos:Concept ;
-    rdfs:label "[8.8.2] Level of national compliance with labour rights (freedom of association and collective bargaining)"@en,
-        "[8.8.2] Nivel de cumplimiento nacional de los derechos laborales (libertad sindical y negociación colectiva)"@es,
-        "[8.8.2] Niveau de conformité nationale avec les droits du travail (liberté d'association et négociation collective)"@fr ;
+    rdfs:label "SDG 8.8.2: Level of national compliance with labour rights (freedom of association and collective bargaining)"@en,
+        "ODS 8.8.2: Nivel de cumplimiento nacional de los derechos laborales (libertad sindical y negociación colectiva)"@es,
+        "ODD 8.8.2: Niveau de conformité nationale avec les droits du travail (liberté d'association et négociation collective)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_0922_RT> a skos:Concept ;
-    rdfs:label "[9.2.2] Manufacturing employment as a proportion of total employment"@en,
-        "[9.2.2] Empleo en la manufactura como porcentaje del empleo total"@es,
-        "[9.2.2] Emploi dans l'industrie manufacturière en pourcentage de l'emploi total"@fr ;
+    rdfs:label "SDG 9.2.2: Manufacturing employment as a proportion of total employment (previous ILO definition)"@en,
+        "ODS 9.2.2: Empleo en la manufactura como porcentaje del empleo total (definición anterior de la OIT)"@es,
+        "ODD 9.2.2: Emploi dans l'industrie manufacturière en pourcentage de l'emploi total (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_1041_RT> a skos:Concept ;
-    rdfs:label "[10.4.1] Labour share of GDP, comprising wages and social protection transfers"@en,
-        "[10.4.1] Proporción laboral del PIB, que comprende los salarios y las transferencias de protección social"@es,
-        "[10.4.1] Part du travail dans le PIB, y compris les salaires et les transferts sociaux"@fr ;
+    rdfs:label "SDG 10.4.1: Labour income share as a percent of GDP"@en,
+        "ODS 10.4.1: Participación del ingreso laboral en el PIB"@es,
+        "ODD 10.4.1: Part du revenu du travail dans le PIB"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_A821_RT> a skos:Concept ;
-    rdfs:label "[8.2.1] Annual growth rate of real GDP per employed person (GDP constant 2010 US $)"@en,
-        "[8.2.1] Tasa de crecimiento anual del PIB real por persona ocupada (PIB en US $ constantes 2010)"@es,
-        "[8.2.1] Taux de croissance annuelle du PIB réel par personne pourvue d'un emploi (PIB en US $ constants 2010)"@fr ;
+    rdfs:label "SDG 8.2.1: Annual growth rate of output per worker (GDP constant 2015 US $)"@en,
+        "ODS 8.2.1: Tasa de crecimiento anual de la producción por trabajador (PIB en US $ constantes 2015)"@es,
+        "ODD 8.2.1: Taux de croissance annuel de la production par travailleur (PIB en US $ constants 2015)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_A871_RT> a skos:Concept ;
-    rdfs:label "[8.7.1] Proportion of children engaged in economic activity and household chores"@en,
-        "[8.7.1] Proporción de niños ocupados en actividades económicas y tareas domésticas"@es,
-        "[8.7.1] Proportion d'enfants engagés dans des activités économiques et des tâches ménagères"@fr ;
+    rdfs:label "SDG 8.7.1: Proportion of children engaged in economic activity and household chores"@en,
+        "ODS 8.7.1: Proporción de niños ocupados en actividades económicas y tareas domésticas"@es,
+        "ODD 8.7.1: Proportion d'enfants engagés dans des activités économiques et des tâches ménagères"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_F881_RT> a skos:Concept ;
-    rdfs:label "[8.8.1] Fatal occupational injuries per 100'000 workers"@en,
-        "[8.8.1] Lesiones profesionales fatales por 100'000 trabajadores"@es,
-        "[8.8.1] Lésion professionnelle mortelle par 100'000 travailleurs"@fr ;
+    rdfs:label "SDG 8.8.1: Fatal occupational injuries per 100'000 workers"@en,
+        "ODS 8.8.1: Lesiones profesionales fatales por 100'000 trabajadores"@es,
+        "ODD 8.8.1: Lésion professionnelle mortelle par 100'000 travailleurs"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_N881_RT> a skos:Concept ;
-    rdfs:label "[8.8.1] Non-fatal occupational injuries per 100'000 workers"@en,
-        "[8.8.1] Lesiones profesionales no fatales por 100'000 trabajadores"@es,
-        "[8.8.1] Lésion professionnelle non mortelle par 100'000 travailleurs"@fr ;
+    rdfs:label "SDG 8.8.1: Non-fatal occupational injuries per 100'000 workers"@en,
+        "ODS 8.8.1: Lesiones profesionales no fatales por 100'000 trabajadores"@es,
+        "ODD 8.8.1: Lésion professionnelle non mortelle par 100'000 travailleurs"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SDG_T552_RT> a skos:Concept ;
-    rdfs:label "[5.5.2] Proportion of women in managerial positions"@en,
-        "[5.5.2] Proporción de mujeres en cargos directivos"@es,
-        "[5.5.2] Proportion de femmes occupant des postes de direction"@fr ;
+    rdfs:label "SDG 5.5.2: Proportion of women in managerial positions (previous ILO definition)"@en,
+        "ODS 5.5.2: Proporción de mujeres en cargos directivos (definición anterior de la OIT)"@es,
+        "ODD 5.5.2: Proportion de femmes occupant des postes de direction (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/SOC_CEAP_RT> a skos:Concept ;
@@ -4256,117 +4268,117 @@ Time-specific role given to a represented variable in the context of a data stru
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/STR_DAYS_RT> a skos:Concept ;
-    rdfs:label "Days not worked due to strikes and lockouts"@en,
-        "Días no trabajados debido a huelgas y cierres patronales"@es,
-        "Journées non effectuées à cause des grèves et lock-outs"@fr ;
+    rdfs:label "Days not worked per 1000 workers due to strikes and lockouts"@en,
+        "Días no trabajados por 1000 trabajadores debido a huelgas y cierres patronales"@es,
+        "Journées non effectuées par 1000 travailleurs à cause des grèves et lock-out"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/STR_TSTR_NB> a skos:Concept ;
-    rdfs:label "Strikes and lockouts"@en,
-        "Huelgas y cierres patronales"@es,
-        "Grèves et lock-out"@fr ;
+    rdfs:label "Number of strikes and lockouts"@en,
+        "Número de huelgas y cierres patronales"@es,
+        "Nombre de grèves et lock-out"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/STR_WORK_NB> a skos:Concept ;
-    rdfs:label "Workers involved in strikes and lockouts"@en,
-        "Trabajadores implicados en huelgas y cierres patronales"@es,
-        "Travailleurs impliqués dans des grèves et lock-out"@fr ;
+    rdfs:label "Number of workers involved in strikes and lockouts"@en,
+        "Número de trabajadores implicados en huelgas y cierres patronales"@es,
+        "Nombre de travailleurs impliqués dans des grèves et lock-out"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/TRU_3TRU_NB> a skos:Concept ;
-    rdfs:label "Youth time-related underemployment"@en,
-        "Tasa de subocupación por insuficiencia de tiempo de trabajo juvenil"@es,
-        "Sous-emploi lié à la durée du travail des jeunes"@fr ;
+    rdfs:label "Youth time-related underemployment (previous ILO definition)"@en,
+        "Tasa de subocupación por insuficiencia de tiempo de trabajo juvenil (definición anterior de la OIT)"@es,
+        "Sous-emploi lié à la durée du travail des jeunes (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/TRU_5EMP_RT> a skos:Concept ;
-    rdfs:label "Time-related underemployment rate -- 19th ICLS"@en,
-        "Tasa de subocupación por insuficiencia de tiempo de trabajo -- 19 CIET"@es,
-        "Taux de sous-emploi lié à la durée du travail -- 19e CIST"@fr ;
+    rdfs:label "Time-related underemployment rate (current ILO definition)"@en,
+        "Tasa de subocupación por insuficiencia de tiempo de trabajo (definición actual de la OIT)"@es,
+        "Taux de sous-emploi lié à la durée du travail (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/TRU_5TRU_NB> a skos:Concept ;
-    rdfs:label "Time-related underemployment -- 19th ICLS"@en,
-        "Personas en subocupación por insuficiencia de tiempo de trabajo -- 19 CIET"@es,
-        "Sous-emploi lié à la durée du travail -- 19e CIST"@fr ;
+    rdfs:label "Time-related underemployment (current ILO definition)"@en,
+        "Personas en subocupación por insuficiencia de tiempo de trabajo (definición actual de la OIT)"@es,
+        "Sous-emploi lié à la durée du travail (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/TRU_DEMP_RT> a skos:Concept ;
-    rdfs:label "Time-related underemployment rate"@en,
-        "Tasa de subocupación por insuficiencia de tiempo de trabajo"@es,
-        "Taux de sous-emploi lié à la durée du travail"@fr ;
+    rdfs:label "Time-related underemployment rate (previous ILO definition)"@en,
+        "Tasa de subocupación por insuficiencia de tiempo de trabajo (definición anterior de la OIT)"@es,
+        "Taux de sous-emploi lié à la durée du travail (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/TRU_TTRU_NB> a skos:Concept ;
-    rdfs:label "Time-related underemployment"@en,
-        "Subocupación por insuficiencia de tiempo de trabajo"@es,
-        "Sous-emploi lié à la durée du travail"@fr ;
+    rdfs:label "Time-related underemployment (previous ILO definition)"@en,
+        "Subocupación por insuficiencia de tiempo de trabajo (definición anterior de la OIT)"@es,
+        "Sous-emploi lié à la durée du travail (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/UNE_2EAP_RT> a skos:Concept ;
-    rdfs:label "Unemployment rate -- ILO modelled estimates"@en,
-        "Tasa de desocupación -- Estimaciones modeladas de la OIT"@es,
-        "Taux de chômage -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Unemployment rate (ILO modelled estimates)"@en,
+        "Tasa de desocupación (estimaciones modeladas de la OIT"@es,
+        "Taux de chômage (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/UNE_2UNE_NB> a skos:Concept ;
-    rdfs:label "Unemployment -- ILO modelled estimates"@en,
-        "Desocupación -- Estimaciones modeladas de la OIT"@es,
-        "Chômage -- Estimations modélisées du BIT"@fr ;
+    rdfs:label "Unemployment (ILO modelled estimates)"@en,
+        "Desocupación (estimaciones modeladas de la OIT"@es,
+        "Chômage (estimations modélisées du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/UNE_3EAP_RT> a skos:Concept ;
-    rdfs:label "Youth unemployment rate"@en,
-        "Tasa de desocupación juvenil"@es,
-        "Taux de chômage des jeunes"@fr ;
+    rdfs:label "Youth unemployment rate (previous ILO definition)"@en,
+        "Tasa de desocupación juvenil (definición anterior de la OIT)"@es,
+        "Taux de chômage des jeunes (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/UNE_3UNE_NB> a skos:Concept ;
-    rdfs:label "Youth unemployment"@en,
-        "Desocupación juvenil"@es,
-        "Chômage des jeunes"@fr ;
+    rdfs:label "Youth unemployment (previous ILO definition)"@en,
+        "Desocupación juvenil (definición anterior de la OIT)"@es,
+        "Chômage des jeunes (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/UNE_3WAP_RT> a skos:Concept ;
-    rdfs:label "Youth unemployment-to-population ratio"@en,
-        "Razón desocupación-población de los jóvenes"@es,
-        "Rapport chômage-population des jeunes"@fr ;
+    rdfs:label "Youth unemployment-to-population ratio (previous ILO definition)"@en,
+        "Razón desocupación-población de los jóvenes (definición anterior de la OIT)"@es,
+        "Rapport chômage-population des jeunes (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/UNE_5EAP_RT> a skos:Concept ;
-    rdfs:label "Unemployment rate -- 19th ICLS"@en,
-        "Tasa de desocupación -- 19 CIET"@es,
-        "Taux de chômage -- 19e CIST"@fr ;
+    rdfs:label "Unemployment rate (current ILO definition)"@en,
+        "Tasa de desocupación (definición actual de la OIT)"@es,
+        "Taux de chômage (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/UNE_5UNE_NB> a skos:Concept ;
-    rdfs:label "Unemployment -- 19th ICLS"@en,
-        "Desocupación -- 19 CIET"@es,
-        "Chômage -- 19e CIST"@fr ;
+    rdfs:label "Unemployment (current ILO definition)"@en,
+        "Desocupación (definición actual de la OIT)"@es,
+        "Chômage (définition actuelle du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/UNE_DEA1_RT> a skos:Concept ;
-    rdfs:label "Unemployment rate, seasonally adjusted series"@en,
-        "Tasa de desocupación, series desestacionalizadas"@es,
-        "Taux de chômage, séries corrigées des variations saisonnières"@fr ;
+    rdfs:label "Unemployment rate, SA (previous ILO definition)"@en,
+        "Desocupació, DES (definición anterior de la OIT)"@es,
+        "Chômage, CSV (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/UNE_DEAP_RT> a skos:Concept ;
-    rdfs:label "Unemployment rate"@en,
-        "Tasa de desocupación"@es,
-        "Taux de chômage"@fr ;
+    rdfs:label "Unemployment rate (previous ILO definition)"@en,
+        "Tasa de desocupación (definición anterior de la OIT)"@es,
+        "Taux de chômage (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/UNE_TUN1_NB> a skos:Concept ;
-    rdfs:label "Unemployment, seasonally adjusted series"@en,
-        "Desocupación, series desestacionalizadas"@es,
-        "Chômage, séries corrigées des variations saisonnières"@fr ;
+    rdfs:label "Unemployment, SA (previous ILO definition)"@en,
+        "Desocupación, DES (definición anterior de la OIT)"@es,
+        "Chômage, CSV (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/UNE_TUNE_NB> a skos:Concept ;
-    rdfs:label "Unemployment"@en,
-        "Desocupación"@es,
-        "Chômage"@fr ;
+    rdfs:label "Unemployment (previous ILO definition)"@en,
+        "Desocupación (definición anterior de la OIT)"@es,
+        "Chômage (ancienne définition du BIT)"@fr ;
     skos:inScheme <http://data.un.org/metadata/ilo/SubstantiveValueDomain/CL_MEASURE> .
 
 <http://data.un.org/metadata/ilo/Concept/CL_MEASURE/WBL_3VET_NB> a skos:Concept ;

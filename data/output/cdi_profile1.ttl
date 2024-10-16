@@ -64,6 +64,13 @@ Explanatory notes
 Similar to Structural N-Cube."""@en ;
     rdfs:subClassOf cdi:DataSet .
 
+cdi:DimensionalDataSet-name a rdf:Property,
+        rdfs:Class ;
+    rdfs:label "name" ;
+    rdfs:comment "Human understandable name (liguistic signifier, word, phrase, or mnemonic). May follow ISO/IEC 11179-5 naming principles, and have context provided to specify usage."@en ;
+    rdfs:domain cdi:DimensionalDataSet ;
+    rdfs:range cdi:ObjectName .
+
 cdi:DimensionalDataStructure a rdfs:Class ;
     rdfs:label "DimensionalDataStructure" ;
     rdfs:comment """Definition
@@ -116,6 +123,16 @@ Examples
 ========== 
 Height of a person in a wide or long dataset or number of citizens in a country in a dataset for multiple countries (dimensional dataset)."""@en ;
     rdfs:subClassOf cdi:DataStructureComponent .
+
+cdi:ObjectName a rdfs:Class ;
+    rdfs:label "ObjectName" ;
+    rdfs:comment """Definition
+==========
+A standard means of expressing a name for a class object. A linguistic signifier. Human understandable name (word, phrase, or mnemonic) that reflects the ISO/IEC 11179-5 naming principles.
+
+Explanatory notes
+=================
+Use in model: In general the property name should be "name" as it is the name of the class object of which it is an attribute. Use a specific name (i.e. xxxName) only when naming something other than the class object of which it is an attribute."""@en .
 
 cdi:RepresentedVariable a rdfs:Class ;
     rdfs:label "RepresentedVariable" ;
@@ -252,11 +269,6 @@ cdi:DimensionComponent_isStructuredBy_ValueDomain a rdf:Property ;
     rdfs:range cdi:ValueDomain ;
     skos:altLabel "DimensionComponent_isStructuredBy_ValueDomain" .
 
-cdi:DimensionalDataSet-name a rdf:Property ;
-    rdfs:label "name" ;
-    rdfs:domain cdi:DimensionalDataSet ;
-    rdfs:range cdi:ObjectName .
-
 cdi:DimensionalDataSet_has_DimensionalKey a rdf:Property ;
     rdfs:label "has" ;
     rdfs:domain cdi:DimensionalDataSet ;
@@ -349,6 +361,16 @@ cdi:MeasureComponent-name a rdf:Property ;
     rdfs:label "name" ;
     rdfs:domain cdi:MeasureComponent ;
     rdfs:range cdi:ObjectName .
+
+cdi:ObjectName-context a rdf:Property ;
+    rdfs:label "context" ;
+    rdfs:domain cdi:ObjectName ;
+    rdfs:range cdi:ControlledVocabularyEntry .
+
+cdi:ObjectName-name a rdf:Property ;
+    rdfs:label "name" ;
+    rdfs:domain cdi:ObjectName ;
+    rdfs:range xsd:string .
 
 cdi:RepresentedVariable-describedUnitOfMeasure a rdf:Property ;
     rdfs:label "describedUnitOfMeasure" ;
