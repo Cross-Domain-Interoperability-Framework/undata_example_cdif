@@ -1,0 +1,41 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix undata: <https://undata.un.org/enumerations/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://undata.un.org/enumerations/SEX/F> a skos:Concept ;
+    skos:inScheme undata:SEX ;
+    skos:notation "F"^^xsd:string ;
+    skos:prefLabel "Female"@en .
+
+<https://undata.un.org/enumerations/SEX/M> a skos:Concept ;
+    skos:inScheme undata:SEX ;
+    skos:notation "M"^^xsd:string ;
+    skos:prefLabel "Male"@en .
+
+<https://undata.un.org/enumerations/SEX/NA> a skos:Concept ;
+    skos:inScheme undata:SEX ;
+    skos:notation "NA"^^xsd:string ;
+    skos:prefLabel "Not applicable"@en .
+
+<https://undata.un.org/enumerations/SEX/O> a skos:Concept ;
+    skos:inScheme undata:SEX ;
+    skos:notation "O"^^xsd:string ;
+    skos:prefLabel "Other"@en .
+
+<https://undata.un.org/enumerations/SEX/_T> a skos:Concept ;
+    skos:inScheme undata:SEX ;
+    skos:notation "_T"^^xsd:string ;
+    skos:prefLabel "Total or no breakdown"@en .
+
+<https://undata.un.org/enumerations/SEX/_U> a skos:Concept ;
+    skos:inScheme undata:SEX ;
+    skos:notation "_U"^^xsd:string ;
+    skos:prefLabel "Unknown"@en .
+
+undata:SEX a skos:ConceptScheme ;
+    dcterms:creator "UN DESA, Statistics Division" ;
+    owl:versionInfo "v1.0" ;
+    skos:prefLabel "Sex"@en .
+

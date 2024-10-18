@@ -436,72 +436,89 @@ cdi:TimeRole-time a rdf:Property ;
     rdfs:range cdi:ControlledVocabularyEntry .
 
 <http://example1.org/Concept/CL_EC2/EC2_ISIC3_A01> a skos:Concept ;
-    rdfs:label "01 - Agriculture, hunting and related service activities"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_EC2> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_EC2> ;
+    skos:notation "EC2_ISIC3_A01"@en ;
+    skos:prefLabel "01 - Agriculture, hunting and related service activities"@en .
 
 <http://example1.org/Concept/CL_EC2/EC2_ISIC3_A02> a skos:Concept ;
-    rdfs:label "02 - Forestry, logging and related service activities"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_EC2> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_EC2> ;
+    skos:notation "EC2_ISIC3_A02"@en ;
+    skos:prefLabel "02 - Forestry, logging and related service activities"@en .
 
 <http://example1.org/Concept/CL_EC2/EC2_ISIC3_B05> a skos:Concept ;
-    rdfs:label "05 - Fishing, aquaculture and service activities incidental to fishing"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_EC2> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_EC2> ;
+    skos:notation "EC2_ISIC3_B05"@en ;
+    skos:prefLabel "05 - Fishing, aquaculture and service activities incidental to fishing"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/ABW> a skos:Concept ;
-    rdfs:label "Aruba"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "ABW"@en ;
+    skos:prefLabel "Aruba"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/AFG> a skos:Concept ;
-    rdfs:label "Afghanistan"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "AFG"@en ;
+    skos:prefLabel "Afghanistan"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/AGO> a skos:Concept ;
-    rdfs:label "Angola"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "AGO"@en ;
+    skos:prefLabel "Angola"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/AIA> a skos:Concept ;
-    rdfs:label "Anguilla"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "AIA"@en ;
+    skos:prefLabel "Anguilla"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/ALB> a skos:Concept ;
-    rdfs:label "Albania"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "ALB"@en ;
+    skos:prefLabel "Albania"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/AND> a skos:Concept ;
-    rdfs:label "Andorra"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "AND"@en ;
+    skos:prefLabel "Andorra"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/ARG> a skos:Concept ;
-    rdfs:label "Argentina"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "ARG"@en ;
+    skos:prefLabel "Argentina"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/ARM> a skos:Concept ;
-    rdfs:label "Armenia"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "ARM"@en ;
+    skos:prefLabel "Armenia"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/ASM> a skos:Concept ;
-    rdfs:label "American Samoa"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "ASM"@en ;
+    skos:prefLabel "American Samoa"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/ATG> a skos:Concept ;
-    rdfs:label "Antigua and Barbuda"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "ATG"@en ;
+    skos:prefLabel "Antigua and Barbuda"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/AUS> a skos:Concept ;
-    rdfs:label "Australia"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "AUS"@en ;
+    skos:prefLabel "Australia"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/AUT> a skos:Concept ;
-    rdfs:label "Austria"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "AUT"@en ;
+    skos:prefLabel "Austria"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/AZE> a skos:Concept ;
-    rdfs:label "Azerbaijan"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "AZE"@en ;
+    skos:prefLabel "Azerbaijan"@en .
 
 <http://example1.org/Concept/CL_REF_AREA/DZA> a skos:Concept ;
-    rdfs:label "Algeria"@en ;
-    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+    skos:inScheme <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> ;
+    skos:notation "DZA"@en ;
+    skos:prefLabel "Algeria"@en .
 
 <http://example1.org/GDP/DSD> a cdi:DimensionalDataStructure ;
     cdi:hasComponent <http://example1.org/AttributeComponent/INDICATOR>,
@@ -514,57 +531,55 @@ cdi:TimeRole-time a rdf:Property ;
 
 ex1:GDP_DATA_EX1 a cdi:DimensionalDataSet .
 
-<http://example1.org/RepresentedVariable/EC2> a cdi:RepresentedVariable ;
-    rdfs:label "Economic activity at 2-digit level"@en .
-
-<http://example1.org/RepresentedVariable/INDICATOR> a cdi:RepresentedVariable ;
-    rdfs:label "Time period"@en .
-
-<http://example1.org/RepresentedVariable/REF_AREA> a cdi:RepresentedVariable ;
-    rdfs:label "Reference area"@en .
-
-<http://example1.org/RepresentedVariable/TIME_PERIOD> a cdi:RepresentedVariable ;
-    rdfs:label "Time period"@en .
-
-<http://example1.org/RepresentedVariable/UNIT_MEASURE> a cdi:RepresentedVariable ;
-    rdfs:label "Time period"@en .
-
-<http://example1.org/RepresentedVariable/UNIT_MULT> a cdi:RepresentedVariable ;
-    rdfs:label "Time period"@en .
-
-<http://example1.org/RepresentedVariable/VALUE> a cdi:RepresentedVariable ;
-    rdfs:label "Time period"@en .
-
 <http://example1.org/AttributeComponent/INDICATOR> a cdi:AttributeComponent ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVairable/INDICATOR> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVariable/INDICATOR> .
 
 <http://example1.org/AttributeComponent/UNIT_MEASURE> a cdi:AttributeComponent ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVairable/UNIT_MEASURE> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVariable/UNIT_MEASURE> .
 
 <http://example1.org/AttributeComponent/UNIT_MULT> a cdi:AttributeComponent ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVairable/UNIT_MULT> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVariable/UNIT_MULT> .
 
 <http://example1.org/ConceptScheme/CL_EC2> a skos:ConceptScheme .
 
 <http://example1.org/ConceptScheme/CL_REF_AREA> a skos:ConceptScheme .
 
 <http://example1.org/DimensionComponent/EC2> a cdi:DimensionComponent ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVairable/EC2> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVariable/EC2> .
 
 <http://example1.org/DimensionComponent/REF_AREA> a cdi:DimensionComponent ;
     cdi:DataStructureComponent-specialization cdi:GeoRole ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVairable/REF_AREA> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVariable/REF_AREA> .
 
 <http://example1.org/DimensionComponent/TIME_PERIOD> a cdi:DimensionComponent ;
     cdi:DataStructureComponent-specialization cdi:TimeRole ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVairable/TIME_PERIOD> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVariable/TIME_PERIOD> .
 
 <http://example1.org/MeasureComponent/VALUE> a cdi:MeasureComponent ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVairable/VALUE> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example1.org/RepresentedVariable/VALUE> .
 
-<http://example1.org/RepresentedVairable/EC2> cdi:RepresentedVariable_takesSubstantiveValuesFrom_SubstantiveValueDomain <http://example1.org/SubstantiveValueDomain/CL_EC2> .
+<http://example1.org/RepresentedVariable/EC2> a cdi:RepresentedVariable ;
+    rdfs:label "Economic activity at 2-digit level"@en ;
+    cdi:RepresentedVariable_takesSubstantiveValuesFrom_SubstantiveValueDomain <http://example1.org/SubstantiveValueDomain/CL_EC2> .
 
-<http://example1.org/RepresentedVairable/REF_AREA> cdi:RepresentedVariable_takesSubstantiveValuesFrom_SubstantiveValueDomain <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+<http://example1.org/RepresentedVariable/INDICATOR> a cdi:RepresentedVariable ;
+    rdfs:label "Indicator"@en .
+
+<http://example1.org/RepresentedVariable/REF_AREA> a cdi:RepresentedVariable ;
+    rdfs:label "Reference area"@en ;
+    cdi:RepresentedVariable_takesSubstantiveValuesFrom_SubstantiveValueDomain <http://example1.org/SubstantiveValueDomain/CL_REF_AREA> .
+
+<http://example1.org/RepresentedVariable/TIME_PERIOD> a cdi:RepresentedVariable ;
+    rdfs:label "Time period"@en .
+
+<http://example1.org/RepresentedVariable/UNIT_MEASURE> a cdi:RepresentedVariable ;
+    rdfs:label "Unit of measurement"@en .
+
+<http://example1.org/RepresentedVariable/UNIT_MULT> a cdi:RepresentedVariable ;
+    rdfs:label "Unit multiplier"@en .
+
+<http://example1.org/RepresentedVariable/VALUE> a cdi:RepresentedVariable ;
+    rdfs:label "Value"@en .
 
 <http://example1.org/SubstantiveValueDomain/CL_EC2> a cdi:SubstantiveValueDomain ;
     cdi:SubstantiveValueDomain_takesValuesFrom_EnumerationDomain <http://example1.org/ConceptScheme/CL_EC2> .

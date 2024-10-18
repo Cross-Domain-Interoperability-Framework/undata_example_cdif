@@ -436,84 +436,104 @@ cdi:TimeRole-time a rdf:Property ;
     rdfs:range cdi:ControlledVocabularyEntry .
 
 <http://example2.org/Concept/CL_ACTIVITY/ISIC4_A01> a skos:Concept ;
-    rdfs:label "01 - Crop and animal production, hunting and related service activities"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_ACTIVITY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_ACTIVITY> ;
+    skos:notation "ISIC4_A01"@en ;
+    skos:prefLabel "01 - Crop and animal production, hunting and related service activities"@en .
 
 <http://example2.org/Concept/CL_ACTIVITY/ISIC4_A02> a skos:Concept ;
-    rdfs:label "02 - Forestry and logging"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_ACTIVITY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_ACTIVITY> ;
+    skos:notation "ISIC4_A02"@en ;
+    skos:prefLabel "02 - Forestry and logging"@en .
 
 <http://example2.org/Concept/CL_ACTIVITY/ISIC4_A03> a skos:Concept ;
-    rdfs:label "03 - Fishing and aquaculture"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_ACTIVITY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_ACTIVITY> ;
+    skos:notation "ISIC4_A03"@en ;
+    skos:prefLabel "03 - Fishing and aquaculture"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/12> a skos:Concept ;
-    rdfs:label "Algeria"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 12 ;
+    skos:prefLabel "Algeria"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/16> a skos:Concept ;
-    rdfs:label "American Samoa"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 16 ;
+    skos:prefLabel "American Samoa"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/20> a skos:Concept ;
-    rdfs:label "Andorra"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 20 ;
+    skos:prefLabel "Andorra"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/24> a skos:Concept ;
-    rdfs:label "Angola"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 24 ;
+    skos:prefLabel "Angola"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/28> a skos:Concept ;
-    rdfs:label "Antigua and Barbuda"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 28 ;
+    skos:prefLabel "Antigua and Barbuda"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/31> a skos:Concept ;
-    rdfs:label "Azerbaijan"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 31 ;
+    skos:prefLabel "Azerbaijan"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/32> a skos:Concept ;
-    rdfs:label "Argentina"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 32 ;
+    skos:prefLabel "Argentina"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/36> a skos:Concept ;
-    rdfs:label "Australia"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 36 ;
+    skos:prefLabel "Australia"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/4> a skos:Concept ;
-    rdfs:label "Afghanistan"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 4 ;
+    skos:prefLabel "Afghanistan"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/40> a skos:Concept ;
-    rdfs:label "Austria"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 40 ;
+    skos:prefLabel "Austria"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/51> a skos:Concept ;
-    rdfs:label "Armenia"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 51 ;
+    skos:prefLabel "Armenia"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/533> a skos:Concept ;
-    rdfs:label "Aruba"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 533 ;
+    skos:prefLabel "Aruba"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/660> a skos:Concept ;
-    rdfs:label "Anguilla"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 660 ;
+    skos:prefLabel "Anguilla"@en .
 
 <http://example2.org/Concept/CL_COUNTRY/8> a skos:Concept ;
-    rdfs:label "Albania"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> ;
+    skos:notation 8 ;
+    skos:prefLabel "Albania"@en .
 
 <http://example2.org/Concept/CL_SEX/F> a skos:Concept ;
-    rdfs:label "Female"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_SEX> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_SEX> ;
+    skos:notation "F"@en ;
+    skos:prefLabel "Female"@en .
 
 <http://example2.org/Concept/CL_SEX/M> a skos:Concept ;
-    rdfs:label "Male"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_SEX> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_SEX> ;
+    skos:notation "M"@en ;
+    skos:prefLabel "Male"@en .
 
 <http://example2.org/Concept/CL_SEX/T> a skos:Concept ;
-    rdfs:label "Total"@en ;
-    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_SEX> .
+    skos:inScheme <http://example2.org/SubstantiveValueDomain/CL_SEX> ;
+    skos:notation "T"@en ;
+    skos:prefLabel "Total"@en .
 
 <http://example2.org/EMP/DSD> a cdi:DimensionalDataStructure ;
     cdi:hasComponent <http://example2.org/DimensionComponent/ACTIVITY>,
@@ -525,24 +545,6 @@ cdi:TimeRole-time a rdf:Property ;
 
 ex2:EMP_DATA_EX2 a cdi:DimensionalDataSet .
 
-<http://example2.org/RepresentedVariable/ACTIVITY> a cdi:RepresentedVariable ;
-    rdfs:label "Economic activity"@en .
-
-<http://example2.org/RepresentedVariable/COUNTRY> a cdi:RepresentedVariable ;
-    rdfs:label "Country or area"@en .
-
-<http://example2.org/RepresentedVariable/POPULATION_MILLION> a cdi:RepresentedVariable ;
-    rdfs:label "Year"@en .
-
-<http://example2.org/RepresentedVariable/SEX> a cdi:RepresentedVariable ;
-    rdfs:label "Sex"@en .
-
-<http://example2.org/RepresentedVariable/UNEMPLOYMENT_RATE_PERCENT> a cdi:RepresentedVariable ;
-    rdfs:label "Year"@en .
-
-<http://example2.org/RepresentedVariable/YEAR> a cdi:RepresentedVariable ;
-    rdfs:label "Year"@en .
-
 <http://example2.org/ConceptScheme/CL_ACTIVITY> a skos:ConceptScheme .
 
 <http://example2.org/ConceptScheme/CL_COUNTRY> a skos:ConceptScheme .
@@ -550,30 +552,45 @@ ex2:EMP_DATA_EX2 a cdi:DimensionalDataSet .
 <http://example2.org/ConceptScheme/CL_SEX> a skos:ConceptScheme .
 
 <http://example2.org/DimensionComponent/ACTIVITY> a cdi:DimensionComponent ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example2.org/RepresentedVairable/ACTIVITY> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example2.org/RepresentedVariable/ACTIVITY> .
 
 <http://example2.org/DimensionComponent/COUNTRY> a cdi:DimensionComponent ;
     cdi:DataStructureComponent-specialization cdi:GeoRole ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example2.org/RepresentedVairable/COUNTRY> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example2.org/RepresentedVariable/COUNTRY> .
 
 <http://example2.org/DimensionComponent/SEX> a cdi:DimensionComponent ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example2.org/RepresentedVairable/SEX> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example2.org/RepresentedVariable/SEX> .
 
 <http://example2.org/DimensionComponent/YEAR> a cdi:DimensionComponent ;
     cdi:DataStructureComponent-specialization cdi:TimeRole ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example2.org/RepresentedVairable/YEAR> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example2.org/RepresentedVariable/YEAR> .
 
 <http://example2.org/MeasureComponent/POPULATION_MILLION> a cdi:MeasureComponent ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example2.org/RepresentedVairable/POPULATION_MILLION> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example2.org/RepresentedVariable/POPULATION_MILLION> .
 
 <http://example2.org/MeasureComponent/UNEMPLOYMENT_RATE_PERCENT> a cdi:MeasureComponent ;
-    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example2.org/RepresentedVairable/UNEMPLOYMENT_RATE_PERCENT> .
+    cdi:DataStructureComponent_isDefinedBy_RepresentedVariable <http://example2.org/RepresentedVariable/UNEMPLOYMENT_RATE_PERCENT> .
 
-<http://example2.org/RepresentedVairable/ACTIVITY> cdi:RepresentedVariable_takesSubstantiveValuesFrom_SubstantiveValueDomain <http://example2.org/SubstantiveValueDomain/CL_ACTIVITY> .
+<http://example2.org/RepresentedVariable/ACTIVITY> a cdi:RepresentedVariable ;
+    rdfs:label "Economic activity"@en ;
+    cdi:RepresentedVariable_takesSubstantiveValuesFrom_SubstantiveValueDomain <http://example2.org/SubstantiveValueDomain/CL_ACTIVITY> .
 
-<http://example2.org/RepresentedVairable/COUNTRY> cdi:RepresentedVariable_takesSubstantiveValuesFrom_SubstantiveValueDomain <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
+<http://example2.org/RepresentedVariable/COUNTRY> a cdi:RepresentedVariable ;
+    rdfs:label "Country or area"@en ;
+    cdi:RepresentedVariable_takesSubstantiveValuesFrom_SubstantiveValueDomain <http://example2.org/SubstantiveValueDomain/CL_COUNTRY> .
 
-<http://example2.org/RepresentedVairable/SEX> cdi:RepresentedVariable_takesSubstantiveValuesFrom_SubstantiveValueDomain <http://example2.org/SubstantiveValueDomain/CL_SEX> .
+<http://example2.org/RepresentedVariable/POPULATION_MILLION> a cdi:RepresentedVariable ;
+    rdfs:label "Population"@en .
+
+<http://example2.org/RepresentedVariable/SEX> a cdi:RepresentedVariable ;
+    rdfs:label "Sex"@en ;
+    cdi:RepresentedVariable_takesSubstantiveValuesFrom_SubstantiveValueDomain <http://example2.org/SubstantiveValueDomain/CL_SEX> .
+
+<http://example2.org/RepresentedVariable/UNEMPLOYMENT_RATE_PERCENT> a cdi:RepresentedVariable ;
+    rdfs:label "Unemployment rate"@en .
+
+<http://example2.org/RepresentedVariable/YEAR> a cdi:RepresentedVariable ;
+    rdfs:label "Year"@en .
 
 <http://example2.org/SubstantiveValueDomain/CL_ACTIVITY> a cdi:SubstantiveValueDomain ;
     cdi:SubstantiveValueDomain_takesValuesFrom_EnumerationDomain <http://example2.org/ConceptScheme/CL_ACTIVITY> .

@@ -1,0 +1,1246 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix undata: <https://undata.un.org/enumerations/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://undata.un.org/enumerations/AGE/AGEUnspecified> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "AGEUnspecified"^^xsd:string ;
+    skos:prefLabel "Unspecified age"@en .
+
+<https://undata.un.org/enumerations/AGE/ALLAges> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "ALLAges"^^xsd:string ;
+    skos:prefLabel "All ages"@en .
+
+<https://undata.un.org/enumerations/AGE/D0T27> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "D0T27"^^xsd:string ;
+    skos:prefLabel "0 to 27 days old"@en .
+
+<https://undata.un.org/enumerations/AGE/M0> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M0"^^xsd:string ;
+    skos:prefLabel "Under 1 month old"@en .
+
+<https://undata.un.org/enumerations/AGE/M0T1> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M0T1"^^xsd:string ;
+    skos:prefLabel "Under 2 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M0T11> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M0T11"^^xsd:string ;
+    skos:prefLabel "Under 12 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M0T23> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M0T23"^^xsd:string ;
+    skos:prefLabel "Under 24 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M0T47> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M0T47"^^xsd:string ;
+    skos:prefLabel "Under 48 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M0T5> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M0T5"^^xsd:string ;
+    skos:prefLabel "Under 6 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M10T11> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M10T11"^^xsd:string ;
+    skos:prefLabel "10 to 11 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M12T13> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M12T13"^^xsd:string ;
+    skos:prefLabel "12 to 13 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M12T15> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M12T15"^^xsd:string ;
+    skos:prefLabel "12 to 15 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M12T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M12T17"^^xsd:string ;
+    skos:prefLabel "12 to 17 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M12T23> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M12T23"^^xsd:string ;
+    skos:prefLabel "12 to 23 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M12T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M12T59"^^xsd:string ;
+    skos:prefLabel "12 to 59 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M14T15> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M14T15"^^xsd:string ;
+    skos:prefLabel "14 to 15 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M16T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M16T17"^^xsd:string ;
+    skos:prefLabel "16 to 17 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M16T19> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M16T19"^^xsd:string ;
+    skos:prefLabel "16 to 19 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M18T19> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M18T19"^^xsd:string ;
+    skos:prefLabel "18 to 19 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M18T23> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M18T23"^^xsd:string ;
+    skos:prefLabel "18 to 23 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M1T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M1T59"^^xsd:string ;
+    skos:prefLabel "1 to 59 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M20T21> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M20T21"^^xsd:string ;
+    skos:prefLabel "20 to 21 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M20T23> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M20T23"^^xsd:string ;
+    skos:prefLabel "20 to 23 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M22T23> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M22T23"^^xsd:string ;
+    skos:prefLabel "22 to 23 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M24T29> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M24T29"^^xsd:string ;
+    skos:prefLabel "24 to 29 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M24T35> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M24T35"^^xsd:string ;
+    skos:prefLabel "24 to 35 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M24T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M24T59"^^xsd:string ;
+    skos:prefLabel "24 to 59 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M2T3> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M2T3"^^xsd:string ;
+    skos:prefLabel "2 to 3 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M30T35> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M30T35"^^xsd:string ;
+    skos:prefLabel "30 to 35 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M36T41> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M36T41"^^xsd:string ;
+    skos:prefLabel "36 to 41 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M36T47> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M36T47"^^xsd:string ;
+    skos:prefLabel "36 to 47 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M36T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M36T59"^^xsd:string ;
+    skos:prefLabel "36 to 59 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M42T47> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M42T47"^^xsd:string ;
+    skos:prefLabel "42 to 47 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M48T53> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M48T53"^^xsd:string ;
+    skos:prefLabel "48 to 53 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M48T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M48T59"^^xsd:string ;
+    skos:prefLabel "48 to 59 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M4T5> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M4T5"^^xsd:string ;
+    skos:prefLabel "4 to 5 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M54T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M54T59"^^xsd:string ;
+    skos:prefLabel "54 to 59 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M6T11> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M6T11"^^xsd:string ;
+    skos:prefLabel "6 to 11 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M6T23> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M6T23"^^xsd:string ;
+    skos:prefLabel "6 to 23 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M6T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M6T59"^^xsd:string ;
+    skos:prefLabel "6 to 59 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M6T7> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M6T7"^^xsd:string ;
+    skos:prefLabel "6 to 7 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M6T8> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M6T8"^^xsd:string ;
+    skos:prefLabel "6 to 8 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M8T9> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M8T9"^^xsd:string ;
+    skos:prefLabel "8 to 9 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/M9T11> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "M9T11"^^xsd:string ;
+    skos:prefLabel "9 to 11 months old"@en .
+
+<https://undata.un.org/enumerations/AGE/NA> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "NA"^^xsd:string ;
+    skos:prefLabel "Not applicable"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0"^^xsd:string ;
+    skos:prefLabel "Under 1 year old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T1> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T1"^^xsd:string ;
+    skos:prefLabel "under 2 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T14> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T14"^^xsd:string ;
+    skos:prefLabel "under 15 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T15> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T15"^^xsd:string ;
+    skos:prefLabel "under 16 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T16> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T16"^^xsd:string ;
+    skos:prefLabel "Under 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T17"^^xsd:string ;
+    skos:prefLabel "Under 18 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T18> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T18"^^xsd:string ;
+    skos:prefLabel "Under 19 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T24> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T24"^^xsd:string ;
+    skos:prefLabel "Under 25 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T29> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T29"^^xsd:string ;
+    skos:prefLabel "Under 30 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T34> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T34"^^xsd:string ;
+    skos:prefLabel "Under 35 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T4> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T4"^^xsd:string ;
+    skos:prefLabel "Under 5 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T44> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T44"^^xsd:string ;
+    skos:prefLabel "Under 45 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T45> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T45"^^xsd:string ;
+    skos:prefLabel "Under 46 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T5> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T5"^^xsd:string ;
+    skos:prefLabel "Under 6 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T59"^^xsd:string ;
+    skos:prefLabel "Under 60 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T7> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T7"^^xsd:string ;
+    skos:prefLabel "Under 8 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y0T9> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y0T9"^^xsd:string ;
+    skos:prefLabel "Under 10 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y10> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y10"^^xsd:string ;
+    skos:prefLabel "10 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y10T14> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y10T14"^^xsd:string ;
+    skos:prefLabel "10 to 14 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y10T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y10T17"^^xsd:string ;
+    skos:prefLabel "10 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y10T18> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y10T18"^^xsd:string ;
+    skos:prefLabel "10 to 18 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y10T19> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y10T19"^^xsd:string ;
+    skos:prefLabel "10 to 19 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y10T21> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y10T21"^^xsd:string ;
+    skos:prefLabel "10 to 21 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y10T24> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y10T24"^^xsd:string ;
+    skos:prefLabel "10 to 24 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y10T29> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y10T29"^^xsd:string ;
+    skos:prefLabel "10 to 29 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y10T74> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y10T74"^^xsd:string ;
+    skos:prefLabel "10 to 74 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y11> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y11"^^xsd:string ;
+    skos:prefLabel "11 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y11T16> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y11T16"^^xsd:string ;
+    skos:prefLabel "11 to 16 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y11T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y11T17"^^xsd:string ;
+    skos:prefLabel "11 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y12> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y12"^^xsd:string ;
+    skos:prefLabel "12 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y12T14> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y12T14"^^xsd:string ;
+    skos:prefLabel "12 to 14 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y12T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y12T17"^^xsd:string ;
+    skos:prefLabel "12 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y12T18> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y12T18"^^xsd:string ;
+    skos:prefLabel "12 to 18 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y12T19> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y12T19"^^xsd:string ;
+    skos:prefLabel "12 to 19 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y12T21> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y12T21"^^xsd:string ;
+    skos:prefLabel "12 to 21 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y12T24> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y12T24"^^xsd:string ;
+    skos:prefLabel "12 to 24 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y12T30> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y12T30"^^xsd:string ;
+    skos:prefLabel "12 to 30 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y13> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y13"^^xsd:string ;
+    skos:prefLabel "13 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y13T15> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y13T15"^^xsd:string ;
+    skos:prefLabel "13 to 15 years"@en .
+
+<https://undata.un.org/enumerations/AGE/Y13T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y13T17"^^xsd:string ;
+    skos:prefLabel "13 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y13T18> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y13T18"^^xsd:string ;
+    skos:prefLabel "13 to 18 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y14T15> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y14T15"^^xsd:string ;
+    skos:prefLabel "14 to 15 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y14T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y14T17"^^xsd:string ;
+    skos:prefLabel "14 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y14T20> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y14T20"^^xsd:string ;
+    skos:prefLabel "14 to 20 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y14T21> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y14T21"^^xsd:string ;
+    skos:prefLabel "14 to 21 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y14T24> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y14T24"^^xsd:string ;
+    skos:prefLabel "14 to 24 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y14T28> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y14T28"^^xsd:string ;
+    skos:prefLabel "14 to 28 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y14T29> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y14T29"^^xsd:string ;
+    skos:prefLabel "14 to 29 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15"^^xsd:string ;
+    skos:prefLabel "15 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T17"^^xsd:string ;
+    skos:prefLabel "15 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T18> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T18"^^xsd:string ;
+    skos:prefLabel "15 to 18 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T19> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T19"^^xsd:string ;
+    skos:prefLabel "15 to 19 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T24> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T24"^^xsd:string ;
+    skos:prefLabel "15 to 24 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T28> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T28"^^xsd:string ;
+    skos:prefLabel "15 to 28 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T29> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T29"^^xsd:string ;
+    skos:prefLabel "15 to 29 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T34> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T34"^^xsd:string ;
+    skos:prefLabel "15 to 34 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T44> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T44"^^xsd:string ;
+    skos:prefLabel "15 to 44 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T49> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T49"^^xsd:string ;
+    skos:prefLabel "15 to 49 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T54> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T54"^^xsd:string ;
+    skos:prefLabel "15 to 54 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T59"^^xsd:string ;
+    skos:prefLabel "15 to 59 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T60> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T60"^^xsd:string ;
+    skos:prefLabel "15 to 60 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T64> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T64"^^xsd:string ;
+    skos:prefLabel "15 to 64 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T65> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T65"^^xsd:string ;
+    skos:prefLabel "15 to 65 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T69> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T69"^^xsd:string ;
+    skos:prefLabel "15 to 69 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T70> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T70"^^xsd:string ;
+    skos:prefLabel "15 to 70 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T72> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T72"^^xsd:string ;
+    skos:prefLabel "15 to 72 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T74> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T74"^^xsd:string ;
+    skos:prefLabel "15 to 74 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T80> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T80"^^xsd:string ;
+    skos:prefLabel "15 to 80 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y15T84> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y15T84"^^xsd:string ;
+    skos:prefLabel "15 to 84 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y16T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y16T17"^^xsd:string ;
+    skos:prefLabel "16 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y16T24> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y16T24"^^xsd:string ;
+    skos:prefLabel "16 to 24 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y16T65> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y16T65"^^xsd:string ;
+    skos:prefLabel "16 to 65 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y16T74> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y16T74"^^xsd:string ;
+    skos:prefLabel "16 to 74 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y18T19> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y18T19"^^xsd:string ;
+    skos:prefLabel "18 to 19 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y18T24> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y18T24"^^xsd:string ;
+    skos:prefLabel "18 to 24 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y18T27> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y18T27"^^xsd:string ;
+    skos:prefLabel "18 to 27 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y18T29> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y18T29"^^xsd:string ;
+    skos:prefLabel "18 to 29 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y18T35> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y18T35"^^xsd:string ;
+    skos:prefLabel "18 to 35 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y18T44> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y18T44"^^xsd:string ;
+    skos:prefLabel "18 to 44 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y18T49> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y18T49"^^xsd:string ;
+    skos:prefLabel "18 to 49 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y18T50> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y18T50"^^xsd:string ;
+    skos:prefLabel "18 to 50 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y18T60> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y18T60"^^xsd:string ;
+    skos:prefLabel "18 to 60 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y18T64> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y18T64"^^xsd:string ;
+    skos:prefLabel "18 to 64 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y18T69> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y18T69"^^xsd:string ;
+    skos:prefLabel "18 to 69 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y18T74> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y18T74"^^xsd:string ;
+    skos:prefLabel "18 to 74 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y19T65> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y19T65"^^xsd:string ;
+    skos:prefLabel "19 to 65 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y1T14> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y1T14"^^xsd:string ;
+    skos:prefLabel "1 to 14 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y1T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y1T17"^^xsd:string ;
+    skos:prefLabel "1 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y1T2> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y1T2"^^xsd:string ;
+    skos:prefLabel "1 to 2 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y1T4> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y1T4"^^xsd:string ;
+    skos:prefLabel "1 to 4 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y2> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y2"^^xsd:string ;
+    skos:prefLabel "2 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y20T24> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y20T24"^^xsd:string ;
+    skos:prefLabel "20 to 24 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y20T29> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y20T29"^^xsd:string ;
+    skos:prefLabel "20 to 29 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y20T30> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y20T30"^^xsd:string ;
+    skos:prefLabel "20 to 30 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y20T35> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y20T35"^^xsd:string ;
+    skos:prefLabel "20 to 35 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y20T49> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y20T49"^^xsd:string ;
+    skos:prefLabel "20 to 49 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y20T64> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y20T64"^^xsd:string ;
+    skos:prefLabel "20 to 64 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y20T74> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y20T74"^^xsd:string ;
+    skos:prefLabel "20 to 74 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y25T29> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y25T29"^^xsd:string ;
+    skos:prefLabel "25 to 29 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y25T34> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y25T34"^^xsd:string ;
+    skos:prefLabel "25 to 34 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y25T39> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y25T39"^^xsd:string ;
+    skos:prefLabel "25 to 39 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y25T44> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y25T44"^^xsd:string ;
+    skos:prefLabel "25 to 44 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y25T54> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y25T54"^^xsd:string ;
+    skos:prefLabel "25 to 54 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y25T64> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y25T64"^^xsd:string ;
+    skos:prefLabel "25 to 64 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y25T74> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y25T74"^^xsd:string ;
+    skos:prefLabel "25 to 74 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y2T14> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y2T14"^^xsd:string ;
+    skos:prefLabel "2 to 14 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y2T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y2T17"^^xsd:string ;
+    skos:prefLabel "2 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y2T4> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y2T4"^^xsd:string ;
+    skos:prefLabel "2 to 4 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y2T5> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y2T5"^^xsd:string ;
+    skos:prefLabel "2 to 5 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y3> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y3"^^xsd:string ;
+    skos:prefLabel "3 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y30> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y30"^^xsd:string ;
+    skos:prefLabel "30 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y30T34> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y30T34"^^xsd:string ;
+    skos:prefLabel "30 to 34 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y30T35> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y30T35"^^xsd:string ;
+    skos:prefLabel "30 to 35 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y30T39> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y30T39"^^xsd:string ;
+    skos:prefLabel "30 to 39 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y30T44> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y30T44"^^xsd:string ;
+    skos:prefLabel "30 to 44 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y30T49> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y30T49"^^xsd:string ;
+    skos:prefLabel "30 to 49 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y30T69> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y30T69"^^xsd:string ;
+    skos:prefLabel "30 to 69 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y30T70> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y30T70"^^xsd:string ;
+    skos:prefLabel "30 to 70 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y35> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y35"^^xsd:string ;
+    skos:prefLabel "35 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y35T39> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y35T39"^^xsd:string ;
+    skos:prefLabel "35 to 39 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y35T44> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y35T44"^^xsd:string ;
+    skos:prefLabel "35 to 44 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y35T49> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y35T49"^^xsd:string ;
+    skos:prefLabel "35 to 49 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y35T54> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y35T54"^^xsd:string ;
+    skos:prefLabel "35 to 54 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y36T54> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y36T54"^^xsd:string ;
+    skos:prefLabel "36 to 54 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y3T14> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y3T14"^^xsd:string ;
+    skos:prefLabel "3 to 14 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y3T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y3T17"^^xsd:string ;
+    skos:prefLabel "3 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y3T4> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y3T4"^^xsd:string ;
+    skos:prefLabel "3 to 4 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y3T5> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y3T5"^^xsd:string ;
+    skos:prefLabel "3 to 5 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y4> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y4"^^xsd:string ;
+    skos:prefLabel "4 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y40T44> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y40T44"^^xsd:string ;
+    skos:prefLabel "40 to 44 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y40T49> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y40T49"^^xsd:string ;
+    skos:prefLabel "40 to 49 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y40T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y40T59"^^xsd:string ;
+    skos:prefLabel "40 to 59 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y45T49> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y45T49"^^xsd:string ;
+    skos:prefLabel "45 to 49 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y45T54> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y45T54"^^xsd:string ;
+    skos:prefLabel "45 to 54 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y45T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y45T59"^^xsd:string ;
+    skos:prefLabel "45 to 59 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y45T64> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y45T64"^^xsd:string ;
+    skos:prefLabel "45 to 64 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y4T5> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y4T5"^^xsd:string ;
+    skos:prefLabel "4 to 5 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y4T6> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y4T6"^^xsd:string ;
+    skos:prefLabel "4 to 6 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y5> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y5"^^xsd:string ;
+    skos:prefLabel "5 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y50T54> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y50T54"^^xsd:string ;
+    skos:prefLabel "50 to 54 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y50T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y50T59"^^xsd:string ;
+    skos:prefLabel "50 to 59 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y50T69> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y50T69"^^xsd:string ;
+    skos:prefLabel "50-69 years"@en .
+
+<https://undata.un.org/enumerations/AGE/Y55T59> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y55T59"^^xsd:string ;
+    skos:prefLabel "55 to 59 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y55T64> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y55T64"^^xsd:string ;
+    skos:prefLabel "55 to 64 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y5T12> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y5T12"^^xsd:string ;
+    skos:prefLabel "5 to 12 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y5T14> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y5T14"^^xsd:string ;
+    skos:prefLabel "5 to 14 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y5T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y5T17"^^xsd:string ;
+    skos:prefLabel "5 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y5T18> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y5T18"^^xsd:string ;
+    skos:prefLabel "5 to 18 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y5T19> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y5T19"^^xsd:string ;
+    skos:prefLabel "5 to 19  years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y5T9> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y5T9"^^xsd:string ;
+    skos:prefLabel "5 to 9 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y6> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y6"^^xsd:string ;
+    skos:prefLabel "6 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y60T64> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y60T64"^^xsd:string ;
+    skos:prefLabel "60 to 64 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y60T69> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y60T69"^^xsd:string ;
+    skos:prefLabel "60 to 69 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y65T69> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y65T69"^^xsd:string ;
+    skos:prefLabel "65 to 69 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y65T74> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y65T74"^^xsd:string ;
+    skos:prefLabel "65 to 74 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y6T14> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y6T14"^^xsd:string ;
+    skos:prefLabel "6 to 14 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y6T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y6T17"^^xsd:string ;
+    skos:prefLabel "6 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y6T65> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y6T65"^^xsd:string ;
+    skos:prefLabel "6 to 65 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y7> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y7"^^xsd:string ;
+    skos:prefLabel "7 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y70T74> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y70T74"^^xsd:string ;
+    skos:prefLabel "70 to 74 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y70T79> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y70T79"^^xsd:string ;
+    skos:prefLabel "70 to 79 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y75T79> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y75T79"^^xsd:string ;
+    skos:prefLabel "75 to 79 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y75T84> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y75T84"^^xsd:string ;
+    skos:prefLabel "75 to 84 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y7T14> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y7T14"^^xsd:string ;
+    skos:prefLabel "7 to 14 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y7T16> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y7T16"^^xsd:string ;
+    skos:prefLabel "7 to 16 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y7T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y7T17"^^xsd:string ;
+    skos:prefLabel "7 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y80T84> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y80T84"^^xsd:string ;
+    skos:prefLabel "80 to 84 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y80T89> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y80T89"^^xsd:string ;
+    skos:prefLabel "80 to 89 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y85T89> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y85T89"^^xsd:string ;
+    skos:prefLabel "85 to 89 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y8T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y8T17"^^xsd:string ;
+    skos:prefLabel "8 to 17 years"@en .
+
+<https://undata.un.org/enumerations/AGE/Y9> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y9"^^xsd:string ;
+    skos:prefLabel "9 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y90T94> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y90T94"^^xsd:string ;
+    skos:prefLabel "90 to 94 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y90T99> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y90T99"^^xsd:string ;
+    skos:prefLabel "90 to 99 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y95T99> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y95T99"^^xsd:string ;
+    skos:prefLabel "95 to 99 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y9T17> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y9T17"^^xsd:string ;
+    skos:prefLabel "9 to 17 years old"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE10> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE10"^^xsd:string ;
+    skos:prefLabel "10 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE100> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE100"^^xsd:string ;
+    skos:prefLabel "100 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE12> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE12"^^xsd:string ;
+    skos:prefLabel "12 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE14> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE14"^^xsd:string ;
+    skos:prefLabel "14 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE15> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE15"^^xsd:string ;
+    skos:prefLabel "15 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE16> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE16"^^xsd:string ;
+    skos:prefLabel "16 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE18> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE18"^^xsd:string ;
+    skos:prefLabel "18 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE20> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE20"^^xsd:string ;
+    skos:prefLabel "20 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE25> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE25"^^xsd:string ;
+    skos:prefLabel "25 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE3> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE3"^^xsd:string ;
+    skos:prefLabel "3 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE46> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE46"^^xsd:string ;
+    skos:prefLabel "46 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE5> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE5"^^xsd:string ;
+    skos:prefLabel "5 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE50> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE50"^^xsd:string ;
+    skos:prefLabel "50 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE55> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE55"^^xsd:string ;
+    skos:prefLabel "55 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE6> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE6"^^xsd:string ;
+    skos:prefLabel "6 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE60> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE60"^^xsd:string ;
+    skos:prefLabel "60 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE65> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE65"^^xsd:string ;
+    skos:prefLabel "65 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE7> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE7"^^xsd:string ;
+    skos:prefLabel "7 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE70> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE70"^^xsd:string ;
+    skos:prefLabel "70 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE75> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE75"^^xsd:string ;
+    skos:prefLabel "75 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE80> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE80"^^xsd:string ;
+    skos:prefLabel "80 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE85> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE85"^^xsd:string ;
+    skos:prefLabel "85 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE90> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE90"^^xsd:string ;
+    skos:prefLabel "90 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/Y_GE95> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "Y_GE95"^^xsd:string ;
+    skos:prefLabel "95 years old and over"@en .
+
+<https://undata.un.org/enumerations/AGE/_T> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "_T"^^xsd:string ;
+    skos:prefLabel "Total or no breakdown"@en .
+
+<https://undata.un.org/enumerations/AGE/_U> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "_U"^^xsd:string ;
+    skos:prefLabel "Unknown"@en .
+
+<https://undata.un.org/enumerations/AGE/_X> a skos:Concept ;
+    skos:inScheme undata:AGE ;
+    skos:notation "_X"^^xsd:string ;
+    skos:prefLabel "Not available"@en .
+
+undata:AGE a skos:ConceptScheme ;
+    dcterms:creator "UN DESA, Statistics Division" ;
+    owl:versionInfo "v1.0" ;
+    skos:prefLabel "Age"@en .
+

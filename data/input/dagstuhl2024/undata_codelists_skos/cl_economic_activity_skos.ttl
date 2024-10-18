@@ -1,0 +1,1142 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix undata: <https://undata.un.org/enumerations/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ECO_AGGREGATE_CON> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ECO_AGGREGATE_CON"^^xsd:string ;
+    skos:prefLabel "Construction"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ECO_AGGREGATE_MAN> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ECO_AGGREGATE_MAN"^^xsd:string ;
+    skos:prefLabel "Manufacturing"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ECO_AGGREGATE_MANEL> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ECO_AGGREGATE_MANEL"^^xsd:string ;
+    skos:prefLabel "Manufacturing; Electricity, gas and water supply"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ECO_AGGREGATE_MEL> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ECO_AGGREGATE_MEL"^^xsd:string ;
+    skos:prefLabel "Mining and quarrying; Electricity, gas and water supply"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ECO_AGGREGATE_MKT> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ECO_AGGREGATE_MKT"^^xsd:string ;
+    skos:prefLabel "Trade, Transportation, Accommodation and Food, and Business and Administrative Services"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ECO_AGGREGATE_PUB> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ECO_AGGREGATE_PUB"^^xsd:string ;
+    skos:prefLabel "Public Administration, Community, Social and other Services and Activities"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ECO_SECTOR_AGR> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ECO_SECTOR_AGR"^^xsd:string ;
+    skos:prefLabel "Agriculture"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ECO_SECTOR_IND> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ECO_SECTOR_IND"^^xsd:string ;
+    skos:prefLabel "Industry"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ECO_SECTOR_NAG> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ECO_SECTOR_NAG"^^xsd:string ;
+    skos:prefLabel "Non-agriculture"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ECO_SECTOR_SER> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ECO_SECTOR_SER"^^xsd:string ;
+    skos:prefLabel "Services"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ECO_SECTOR_X> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ECO_SECTOR_X"^^xsd:string ;
+    skos:prefLabel "Not classified by sector"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/HH> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "HH"^^xsd:string ;
+    skos:prefLabel "Private households"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC2_0> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC2_0"^^xsd:string ;
+    skos:prefLabel "Activities not Adequately Defined (ISIC2 - 0)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC2_1> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC2_1"^^xsd:string ;
+    skos:prefLabel "Agriculture, Hunting, Forestry and Fishing (ISIC2 - 1)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC2_2> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC2_2"^^xsd:string ;
+    skos:prefLabel "Mining and Quarrying (ISIC2 - 2)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC2_3> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC2_3"^^xsd:string ;
+    skos:prefLabel "Manufacturing (ISIC2 - 3)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC2_4> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC2_4"^^xsd:string ;
+    skos:prefLabel "Electricity, Gas and Water (ISIC2 - 4)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC2_5> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC2_5"^^xsd:string ;
+    skos:prefLabel "Construction (ISIC2 - 5)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC2_6> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC2_6"^^xsd:string ;
+    skos:prefLabel "Wholesale and Retail Trade and Restaurants and Hotels (ISIC2 - 6)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC2_7> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC2_7"^^xsd:string ;
+    skos:prefLabel "Transport, Storage and Communication (ISIC2 - 7)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC2_8> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC2_8"^^xsd:string ;
+    skos:prefLabel "Financing, Insurance, Real Estate and Business Services (ISIC2 - 8)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC2_9> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC2_9"^^xsd:string ;
+    skos:prefLabel "Community, Social and Personal Services (ISIC2 - 9)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC2_TOTAL> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC2_TOTAL"^^xsd:string ;
+    skos:prefLabel "Total or no breakdown (ISIC2)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC2_X> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC2_X"^^xsd:string ;
+    skos:prefLabel "Not elsewhere classified (ISIC2)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_A> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_A"^^xsd:string ;
+    skos:prefLabel "Agriculture, hunting and forestry (ISIC3 - A)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_A01> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_A01"^^xsd:string ;
+    skos:prefLabel "Agriculture, hunting and related service activities (ISIC3 - A01)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_A02> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_A02"^^xsd:string ;
+    skos:prefLabel "Forestry, logging and related service activities (ISIC3 - A02)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_B> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_B"^^xsd:string ;
+    skos:prefLabel "Fishing (ISIC3 - B)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_B05> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_B05"^^xsd:string ;
+    skos:prefLabel "Fishing, aquaculture and service activities incidental to fishing (ISIC3 - B05)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_C> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_C"^^xsd:string ;
+    skos:prefLabel "Mining and quarrying (ISIC3 - C)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_C10> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_C10"^^xsd:string ;
+    skos:prefLabel "Mining of coal and lignite; extraction of peat (ISIC3 - C10)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_C11> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_C11"^^xsd:string ;
+    skos:prefLabel "Extraction of crude petroleum and natural gas; service activities incidental to oil and gas extraction, excluding surveying (ISIC3 - C11)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_C12> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_C12"^^xsd:string ;
+    skos:prefLabel "Mining of uranium and thorium ores (ISIC3 - C12)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_C13> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_C13"^^xsd:string ;
+    skos:prefLabel "Mining of metal ores (ISIC3 - C13)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_C14> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_C14"^^xsd:string ;
+    skos:prefLabel "Other mining and quarrying (ISIC3 - C14)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D"^^xsd:string ;
+    skos:prefLabel "Manufacturing (ISIC3 - D)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D15> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D15"^^xsd:string ;
+    skos:prefLabel "Manufacture of food products and beverages (ISIC3 - D15)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D16> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D16"^^xsd:string ;
+    skos:prefLabel "Manufacture of tobacco products (ISIC3 - D16)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D17> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D17"^^xsd:string ;
+    skos:prefLabel "Manufacture of textiles (ISIC3 - D17)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D18> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D18"^^xsd:string ;
+    skos:prefLabel "Manufacture of wearing apparel; dressing and dyeing of fur (ISIC3 - D18)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D19> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D19"^^xsd:string ;
+    skos:prefLabel "Tanning and dressing of leather; manufacture of luggage, handbags, saddlery, harness and footwear (ISIC3 - D19)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D20> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D20"^^xsd:string ;
+    skos:prefLabel "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials (ISIC3 - D20)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D21> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D21"^^xsd:string ;
+    skos:prefLabel "Manufacture of paper and paper products (ISIC3 - D21)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D22> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D22"^^xsd:string ;
+    skos:prefLabel "Publishing, printing and reproduction of recorded media (ISIC3 - D22)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D23> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D23"^^xsd:string ;
+    skos:prefLabel "Manufacture of coke, refined petroleum products and nuclear fuel (ISIC3 - D23)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D24> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D24"^^xsd:string ;
+    skos:prefLabel "Manufacture of chemicals and chemical products (ISIC3 - D24)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D25> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D25"^^xsd:string ;
+    skos:prefLabel "Manufacture of rubber and plastics products (ISIC3 - D25)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D26> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D26"^^xsd:string ;
+    skos:prefLabel "Manufacture of other non-metallic mineral products (ISIC3 - D26)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D27> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D27"^^xsd:string ;
+    skos:prefLabel "Manufacture of basic metals (ISIC3 - D27)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D28> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D28"^^xsd:string ;
+    skos:prefLabel "Manufacture of fabricated metal products, except machinery and equipment (ISIC3 - D28)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D29> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D29"^^xsd:string ;
+    skos:prefLabel "Manufacture of machinery and equipment n.e.c. (ISIC3 - D29)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D30> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D30"^^xsd:string ;
+    skos:prefLabel "Manufacture of office, accounting and computing machinery (ISIC3 - D30)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D31> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D31"^^xsd:string ;
+    skos:prefLabel "Manufacture of electrical machinery and apparatus n.e.c. (ISIC3 - D31)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D32> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D32"^^xsd:string ;
+    skos:prefLabel "Manufacture of radio, television and communication equipment and apparatus (ISIC3 - D32)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D33> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D33"^^xsd:string ;
+    skos:prefLabel "Manufacture of medical, precision and optical instruments, watches and clocks (ISIC3 - D33)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D34> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D34"^^xsd:string ;
+    skos:prefLabel "Manufacture of motor vehicles, trailers and semi-trailers (ISIC3 - D34)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D35> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D35"^^xsd:string ;
+    skos:prefLabel "Manufacture of other transport equipment (ISIC3 - D35)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D36> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D36"^^xsd:string ;
+    skos:prefLabel "Manufacture of furniture; manufacturing n.e.c. (ISIC3 - D36)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_D37> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_D37"^^xsd:string ;
+    skos:prefLabel "Recycling (ISIC3 - D37)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_E> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_E"^^xsd:string ;
+    skos:prefLabel "Electricity, gas and water supply (ISIC3 - E)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_E40> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_E40"^^xsd:string ;
+    skos:prefLabel "Electricity, gas, steam and hot water supply (ISIC3 - E40)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_E41> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_E41"^^xsd:string ;
+    skos:prefLabel "Collection, purification and distribution of water (ISIC3 - E41)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_F> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_F"^^xsd:string ;
+    skos:prefLabel "Construction (ISIC3 - F)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_F45> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_F45"^^xsd:string ;
+    skos:prefLabel "Construction (ISIC3 - F45)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_G> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_G"^^xsd:string ;
+    skos:prefLabel "Wholesale and retail trade; repair of motor vehicles, motorcycles and personal and household goods (ISIC3 - G)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_G50> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_G50"^^xsd:string ;
+    skos:prefLabel "Sale, maintenance and repair of motor vehicles and motorcycles; retail sale of automotive fuel (ISIC3 - G50)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_G51> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_G51"^^xsd:string ;
+    skos:prefLabel "Wholesale trade and commission trade, except of motor vehicles and motorcycles (ISIC3 - G51)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_G52> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_G52"^^xsd:string ;
+    skos:prefLabel "Retail trade, except of motor vehicles and motorcycles; repair of personal and household goods (ISIC3 - G52)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_H> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_H"^^xsd:string ;
+    skos:prefLabel "Hotels and restaurants (ISIC3 - H)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_H55> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_H55"^^xsd:string ;
+    skos:prefLabel "Hotels and restaurants (ISIC3 - H55)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_I> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_I"^^xsd:string ;
+    skos:prefLabel "Transport, storage and communications (ISIC3 - I)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_I60> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_I60"^^xsd:string ;
+    skos:prefLabel "Land transport; transport via pipelines (ISIC3 - I60)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_I61> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_I61"^^xsd:string ;
+    skos:prefLabel "Water transport (ISIC3 - I61)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_I62> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_I62"^^xsd:string ;
+    skos:prefLabel "Air transport (ISIC3 - I62)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_I63> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_I63"^^xsd:string ;
+    skos:prefLabel "Supporting and auxiliary transport activities; activities of travel agencies (ISIC3 - I63)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_I64> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_I64"^^xsd:string ;
+    skos:prefLabel "Post and telecommunications (ISIC3 - I64)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_J> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_J"^^xsd:string ;
+    skos:prefLabel "Financial intermediation (ISIC3 - J)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_J65> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_J65"^^xsd:string ;
+    skos:prefLabel "Financial intermediation, except insurance and pension funding (ISIC3 - J65)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_J66> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_J66"^^xsd:string ;
+    skos:prefLabel "Insurance and pension funding, except compulsory social security (ISIC3 - J66)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_J67> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_J67"^^xsd:string ;
+    skos:prefLabel "Activities auxiliary to financial intermediation (ISIC3 - J67)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_K> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_K"^^xsd:string ;
+    skos:prefLabel "Real estate, renting and business activities (ISIC3 - K)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_K70> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_K70"^^xsd:string ;
+    skos:prefLabel "Real estate activities (ISIC3 - K70)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_K71> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_K71"^^xsd:string ;
+    skos:prefLabel "Renting of machinery and equipment without operator and of personal and household goods (ISIC3 - K71)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_K72> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_K72"^^xsd:string ;
+    skos:prefLabel "Computer and related activities (ISIC3 - K72)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_K73> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_K73"^^xsd:string ;
+    skos:prefLabel "Research and development (ISIC3 - K73)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_K74> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_K74"^^xsd:string ;
+    skos:prefLabel "Other business activities (ISIC3 - K74)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_L> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_L"^^xsd:string ;
+    skos:prefLabel "Public administration and defence; compulsory social security (ISIC3 - L)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_L75> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_L75"^^xsd:string ;
+    skos:prefLabel "Public administration and defence; compulsory social security (ISIC3 - L75)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_M> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_M"^^xsd:string ;
+    skos:prefLabel "Education (ISIC3 - M)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_M80> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_M80"^^xsd:string ;
+    skos:prefLabel "Education (ISIC3 - M80)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_N> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_N"^^xsd:string ;
+    skos:prefLabel "Health and social work (ISIC3 - N)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_N85> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_N85"^^xsd:string ;
+    skos:prefLabel "Health and social work (ISIC3 - N85)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_O> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_O"^^xsd:string ;
+    skos:prefLabel "Other community, social and personal service activities (ISIC3 - O)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_O90> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_O90"^^xsd:string ;
+    skos:prefLabel "Sewage and refuse disposal, sanitation and similar activities (ISIC3 - O90)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_O91> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_O91"^^xsd:string ;
+    skos:prefLabel "Activities of membership organizations n.e.c. (ISIC3 - O91)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_O92> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_O92"^^xsd:string ;
+    skos:prefLabel "Recreational, cultural and sporting activities (ISIC3 - O92)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_O93> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_O93"^^xsd:string ;
+    skos:prefLabel "Other service activities (ISIC3 - O93)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_P> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_P"^^xsd:string ;
+    skos:prefLabel "Activities of private households as employers and undifferentiated production activities of private households (ISIC3 - P)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_P95> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_P95"^^xsd:string ;
+    skos:prefLabel "Activities of private households as employers of domestic staff (ISIC3 - P95)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_P96> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_P96"^^xsd:string ;
+    skos:prefLabel "Undifferentiated goods-producing activities of private households for own use (ISIC3 - P96)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_P97> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_P97"^^xsd:string ;
+    skos:prefLabel "Undifferentiated service-producing activities of private households for own use (ISIC3 - P97)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_Q> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_Q"^^xsd:string ;
+    skos:prefLabel "Extraterritorial organizations and bodies (ISIC3 - Q)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_Q99> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_Q99"^^xsd:string ;
+    skos:prefLabel "Extraterritorial organizations and bodies (ISIC3 - Q99)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_TOTAL> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_TOTAL"^^xsd:string ;
+    skos:prefLabel "Total or no breakdown (ISIC3)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC3_X> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC3_X"^^xsd:string ;
+    skos:prefLabel "Not elsewhere classified (ISIC3)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_A> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_A"^^xsd:string ;
+    skos:prefLabel "Agriculture; forestry and fishing (ISIC4 - A)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_A01> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_A01"^^xsd:string ;
+    skos:prefLabel "Crop and animal production, hunting and related service activities (ISIC4 - A01)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_A01_A0210_A0322> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_A01_A0210_A0322"^^xsd:string ;
+    skos:prefLabel "Crop and animal production, hunting, silviculture, and freshwater aquaculture (ISIC4 -A01, A0220, and A0322)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_A02> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_A02"^^xsd:string ;
+    skos:prefLabel "Forestry and logging (ISIC4 - A02)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_A03> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_A03"^^xsd:string ;
+    skos:prefLabel "Fishing and aquaculture (ISIC4 - A03)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_B> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_B"^^xsd:string ;
+    skos:prefLabel "Mining and quarrying (ISIC4 - B)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_B05> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_B05"^^xsd:string ;
+    skos:prefLabel "Mining of coal and lignite (ISIC4 - B05)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_B06> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_B06"^^xsd:string ;
+    skos:prefLabel "Extraction of crude petroleum and natural gas (ISIC4 - B06)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_B07> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_B07"^^xsd:string ;
+    skos:prefLabel "Mining of metal ores (ISIC4 - B07)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_B08> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_B08"^^xsd:string ;
+    skos:prefLabel "Other mining and quarrying (ISIC4 - B08)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_B09> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_B09"^^xsd:string ;
+    skos:prefLabel "Mining support service activities (ISIC4 - B09)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_BTFXE> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_BTFXE"^^xsd:string ;
+    skos:prefLabel "Industries (ISIC4 - B through F, excluding E)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_BTU> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_BTU"^^xsd:string ;
+    skos:prefLabel "Non - agriculture (ISIC4  -  B through U))"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C"^^xsd:string ;
+    skos:prefLabel "Manufacturing (ISIC4 - C)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C10> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C10"^^xsd:string ;
+    skos:prefLabel "Manufacture of food products (ISIC4 - C10)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C10T32X19> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C10T32X19"^^xsd:string ;
+    skos:prefLabel "Manufacturing excl. coke and refined petroleum products and repair and installation of machinery and equipment (ISIC4 - 10)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C11> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C11"^^xsd:string ;
+    skos:prefLabel "Manufacture of beverages (ISIC4 - C11)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C12> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C12"^^xsd:string ;
+    skos:prefLabel "Manufacture of tobacco products (ISIC4 - C12)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C13> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C13"^^xsd:string ;
+    skos:prefLabel "Manufacture of textiles (ISIC4 - C13)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C14> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C14"^^xsd:string ;
+    skos:prefLabel "Manufacture of wearing apparel (ISIC4 - C14)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C15> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C15"^^xsd:string ;
+    skos:prefLabel "Manufacture of leather and related products (ISIC4 - C15)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C16> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C16"^^xsd:string ;
+    skos:prefLabel "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials (ISIC4 - C16)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C17> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C17"^^xsd:string ;
+    skos:prefLabel "Manufacture of paper and paper products (ISIC4 - C17)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C18> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C18"^^xsd:string ;
+    skos:prefLabel "Printing and reproduction of recorded media (ISIC4 - C18)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C19> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C19"^^xsd:string ;
+    skos:prefLabel "Manufacture of coke and refined petroleum products (ISIC4 - C19)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C20> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C20"^^xsd:string ;
+    skos:prefLabel "Manufacture of chemicals and chemical products (ISIC4 - C20)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C21> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C21"^^xsd:string ;
+    skos:prefLabel "Manufacture of pharmaceuticals, medicinal chemical and botanical products (ISIC4 - C21)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C22> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C22"^^xsd:string ;
+    skos:prefLabel "Manufacture of rubber and plastics products (ISIC4 - C22)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C23> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C23"^^xsd:string ;
+    skos:prefLabel "Manufacture of other non-metallic mineral products (ISIC4 - C23)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C24> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C24"^^xsd:string ;
+    skos:prefLabel "Manufacture of basic metals (ISIC4 - C24)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C25> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C25"^^xsd:string ;
+    skos:prefLabel "Manufacture of fabricated metal products, except machinery and equipment (ISIC4 - C25)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C26> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C26"^^xsd:string ;
+    skos:prefLabel "Manufacture of computer, electronic and optical products (ISIC4 - C26)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C27> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C27"^^xsd:string ;
+    skos:prefLabel "Manufacture of electrical equipment (ISIC4 - C27)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C28> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C28"^^xsd:string ;
+    skos:prefLabel "Manufacture of machinery and equipment n.e.c. (ISIC4 - C28)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C29> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C29"^^xsd:string ;
+    skos:prefLabel "Manufacture of motor vehicles, trailers and semi-trailers (ISIC4 - C29)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C30> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C30"^^xsd:string ;
+    skos:prefLabel "Manufacture of other transport equipment (ISIC4 - C30)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C31> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C31"^^xsd:string ;
+    skos:prefLabel "Manufacture of furniture (ISIC4 - C31)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C32> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C32"^^xsd:string ;
+    skos:prefLabel "Other manufacturing (ISIC4 - C32)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_C33> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_C33"^^xsd:string ;
+    skos:prefLabel "Repair and installation of machinery and equipment (ISIC4 - C33)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_D> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_D"^^xsd:string ;
+    skos:prefLabel "Electricity; gas, steam and air conditioning supply (ISIC4 - D)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_D35> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_D35"^^xsd:string ;
+    skos:prefLabel "Electricity, gas, steam and air conditioning supply (ISIC4 - D35)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_E> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_E"^^xsd:string ;
+    skos:prefLabel "Water supply; sewerage, waste management and remediation activities (ISIC4 - E)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_E36> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_E36"^^xsd:string ;
+    skos:prefLabel "Water collection, treatment and supply (ISIC4 - E36)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_E37> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_E37"^^xsd:string ;
+    skos:prefLabel "Sewerage (ISIC4 - E37)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_E38> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_E38"^^xsd:string ;
+    skos:prefLabel "Waste collection, treatment and disposal activities; materials recovery (ISIC4 - E38)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_E39> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_E39"^^xsd:string ;
+    skos:prefLabel "Remediation activities and other waste management services (ISIC4 - E39)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_EX38_GTS_U> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_EX38_GTS_U"^^xsd:string ;
+    skos:prefLabel "Utilities except waste collection, services, and activities of extraterritorial organizations and bodies (ISIC4 - E excl.  38, G through S, and U)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_EX38_GTU> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_EX38_GTU"^^xsd:string ;
+    skos:prefLabel "Utilities except waste collection, services, activities of households, and activities of extraterritorial organizations and bodies (ISIC4 - E excl.  38, and G through U)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_F> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_F"^^xsd:string ;
+    skos:prefLabel "Construction (ISIC4 - F)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_F41> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_F41"^^xsd:string ;
+    skos:prefLabel "Construction of buildings (ISIC4 - F41)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_F42> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_F42"^^xsd:string ;
+    skos:prefLabel "Civil engineering (ISIC4 - F42)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_F43> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_F43"^^xsd:string ;
+    skos:prefLabel "Specialized construction activities (ISIC4 - F43)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_G> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_G"^^xsd:string ;
+    skos:prefLabel "Wholesale and retail trade; repair of motor vehicles and motorcycles (ISIC4 - G)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_G45> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_G45"^^xsd:string ;
+    skos:prefLabel "Wholesale and retail trade and repair of motor vehicles and motorcycles (ISIC4 - G45)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_G46> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_G46"^^xsd:string ;
+    skos:prefLabel "Wholesale trade, except of motor vehicles and motorcycles (ISIC4 - G46)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_G47> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_G47"^^xsd:string ;
+    skos:prefLabel "Retail trade, except of motor vehicles and motorcycles (ISIC4 - G47)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_GTS> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_GTS"^^xsd:string ;
+    skos:prefLabel "Services (ISIC4 - G through S)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_GTS_HH> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_GTS_HH"^^xsd:string ;
+    skos:prefLabel "Services, and activities by households (ISIC4 - G through S, by households)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_GTT> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_GTT"^^xsd:string ;
+    skos:prefLabel "Services and activities by households(ISIC4 - G through T)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_H> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_H"^^xsd:string ;
+    skos:prefLabel "Transportation and storage (ISIC4 - H)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_H49> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_H49"^^xsd:string ;
+    skos:prefLabel "Land transport and transport via pipelines (ISIC4 - H49)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_H50> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_H50"^^xsd:string ;
+    skos:prefLabel "Water transport (ISIC4 - H50)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_H51> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_H51"^^xsd:string ;
+    skos:prefLabel "Air transport (ISIC4 - H51)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_H52> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_H52"^^xsd:string ;
+    skos:prefLabel "Warehousing and support activities for transportation (ISIC4 - H52)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_H53> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_H53"^^xsd:string ;
+    skos:prefLabel "Postal and courier activities (ISIC4 - H53)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_I> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_I"^^xsd:string ;
+    skos:prefLabel "Accommodation and food service activities (ISIC4 - I)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_I55> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_I55"^^xsd:string ;
+    skos:prefLabel "Accommodation (ISIC4 - I55)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_I56> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_I56"^^xsd:string ;
+    skos:prefLabel "Food and beverage service activities (ISIC4 - I56)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_J> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_J"^^xsd:string ;
+    skos:prefLabel "Information and communication (ISIC4 - J)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_J58> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_J58"^^xsd:string ;
+    skos:prefLabel "Publishing activities (ISIC4 - J58)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_J59> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_J59"^^xsd:string ;
+    skos:prefLabel "Motion picture, video and television programme production, sound recording and music publishing activities (ISIC4 - J59)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_J60> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_J60"^^xsd:string ;
+    skos:prefLabel "Programming and broadcasting activities (ISIC4 - J60)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_J61> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_J61"^^xsd:string ;
+    skos:prefLabel "Telecommunications (ISIC4 - J61)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_J62> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_J62"^^xsd:string ;
+    skos:prefLabel "Computer programming, consultancy and related activities (ISIC4 - J62)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_J63> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_J63"^^xsd:string ;
+    skos:prefLabel "Information service activities (ISIC4 - J63)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_K> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_K"^^xsd:string ;
+    skos:prefLabel "Financial and insurance activities (ISIC4 - K)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_K64> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_K64"^^xsd:string ;
+    skos:prefLabel "Financial service activities, except insurance and pension funding (ISIC4 - K64)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_K65> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_K65"^^xsd:string ;
+    skos:prefLabel "Insurance, reinsurance and pension funding, except compulsory social security (ISIC4 - K65)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_K66> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_K66"^^xsd:string ;
+    skos:prefLabel "Activities auxiliary to financial service and insurance activities (ISIC4 - K66)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_L> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_L"^^xsd:string ;
+    skos:prefLabel "Real estate activities (ISIC4 - L)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_L68> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_L68"^^xsd:string ;
+    skos:prefLabel "Real estate activities (ISIC4 - L68)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_M> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_M"^^xsd:string ;
+    skos:prefLabel "Professional, scientific and technical activities (ISIC4 - M)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_M69> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_M69"^^xsd:string ;
+    skos:prefLabel "Legal and accounting activities (ISIC4 - M69)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_M70> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_M70"^^xsd:string ;
+    skos:prefLabel "Activities of head offices; management consultancy activities (ISIC4 - M70)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_M71> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_M71"^^xsd:string ;
+    skos:prefLabel "Architectural and engineering activities; technical testing and analysis (ISIC4 - M71)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_M72> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_M72"^^xsd:string ;
+    skos:prefLabel "Scientific research and development (ISIC4 - M72)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_M73> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_M73"^^xsd:string ;
+    skos:prefLabel "Advertising and market research (ISIC4 - M73)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_M74> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_M74"^^xsd:string ;
+    skos:prefLabel "Other professional, scientific and technical activities (ISIC4 - M74)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_M75> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_M75"^^xsd:string ;
+    skos:prefLabel "Veterinary activities (ISIC4 - M75)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_N> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_N"^^xsd:string ;
+    skos:prefLabel "Administrative and support service activities (ISIC4 - N)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_N77> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_N77"^^xsd:string ;
+    skos:prefLabel "Rental and leasing activities (ISIC4 - N77)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_N78> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_N78"^^xsd:string ;
+    skos:prefLabel "Employment activities (ISIC4 - N78)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_N79> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_N79"^^xsd:string ;
+    skos:prefLabel "Travel agency, tour operator, reservation service and related activities (ISIC4 - N79)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_N80> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_N80"^^xsd:string ;
+    skos:prefLabel "Security and investigation activities (ISIC4 - N80)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_N81> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_N81"^^xsd:string ;
+    skos:prefLabel "Services to buildings and landscape activities (ISIC4 - N81)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_N82> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_N82"^^xsd:string ;
+    skos:prefLabel "Office administrative, office support and other business support activities (ISIC4 - N82)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_O> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_O"^^xsd:string ;
+    skos:prefLabel "Public administration and defence; compulsory social security (ISIC4 - O)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_O84> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_O84"^^xsd:string ;
+    skos:prefLabel "Public administration and defence; compulsory social security (ISIC4 - O84)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_P> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_P"^^xsd:string ;
+    skos:prefLabel "Education (ISIC4 - P)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_P85> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_P85"^^xsd:string ;
+    skos:prefLabel "Education (ISIC4 - P85)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_Q> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_Q"^^xsd:string ;
+    skos:prefLabel "Human health and social work activities (ISIC4 - Q)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_Q86> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_Q86"^^xsd:string ;
+    skos:prefLabel "Human health activities (ISIC4 - Q86)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_Q87> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_Q87"^^xsd:string ;
+    skos:prefLabel "Residential care activities (ISIC4 - Q87)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_Q88> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_Q88"^^xsd:string ;
+    skos:prefLabel "Social work activities without accommodation (ISIC4 - Q88)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_R> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_R"^^xsd:string ;
+    skos:prefLabel "Arts, entertainment and recreation (ISIC4 - R)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_R90> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_R90"^^xsd:string ;
+    skos:prefLabel "Creative, arts and entertainment activities (ISIC4 - R90)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_R91> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_R91"^^xsd:string ;
+    skos:prefLabel "Libraries, archives, museums and other cultural activities (ISIC4 - R91)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_R92> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_R92"^^xsd:string ;
+    skos:prefLabel "Gambling and betting activities (ISIC4 - R92)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_R93> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_R93"^^xsd:string ;
+    skos:prefLabel "Sports activities and amusement and recreation activities (ISIC4 - R93)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_S> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_S"^^xsd:string ;
+    skos:prefLabel "Other service activities (ISIC4 - S)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_S94> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_S94"^^xsd:string ;
+    skos:prefLabel "Activities of membership organizations (ISIC4 - S94)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_S95> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_S95"^^xsd:string ;
+    skos:prefLabel "Repair of computers and personal and household goods (ISIC4 - S95)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_S96> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_S96"^^xsd:string ;
+    skos:prefLabel "Other personal service activities (ISIC4 - S96)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_T> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_T"^^xsd:string ;
+    skos:prefLabel "Activities of households as employers; undifferentiated goods -  and services - producing activities of households for own use (ISIC4 - T)"@en,
+        "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use (ISIC4 - T)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_T97> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_T97"^^xsd:string ;
+    skos:prefLabel "Activities of households as employers of domestic personnel (ISIC4 - T97)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_T98> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_T98"^^xsd:string ;
+    skos:prefLabel "Undifferentiated goods- and services-producing activities of private households for own use (ISIC4 - T98)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_TOTAL> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_TOTAL"^^xsd:string ;
+    skos:prefLabel "Total or no breakdown (ISIC4)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_U> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_U"^^xsd:string ;
+    skos:prefLabel "Activities of extraterritorial organizations and bodies (ISIC4 - U)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_U99> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_U99"^^xsd:string ;
+    skos:prefLabel "Activities of extraterritorial organizations and bodies (ISIC4 - U99)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/ISIC4_X> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "ISIC4_X"^^xsd:string ;
+    skos:prefLabel "Not elsewhere classified (ISIC4)"@en .
+
+<https://undata.un.org/enumerations/ECONOMIC_ACTIVITY/_T> a skos:Concept ;
+    skos:inScheme undata:ECONOMIC_ACTIVITY ;
+    skos:notation "_T"^^xsd:string ;
+    skos:prefLabel "Total or no breakdown"@en .
+
+undata:ECONOMIC_ACTIVITY a skos:ConceptScheme ;
+    dcterms:creator "UN DESA, Statistics Division" ;
+    owl:versionInfo "v1.0" ;
+    skos:prefLabel "Economic activity"@en .
+
